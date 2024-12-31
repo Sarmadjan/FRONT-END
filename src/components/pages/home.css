@@ -1,0 +1,106 @@
+.logo-A {
+  font-size: 50px;
+  color: aliceblue;
+
+  margin-inline-start: 4%;
+}
+.navlink {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.nev-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.navbtn {
+  margin-inline-end: 4%;
+}
+.nv-btn {
+  align-items: center;
+}
+
+.main-heading {
+  padding-bottom: 50px;
+}
+.main-heading span {
+  font-weight: lighter;
+}
+.first-sec p {
+  color: rgba(255, 255, 255, 0.4);
+}
+.imggg {
+  transition: transform 0.3s ease-in-out;
+  object-fit: cover;
+}
+.imggg:hover {
+  transform: scale(1.1);
+}
+.dii {
+  overflow: hidden;
+}
+.dii:hover img {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+.img1 img {
+  width: 70%;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.roundd img {
+  border: none;
+  border-radius: 50%;
+}
+.sec-3 {
+  color: rgba(255, 255, 255, 0.4);
+}
+.img3 {
+  width: 50%;
+  border-radius: 40px;
+}
+.line-center {
+  align-items: center;
+}
+.txtt {
+  color: rgba(255, 255, 255, 0.9);
+}
+.txtt ul {
+    margin-top: 10px;
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+
+  color: rgba(255,255,255,.6);
+  list-style: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 0;
+}
+.txtt li {
+  margin-top: 10px;
+}
+.main-heading h1 {
+  font-size: 80px; 
+}
+
+/* For small screens (max-width: 600px) */
+@media (max-width: 600px) {
+  .main-heading h1 {
+    font-size: 34px; /* Smaller font size for small screens */
+  }
+}
+
+/* For medium screens (600px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .main-heading h1 {
+    font-size: 64px; /* Larger font size for tablets or medium screens */
+  }
+}
+
+/* For large screens (above 1024px) */
+@media (min-width: 1025px) {
+  .main-heading h1 {
+    font-size: 74px; /* Larger font size for desktops */
+  }
+}

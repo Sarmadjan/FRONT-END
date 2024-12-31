@@ -1,0 +1,93 @@
+.custom-input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-input {
+  border: none;
+  border-radius: 50px;
+  background-color: #ffa500; /* Orange background */
+  padding: 13px 50px 12px 10px;
+  font-size: 18px;
+
+  color: black;
+  text-align: center;
+  max-width: 100%;
+  outline: none;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.custom-input::placeholder {
+  color: black;
+  text-transform: uppercase;
+}
+
+.custom-input:hover {
+  background-color: white; /* Change to white on hover */
+}
+
+.custom-arrow-btn {
+  border: none;
+  border-radius: 50%;
+  background-color: black;
+  color: #ffa500; /* Match orange for arrow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-left: -47px; /* Overlap with input */
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.custom-arrow-btn:hover {
+  background-color: #333333;
+}
+.svg-width svg {
+  margin-bottom: 8px;
+  width: 4%;
+  margin: 5px 6px;
+  margin-bottom: 25px;
+}
+.liii :hover {
+  transition-duration: 0.5s;
+
+  margin-left: 15px;
+}
+.li2 {
+  text-decoration: none;
+  color: rgba(220, 209, 209, 0.4);
+  list-style: disc;
+}
+i :hover {
+  fill: #ffa500;
+  transition-duration: 0.3s;
+
+}
+.liii :hover {
+  transition-duration: 0.5s;
+  color: #ffa500;
+
+  margin-left: 15px;
+  list-style: square;
+}
+li {
+  list-style: none;
+}
+
+.li2 :hover {
+    transition-duration: 0.4s;
+    
+  
+    margin-left: 15px;
+    list-style: disc;
+  }
+p{
+  color: rgba(255, 255, 255, .4);
+}
+ p :hover{
+  color: aliceblue;
+}

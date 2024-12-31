@@ -1,0 +1,349 @@
+import Button from "../button/button";
+import img2 from "../images/p2.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import img3 from "../images/p3.jpg";
+
+import "./home.css";
+import Img1 from "../images/p1.jpg";
+import Card from "../Card";
+import Img4 from "../images/p4.jpg";
+import { useEffect } from "react";
+import m1 from "../images/m1.jpg";
+import m2 from "../images/m2.jpg";
+import Button_Rm from "../button/Button-Rm";
+
+const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: "ease",
+      offset: 120,
+    });
+  }, []);
+  return (
+    <div>
+      <div className="container-fluid">
+        <div className="row bg-black text-light first-sec ">
+          <div className="col-md-10 p-md-3  mx-auto main-heading my-md-5 ">
+            <div className="col-md-7 pt-5 mt-5">
+              <div className="pt-5">
+                {" "}
+                <h1>
+                  {" "}
+                  Designing <span> a better</span> <br />
+                  World <span> Today</span>{" "}
+                </h1>
+              </div>
+            </div>
+            <div className=" col-md-6 my-md-5 ">
+              <p>
+                Welcome to our world of endless imagination and boundless
+                creativity. Together, lets embark on a remarkable journey where
+                dreams become tangible realities.
+              </p>
+            </div>
+
+            <div className=" row d-flex align-items-center">
+              <div className="col-md-3 m-0">
+                <Button text="WHAT WE DO" />
+              </div>
+
+              <div className="ms-md-4 col-md-2  ">
+                <Button_Rm text="Read more" color="white" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid">
+        <div className="col-10 mx-auto">
+          <div className="row  d-flex justify-content-between">
+            <div
+              className="col-md-5 md-main-heading py-md-5 mt-md-5 "
+              data-aos="fade-up"
+            >
+              <h1 className="pt-5">
+                Discover <br /> our <span> studio</span>
+              </h1>
+              <p className="mt-md-5" data-aos="fade-up">
+                At our design studio, we are a collective of talented
+                individuals ignited by our unwavering passion for transforming
+                ideas into reality. With a harmonious blend of diverse
+                backgrounds and a vast array of skill sets, we join forces to
+                create compelling solutions for our esteemed clients. <br />
+                <br />
+                Collaboration is at the heart of what we do. Our team thrives on
+                the synergy that arises when unique perspectives converge,
+                fostering an environment of boundless creativity. By harnessing
+                our collective expertise, we produce extraordinary results that
+                consistently surpass expectations.
+              </p>
+              <div className="row">
+                <div className="col-12 d-flex align-items-center mt-4">
+                  <div className="" data-aos="fade-right">
+                    <img
+                      className="rounded-circle"
+                      src={img2}
+                      alt=""
+                      width={"90px"}
+                      height={"90px"}
+                    />
+                  </div>
+                  <div className="ms-3" data-aos="fade-up">
+                    {" "}
+                    <span>
+                      Passionately Creating Design Wonders: <br />
+                      Unleashing Boundless Creativity
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-5 pt-md-5 pb-5 " data-aos="fade-up">
+              <img className="img-fluid mt-md-5" src={Img1} alt="img1" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid bg-black mt-md-5 sec-3">
+        <div className="col-10 mx-auto pt-md-5">
+          <div className="col-md-4 ms-auto pt-5 ">
+            <p className="md-text-end text-center  " data-aos="fade-up">
+              Professionals focused on helping your brand <br />
+              grow and move forward.
+            </p>
+          </div>
+          <div className="row d-flex justify-content-center text-light main-heading line-center  ">
+            <div className="col-md-3" data-aos="fade-up">
+              <img src={img3} alt="" className="img3 mx-auto " />
+            </div>
+            <div className="col-md-5 text-center mt-4 text-light" data-aos="fade-up">
+              <h1>
+                Uniques <span> Ideas</span>
+              </h1>
+            </div>
+            <div className="row text-center" data-aos="fade-up">
+              <h1>
+                For Your <span> Buisness.</span>
+              </h1>
+            </div>
+          </div>
+          <div className="row d-flex  ">
+            <div
+              className=" col-md-3 border border-dark-subtle border-bottom-0 "
+              data-aos="fade-up"
+            >
+              <Card heading="Branding and  " heading2="Identity Design" />
+              <p className="mt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                voluptate quae enim, suscipit eaque ipsum?
+              </p>
+            </div>
+            <div
+              className=" col-md-3 border border-dark-subtle border-bottom-0"
+              data-aos="fade-up"
+            >
+              <Card heading="Website Design  " heading2="and Development" />
+              <p className="mt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                voluptate quae enim, suscipit eaque ipsum?
+              </p>
+            </div>
+            <div
+              className=" col-md-3 border border-dark-subtle border-bottom-0"
+              data-aos="fade-up"
+            >
+              <Card
+                heading="Advertising and   "
+                heading2="Marketing Compaigns"
+              />
+              <p className="mt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                voluptate quae enim, suscipit eaque ipsum?
+              </p>
+            </div>
+            <div
+              className=" col-md-3 border border-dark-subtle border-bottom-0"
+              data-aos="fade-up"
+            >
+              <Card heading="Creative Consultig  " heading2="and Development" />
+              <p className="mt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                voluptate quae enim, suscipit eaque ipsum?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-10 mx-auto my-5 ">
+        <div className="row d-flex justify-content-between">
+          <div
+            className="col-md-5 main-heading team-sec mt-md-5"
+            data-aos="fade-right"
+          >
+            <h1>
+              Meet <br />
+              Our Team
+            </h1>
+
+            <p className="my-5" data-aos="fade-up">
+              We are talented individuals who are passionate about bringing
+              ideas to life. With a diverse range of backgrounds and skill sets,
+              we collaborate to produce effective solutions for our clients.{" "}
+              <br /> <br /> <br />
+              Together, our creative team is committed to delivering impactful
+              work that exceeds expectations.
+            </p>
+            <Button text="Our Team" />
+
+            <h3 className="my-5" data-aos="fade-up">
+              <span>We</span> delivering <br />
+              <span>expectational</span> results
+            </h3>
+          </div>
+          <div className="col-md-5" data-aos="fade-up">
+            <span>
+              {" "}
+              <p className="text-end">The Founders of our agency</p>
+            </span>
+            <div className="row gx-5" data-aos="fade-up">
+              <div className="col-md-6 col-12 ">
+                <img src={Img4} alt="" className="img-fluid" />
+              </div>
+
+              <div className="col-md-6 mt-md-5 col-12" data-aos="fade-up">
+                <img src={Img4} alt="" className="img-fluid" height={"100%"} />
+              </div>
+              <div className="col-md-6  col-12" data-aos="fade-up">
+                <img src={Img4} alt="" className="img-fluid" />
+              </div>
+
+              <div className="col-md-6 mt-md-5 col-12" data-aos="fade-up">
+                <img src={Img4} alt="" className="img-fluid" height={"100%"} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="container-fluid"
+        style={{ backgroundColor: "rgb(227, 221, 221)" }}
+      >
+        <div className="col-10 mx-auto mt-5 ">
+          <div className="row">
+            <div
+              className="col-6 d-flex ms-auto text-end my-5"
+              data-aos="fade-up"
+            >
+              <p
+                className="me-3 "
+                data-aos="fade-up"
+                style={{ fontSize: "16px", color: "rgba(0, 0, 0, .5)" }}
+              >
+                Customer reviews are a valuable source <br />
+                of information for both businesses and consumers.
+              </p>
+            </div>
+            <div
+              className="col-8 mx-auto main-heading text-center"
+              data-aos="fade-up"
+            >
+              <h1>
+                Customer <span>Voices:</span> <br />
+                Hear what <span> They Say</span>
+              </h1>
+            </div>
+          </div>
+          <div className="col text-center" data-aos="fade-up">
+            <svg
+              style={{ width: "3%", fill: " #ff9800" }}
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path d="M448 296c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72zm-256 0c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div
+            className="col-md-12 d-flex justify-content-between align-items-center my-5"
+            data-aos="fade-up"
+          >
+            <h2>
+              <b> Popular Publications:</b>
+            </h2>
+            <span>
+              <Button_Rm text="View All" />
+            </span>
+          </div>
+          <div className="col-md-6 pe-3" data-aos="fade-up">
+            <div className="row">
+              <div className="col-12">
+                <div className="dii" data-aos="fade-up">
+                  {" "}
+                  <img src={m1} className="img-fluid imggg" alt="..." />
+                </div>
+                <p className="mt-3 " style={{ color: " #ffa500" }}>
+                  DESIGN{" "}
+                  <span
+                    className="ms-5"
+                    data-aos="fade-up"
+                    style={{ color: "black" }}
+                  >
+                    {" "}
+                    DECEMBER 2,2023
+                  </span>
+                </p>
+                <h3>how to become a graphic designer in 10 simple steps</h3>
+                <p>
+                  Are you passionate about design and interested in pursuing a
+                  career as a graphic designer? Graphic design is a dynamic..
+                </p>
+                <div>
+                  <Button_Rm text="Read more" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 pe-3">
+            <div className="row pb-5">
+              <div className="col-12 mb-5" data-aos="fade-up">
+                <div className="dii">
+                  <img src={m2} className="img-fluid" alt="..." />
+                </div>
+                <p className="mt-3 " style={{ color: " #ffa500" }}>
+                  DESIGN{" "}
+                  <span
+                    className="ms-5"
+                    data-aos="fade-up"
+                    style={{ color: "black" }}
+                  >
+                    {" "}
+                    DECEMBER 2,2023
+                  </span>
+                </p>
+                <h3>how to become a graphic designer in 10 simple steps</h3>
+                <p>
+                  Are you passionate about design and interested in pursuing a
+                  career as a graphic designer? Graphic design is a dynamic..
+                </p>
+                <div>
+                  <Button_Rm text="Read more" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
