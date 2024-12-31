@@ -4,7 +4,7 @@ const Button = (props) => {
   return (
     <div className="input-group input-group-lg w-50 mt-4 ">
       <div className="custom-input-wrapper ">
-        <button className="custom-button px-5" style={{ color: props.color }}>{props.text}</button>
+        <button className="custom-button px-5 jhjh" style={{ color: props.color }}>{props.text}</button>
         <button className="custom-arrow-btn ">
           <svg
             style={{ width: "30px" }}
