@@ -23,10 +23,10 @@ const Portfolio = () => {
   }, []);
   return (
     <div>
-      <div className="col-md-10 mx-md-auto m-0 main-heading">
+      <div className="col-md-10 mx-md-auto px-md-0 px-3 m-0 main-heading">
         <div className="row m-0">
           <div
-            className="col-7 pt-5"
+            className="col-7 py-5"
             style={{ paddingTop: "80px", paddingBottom: "80px" }}
           >
             <div className="pt-5">
@@ -41,9 +41,9 @@ const Portfolio = () => {
           <ButtonD text="Our works" />
         </div>
 
-        <div className="row d-flex justify-content-between gx-5 my-5 py-5 ">
-          <div className="col-md-5 ">
-            <Imgg path={Img1} title="Interior design studio" />
+        <div className="row d-flex justify-content-between gx-5 my-5 py-5 "  >
+          <div className="col-md-5 " data-aos="fade-up">
+            <Imgg path={Img1} title="Interior design studio"  />
           </div>
           <div className="col-md-5 pt-md-5 m-0">
             {" "}

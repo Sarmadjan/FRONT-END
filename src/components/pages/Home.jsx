@@ -40,7 +40,7 @@ const Home = () => {
                 </h1>
               </div>
             </div>
-            <div className=" col-md-6 my-md-5 ">
+            <div className=" col-md-6 my-3 my-md-5 ">
               <p>
                 Welcome to our world of endless imagination and boundless
                 creativity. Together, lets embark on a remarkable journey where
@@ -61,7 +61,8 @@ const Home = () => {
                 </NavLink>
               </div>
 
-              <a href="#section-2"
+              <a
+                href="#section-2"
                 className=" ms-auto    "
                 style={{
                   position: "relative",
@@ -70,7 +71,7 @@ const Home = () => {
                   backgroundColor: "#ff9800",
                   borderRadius: "50%",
                 }}
-                >
+              >
                 <div
                   className="inner-cir text-center pt-1"
                   style={{
@@ -82,7 +83,7 @@ const Home = () => {
                     backgroundColor: "black",
                     borderRadius: "50%",
                   }}
-                  >
+                >
                   <svg
                     style={{ width: "15px" }}
                     xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +107,7 @@ const Home = () => {
               className="col-md-5 main-heading pt-md-5 mt-md-5 "
               data-aos="fade-up"
             >
-              <h1  className="pt-5">
+              <h1 className="pt-5">
                 Discover <br /> our <span> studio</span>
               </h1>
               <p className="mt-md-5 pp " data-aos="fade-up">
@@ -123,7 +124,7 @@ const Home = () => {
                 consistently surpass expectations.
               </p>
               <div className="row">
-                <div className="col-12 mt-md-5 d-flex align-items-center ">
+                <div className="col-12 mt-md-5 my-5 d-flex align-items-center ">
                   <div className="" data-aos="fade-right">
                     <img
                       className="rounded-circle"
@@ -154,21 +155,23 @@ const Home = () => {
       <div className="container-fluid bg-black mt-md-5 sec-3">
         <div className="col-10 mx-auto pt-md-5">
           <div className="col-md-4 ms-auto pt-5 ">
-            <p className="md-text-end text-center  " data-aos="fade-up">
+            <p className="text-md-end text-center  " data-aos="fade-up">
               Professionals focused on helping your brand <br />
               grow and move forward.
             </p>
           </div>
-          <div className="row d-flex justify-content-center text-light main-heading line-center  ">
-            <div className="col-md-3" data-aos="fade-up">
-              <img src={img3} alt="" className="img3 mx-auto " />
+          <div className="row d-flex justify-content-center py-5 text-light main-heading line-center  ">
+            <div
+              className="col-md-3 d-flex justify-content-md-end justify-content-center "
+              data-aos="fade-up">
+              <img src={img3} alt="" className="img3 px-auto   " />
             </div>
             <div
-              className="col-md-5 text-center mt-4 text-light"
+              className="col-md-5  text-center mt-4 text-light"
               data-aos="fade-up"
             >
               <h1>
-                Uniques <span> Ideas</span>
+                Uniques <span> Ideas</span> <br />
               </h1>
             </div>
             <div className="row text-center" data-aos="fade-up">
@@ -177,12 +180,16 @@ const Home = () => {
               </h1>
             </div>
           </div>
-          <div className="row d-flex  ">
+          <div className="row gy-5 py-md-0 py-4 d-flex  ">
             <div
               className=" col-md-3 border border-dark-subtle border-bottom-0 "
               data-aos="fade-up"
             >
-              <Card heading="Branding and  " heading2="Identity Design" data="my na,e ialsdjaskj kjajsdbkbasdkj kjasjda " />
+              <Card
+                heading="Branding and  "
+                heading2="Identity Design"
+                data="my na,e ialsdjaskj kjajsdbkbasdkj kjasjda "
+              />
               <p className="mt-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
                 voluptate quae enim, suscipit eaque ipsum?
@@ -228,15 +235,14 @@ const Home = () => {
       <div className="col-10 mx-auto my-5 ">
         <div className="row d-flex justify-content-between">
           <div
-            className="col-md-5 main-heading team-sec mt-md-5"
-            data-aos="fade-right"
-          >
+            className="col-md-5  main-heading team-sec mt-md-5"
+            data-aos="fade-right">
             <h1>
               Meet <br />
               Our Team
             </h1>
 
-            <p  className="my-5 text-dark" data-aos="fade-up">
+            <p className="my-5 text-dark" data-aos="fade-up">
               We are talented individuals who are passionate about bringing
               ideas to life. With a diverse range of backgrounds and skill sets,
               we collaborate to produce effective solutions for our clients.{" "}
@@ -256,20 +262,36 @@ const Home = () => {
               {" "}
               <p className="text-end">The Founders of our agency</p>
             </span>
-            <div className="row gx-5" data-aos="fade-up">
+            <div className="row gx-5 gy-5" data-aos="fade-up">
               <div className="col-md-6 col-12 ">
-                <TeamCard name='Ema Oldman' imgsrc={Img4} title={'ART DIRECTOR'}/>
+                <TeamCard
+                  name="Ema Oldman"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                />
               </div>
 
-              <div className="col-md-6 col-12 pt-5 ">
-                <TeamCard name='Ema Oldman' imgsrc={Img4} title={'ART DIRECTOR'}/>
+              <div className="col-md-6 col-12 pt-md-0 pt-5 ">
+                <TeamCard
+                  name="Ema Oldman"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                />
               </div>
               <div className="col-md-6 col-12  ">
-                <TeamCard name='Ema Oldman' imgsrc={Img4} title={'ART DIRECTOR'}/>
+                <TeamCard
+                  name="Ema Oldman"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                />
               </div>
 
-              <div className="col-md-6 col-12 pt-5 ">
-                <TeamCard name='Ema Oldman' imgsrc={Img4} title={'ART DIRECTOR'}/>
+              <div className="col-md-6 col-12 pt-md-0 pt-5 ">
+                <TeamCard
+                  name="Ema Oldman"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                />
               </div>
             </div>
           </div>

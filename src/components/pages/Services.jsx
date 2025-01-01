@@ -3,6 +3,7 @@ import "./home.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import ButtonD from "../button/ButtonD";
+import Button from "../button/button";
 
 import ButtonD from "../button/ButtonD";
 import Button_Rm from "../button/Button-Rm";
@@ -19,9 +20,10 @@ const Services = () => {
       <div className="container-fluid bg-black">
         <div className="col-md-10 mx-auto pt-5 ">
           <div
-            className="col-7 pt-5 main-heading text-white"
-            style={{ paddingTop: "80px", paddingBottom: "80px" }}>
-            <div className="pt-5">
+            className="col-7 pt-5 mt-md-5 mt-0 main-heading text-white"
+            style={{ paddingTop: "80px", paddingBottom: "80px" }}
+          >
+            <div className="pt-5 ">
               {" "}
               <h1>
                 {" "}
@@ -32,9 +34,16 @@ const Services = () => {
             </div>
           </div>
           <div className="me-auto">
-            <ButtonD text="OUR SERVICES" color="#ffa500"  fill="#ffa500" />
+            <a href="#sec-1">
+              {" "}
+              <ButtonD
+                text="OUR SERVICES"
+                color="#ffa500"
+                fill="#ffa500"
+              />{" "}
+            </a>
           </div>
-          <div className="row d-flex txtt">
+          <div id="sec-1" className="row d-flex txtt py-0 py-md-5 mt-md-5 mt-0">
             <div className="col-md-5"></div>
             <div className="col-md-7">
               <div className="row gx-5">
@@ -54,7 +63,7 @@ const Services = () => {
                     <Button_Rm
                       text="Read more"
                       color="#ffa500"
-                       fill="#ffa500"
+                      fill="#ffa500"
                     />
                   </div>
                 </div>
@@ -75,7 +84,7 @@ const Services = () => {
                     <Button_Rm
                       text="Read more"
                       color="#ffa500"
-                       fill="#ffa500"
+                      fill="#ffa500"
                     />
                   </div>
                 </div>
@@ -95,7 +104,7 @@ const Services = () => {
                     <Button_Rm
                       text="Read more"
                       color="#ffa500"
-                       fill="#ffa500"
+                      fill="#ffa500"
                     />
                   </div>
                 </div>
@@ -115,7 +124,7 @@ const Services = () => {
                     <Button_Rm
                       text="Read more"
                       color="#ffa500"
-                       fill="#ffa500"
+                      fill="#ffa500"
                     />
                   </div>
                 </div>
@@ -124,6 +133,40 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+      <div className="row bg-body-secondary m-0 ">
+        <div className="col-md-10 mx-auto  " data-aos="fade-up">
+          <div
+            className="col-md-5 ms-auto text-end text-dark py-5"
+            data-aos="fade-up"
+          >
+            <span className="text-light-emphasis">
+              {" "}
+              Looking to make your mark? We will help you turn <br />
+              your project into a success story.{" "}
+            </span>
+          </div>
+
+          <div
+            className="row main-heading text-center px-5 "
+            data-aos="fade-up"
+          >
+            <h1>
+              {" "}
+              Ready to bring your <span> ideas to</span> Life? <br />
+              We are <span> Here to help</span>{" "}
+            </h1>
+          </div>
+
+          <div className="row pb-5 " data-aos="fade-up">
+            <div className=" ">
+              {" "}
+              <Button text="Sarmad" />
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };

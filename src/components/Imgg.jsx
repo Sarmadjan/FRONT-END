@@ -9,9 +9,9 @@ const Imgg = (props) => {
       </div>
       <p className="mt-3 fs-5 " style={{ color: " #ffa500" }}>
         TECHNOLOGY{" "}
-        <span className="ms-5" data-aos="fade-up" style={{ color: "black" }}>
+        <span className="ms-5 " data-aos="fade-up" style={{ color: "black" }}>
           {" "}
-          NOVEMBER 14,2023
+          Nov,14,2023
         </span>
       </p>
       <h4>{props.title}</h4>
