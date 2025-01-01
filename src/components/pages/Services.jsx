@@ -20,8 +20,7 @@ const Services = () => {
         <div className="col-md-10 mx-auto pt-5 ">
           <div
             className="col-7 pt-5 main-heading text-white"
-            style={{ paddingTop: "80px", paddingBottom: "80px" }}
-          >
+            style={{ paddingTop: "80px", paddingBottom: "80px" }}>
             <div className="pt-5">
               {" "}
               <h1>
@@ -32,8 +31,8 @@ const Services = () => {
               </h1>
             </div>
           </div>
-          <div>
-            <ButtonD text="OUR SERVICES" color="#db7821" fill="#db7821" />
+          <div className="me-auto">
+            <ButtonD text="OUR SERVICES" color="#ffa500"  fill="#ffa500" />
           </div>
           <div className="row d-flex txtt">
             <div className="col-md-5"></div>
@@ -54,8 +53,8 @@ const Services = () => {
                   <div>
                     <Button_Rm
                       text="Read more"
-                      color="#db7821"
-                      fill="#db7821"
+                      color="#ffa500"
+                       fill="#ffa500"
                     />
                   </div>
                 </div>
@@ -75,13 +74,13 @@ const Services = () => {
                   <div>
                     <Button_Rm
                       text="Read more"
-                      color="#db7821"
-                      fill="#db7821"
+                      color="#ffa500"
+                       fill="#ffa500"
                     />
                   </div>
                 </div>
                 <div className="col-md-6 mt-md-5 pt-md-5">
-                  <h4 >Advertising and Marketing Campaigns</h4>
+                  <h4>Advertising and Marketing Campaigns</h4>
                   <p className="mt-4">
                     Our creative agency is a team of professionals focused on
                     helping your brand grow.
@@ -95,8 +94,8 @@ const Services = () => {
                   <div>
                     <Button_Rm
                       text="Read more"
-                      color="#db7821"
-                      fill="#db7821"
+                      color="#ffa500"
+                       fill="#ffa500"
                     />
                   </div>
                 </div>
@@ -115,8 +114,8 @@ const Services = () => {
                   <div>
                     <Button_Rm
                       text="Read more"
-                      color="#db7821"
-                      fill="#db7821"
+                      color="#ffa500"
+                       fill="#ffa500"
                     />
                   </div>
                 </div>

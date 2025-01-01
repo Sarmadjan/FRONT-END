@@ -6,7 +6,7 @@
   }
 button{
     height: 50px;
-    background-color: #db7821;
+    background-color: #ff9800;
     padding: 15px;
     border-radius: 25px;
 }
@@ -40,6 +40,7 @@ button{
   }
   .custom-arrow-btn2 {
     border: none;
+    
     border-radius: 50%;
     background-color: rgb(198, 189, 189);
     color: #ffa500; /* Match orange for arrow */
@@ -53,6 +54,10 @@ button{
     font-size: 15px;
     transition: background-color 0.3s ease; /* Smooth transition */
   }
+  .custom-arrow-btn2:hover{
+    scale: 1.2;
+    transition: .4s;
+  }
  
   .navlinkk{
     
@@ -60,7 +65,7 @@ button{
     text-decoration: none;
     margin-inline-start: 20px;
     margin-top: 20px;
-    color: #db7821!important
+    color: #ffa500!important
 
   }
 
@@ -85,7 +90,7 @@ button{
 .custom-input-wrapper2D {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
   }
   .custom-Darrow-btn2 {
     border: none;
@@ -100,5 +105,5 @@ button{
     margin-left: -47px; /* Overlap with input */
     cursor: pointer;
     font-size: 15px;
-    transition: background-color 0.3s ease; /* Smooth transition */
+     
   }

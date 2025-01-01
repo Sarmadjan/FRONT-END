@@ -3,7 +3,7 @@ import "./Button.css";
 
 const ButtonD = (props) => {
   return (
-    <div className="input-group input-group-lg w-50 mt-4 ">
+    <div className=" input-group-lg  mt-4 ">
       <div className="custom-input-wrapper2D ">
         <button className="custom-button2D pe-5" style={{ color: props.color }}>{props.text}</button>
         <button className="custom-Darrow-btn2 ">

@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import img3 from "../images/p3.jpg";
+import { NavLink } from "react-router-dom";
 
 import "./home.css";
 import Img1 from "../images/p1.jpg";
@@ -13,6 +14,7 @@ import { useEffect } from "react";
 import m1 from "../images/m1.jpg";
 import m2 from "../images/m2.jpg";
 import Button_Rm from "../button/Button-Rm";
+import TeamCard from "../TeamCard";
 
 const Home = () => {
   useEffect(() => {
@@ -22,6 +24,7 @@ const Home = () => {
       offset: 120,
     });
   }, []);
+
   return (
     <div>
       <div className="container-fluid">
@@ -47,27 +50,66 @@ const Home = () => {
 
             <div className=" row d-flex align-items-center">
               <div className="col-md-3 m-0">
-                <Button text="WHAT WE DO" />
+                <NavLink to="/services">
+                  <Button text="WHAT WE DO" />
+                </NavLink>
               </div>
 
               <div className="ms-md-4 col-md-2  ">
-                <Button_Rm text="Read more" color="white" />
+                <NavLink to="/portfolio">
+                  <Button_Rm text="Read more" color="white" />
+                </NavLink>
               </div>
+
+              <a href="#section-2"
+                className=" ms-auto    "
+                style={{
+                  position: "relative",
+                  height: "70px",
+                  width: "70px",
+                  backgroundColor: "#ff9800",
+                  borderRadius: "50%",
+                }}
+                >
+                <div
+                  className="inner-cir text-center pt-1"
+                  style={{
+                    top: "27%",
+                    left: "25%",
+                    position: "absolute",
+                    height: "35px",
+                    width: "35px",
+                    backgroundColor: "black",
+                    borderRadius: "50%",
+                  }}
+                  >
+                  <svg
+                    style={{ width: "15px" }}
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"
+                  >
+                    <path
+                      fill="white"
+                      d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                    />
+                  </svg>
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div className="container-fluid">
+      <div id="section-2" className="container-fluid">
         <div className="col-10 mx-auto">
           <div className="row  d-flex justify-content-between">
             <div
-              className="col-md-5 md-main-heading py-md-5 mt-md-5 "
+              className="col-md-5 main-heading pt-md-5 mt-md-5 "
               data-aos="fade-up"
             >
-              <h1 className="pt-5">
+              <h1  className="pt-5">
                 Discover <br /> our <span> studio</span>
               </h1>
-              <p className="mt-md-5" data-aos="fade-up">
+              <p className="mt-md-5 pp " data-aos="fade-up">
                 At our design studio, we are a collective of talented
                 individuals ignited by our unwavering passion for transforming
                 ideas into reality. With a harmonious blend of diverse
@@ -81,7 +123,7 @@ const Home = () => {
                 consistently surpass expectations.
               </p>
               <div className="row">
-                <div className="col-12 d-flex align-items-center mt-4">
+                <div className="col-12 mt-md-5 d-flex align-items-center ">
                   <div className="" data-aos="fade-right">
                     <img
                       className="rounded-circle"
@@ -91,6 +133,7 @@ const Home = () => {
                       height={"90px"}
                     />
                   </div>
+
                   <div className="ms-3" data-aos="fade-up">
                     {" "}
                     <span>
@@ -120,7 +163,10 @@ const Home = () => {
             <div className="col-md-3" data-aos="fade-up">
               <img src={img3} alt="" className="img3 mx-auto " />
             </div>
-            <div className="col-md-5 text-center mt-4 text-light" data-aos="fade-up">
+            <div
+              className="col-md-5 text-center mt-4 text-light"
+              data-aos="fade-up"
+            >
               <h1>
                 Uniques <span> Ideas</span>
               </h1>
@@ -136,7 +182,7 @@ const Home = () => {
               className=" col-md-3 border border-dark-subtle border-bottom-0 "
               data-aos="fade-up"
             >
-              <Card heading="Branding and  " heading2="Identity Design" />
+              <Card heading="Branding and  " heading2="Identity Design" data="my na,e ialsdjaskj kjajsdbkbasdkj kjasjda " />
               <p className="mt-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
                 voluptate quae enim, suscipit eaque ipsum?
@@ -190,7 +236,7 @@ const Home = () => {
               Our Team
             </h1>
 
-            <p className="my-5" data-aos="fade-up">
+            <p  className="my-5 text-dark" data-aos="fade-up">
               We are talented individuals who are passionate about bringing
               ideas to life. With a diverse range of backgrounds and skill sets,
               we collaborate to produce effective solutions for our clients.{" "}
@@ -212,18 +258,18 @@ const Home = () => {
             </span>
             <div className="row gx-5" data-aos="fade-up">
               <div className="col-md-6 col-12 ">
-                <img src={Img4} alt="" className="img-fluid" />
+                <TeamCard name='Ema Oldman' imgsrc={Img4} title={'ART DIRECTOR'}/>
               </div>
 
-              <div className="col-md-6 mt-md-5 col-12" data-aos="fade-up">
-                <img src={Img4} alt="" className="img-fluid" height={"100%"} />
+              <div className="col-md-6 col-12 pt-5 ">
+                <TeamCard name='Ema Oldman' imgsrc={Img4} title={'ART DIRECTOR'}/>
               </div>
-              <div className="col-md-6  col-12" data-aos="fade-up">
-                <img src={Img4} alt="" className="img-fluid" />
+              <div className="col-md-6 col-12  ">
+                <TeamCard name='Ema Oldman' imgsrc={Img4} title={'ART DIRECTOR'}/>
               </div>
 
-              <div className="col-md-6 mt-md-5 col-12" data-aos="fade-up">
-                <img src={Img4} alt="" className="img-fluid" height={"100%"} />
+              <div className="col-md-6 col-12 pt-5 ">
+                <TeamCard name='Ema Oldman' imgsrc={Img4} title={'ART DIRECTOR'}/>
               </div>
             </div>
           </div>

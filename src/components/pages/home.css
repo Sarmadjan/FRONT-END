@@ -20,9 +20,7 @@
   align-items: center;
 }
 
-.main-heading {
-  padding-bottom: 50px;
-}
+
 .main-heading span {
   font-weight: lighter;
 }
@@ -67,11 +65,11 @@
   color: rgba(255, 255, 255, 0.9);
 }
 .txtt ul {
-    margin-top: 10px;
+  margin-top: 10px;
   font-size: 12px;
   font-family: "Outfit", sans-serif;
 
-  color: rgba(255,255,255,.6);
+  color: rgba(255, 255, 255, 0.6);
   list-style: none;
   text-transform: uppercase;
   text-decoration: none;
@@ -81,7 +79,8 @@
   margin-top: 10px;
 }
 .main-heading h1 {
-  font-size: 80px; 
+  font-size: 80px;
+ 
 }
 
 /* For small screens (max-width: 600px) */
@@ -103,4 +102,53 @@
   .main-heading h1 {
     font-size: 74px; /* Larger font size for desktops */
   }
+}
+.form-style input {
+  padding-left: 10px !important;
+
+  background-color: transparent;
+  height: 50px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  border: none;
+
+  border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+input:focus {
+  outline: none;
+
+  box-shadow: none;
+}
+.form-style textarea {
+  padding-left: 10px !important;
+  background-color: transparent;
+  height: 150px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  border: none;
+
+  border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+textarea:focus {
+  outline: none;
+
+  box-shadow: none;
+}
+a {
+  text-decoration: none;
+}
+.inner-cir:hover {
+  /* Add your hover styles here */
+  background-color: #333; /* Change background color on hover */
+  transform: scale(1.2); /* Scale up on hover */
+  transition: all 0.4s ease-in-out; /* Smooth transition */
+}
+.pp{
+  color: rgba(0,0,0,.5);
 }

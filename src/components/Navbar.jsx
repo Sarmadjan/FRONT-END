@@ -32,9 +32,7 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/portfolio">
-                      Portfolio
-                    </NavLink>
+                   
                   </li>
                   <li>
                     <NavLink className="dropdown-item" to="/services">

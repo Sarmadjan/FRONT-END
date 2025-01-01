@@ -1,0 +1,23 @@
+.m-card{
+    position: relative;
+}
+.content1{
+    font-size: xx-large;
+    display: flex;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    color: white;
+    left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+}
+.content:hover{
+    opacity: 1;
+}
+.content > * {
+    transform: translateY(25px);
+    transition: transform 0.5s;
+  }

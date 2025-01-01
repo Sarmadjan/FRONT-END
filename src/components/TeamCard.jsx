@@ -1,76 +1,15 @@
-import Footer_li from "../Footer/Footer_li";
-import Li2 from "../Footer/Li2";
-import "./footer.css";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+/* eslint-disable react/prop-types */
+import "./TeamCard.css";
 
-const Footer = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 500,
-      easing: "ease",
-      offset: 120,
-    });
-  }, []);
-
+const TeamCard = (props) => {
   return (
-    <div className="Container-fluid bg-black Footer text-light pt-5">
-      <div className="col-md-10 mx-auto">
-        <div className="row  mx-2 mx-md-0">
-          <div className="col-md-6">
-            <span
-              data-aos="fade-right"
-              style={{
-                fontSize: "42px",
-                fontWeight: "500",
-                lineheight: "100%",
-              }}
-            >
-              Ashley.
-            </span>
-            <p className="mt-4 " data-aos="fade-up">
-              Subscribe our newsletter:
-            </p>
-            <div className="input-group input-group-lg w-50 mt-4">
-              <div className="custom-input-wrapper">
-                <input
-                  type="text"
-                  className="custom-input"
-                  placeholder="ENTER YOUR EMAIL"
-                />
-                <button className="custom-arrow-btn">
-                  <svg
-                    style={{ width: "25px" }}
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <path
-                      fill="white"
-                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
-                    />
-                  </svg>{" "}
-                </button>
-              </div>
-              <div> </div>
-            </div>
-          </div>
-          <div className="col-md-3 mt-2 " data-aos="fade-up">
-            <Footer_li name="Home" path="/" />
-            <Footer_li name="Portfolio" path="/portfolio" />
-            <Footer_li name="Services" path="/services" />
-            <Footer_li name="Contact" path="/contact" />
-          </div>
-          <div className="col-md-3 mt-3" data-aos="fade-up">
-            <Li2 name="Privacy Policy" path="" />
-            <Li2 name=" Terms and Conditions" path="" />
-            <Li2 name="Cookie Policy" path="" />
-            <Li2 name="Careers" path="" />
-          </div>
-        </div>
-        <div className="row mt-5 mx-2 mx-md-0 ">
-          <div className="col-md-6   ">
+    <div>
+      <div className="image">
+        <img src={props.imgsrc} className="imgggg" alt="Lights" />
+        <div className="content ">
+          <div className="pt-5 text-center ">
+            <h3 className="pt-5">{props.name} </h3>
+            <p>{props.title}</p>
             <div className="col svg-width">
               <a href="">
                 <i>
@@ -114,15 +53,6 @@ const Footer = () => {
                 </i>
               </a>
             </div>
-            <p>© 2024 Ashley. All Rights Reserved. </p>
-          </div>
-          <div className="col-md-3 ">
-            <h4 className="text-white"> Canada</h4>
-            <p>71 South Los Carneros Road, California +51 174 705 812 </p>
-          </div>
-          <div className="col-md-3">
-            <h4 className="text-white"> Germany</h4>
-            <p>Leehove 40, 2678 MC De Lier, Netherlands +31 174 705 811</p>
           </div>
         </div>
       </div>
@@ -130,4 +60,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default TeamCard;
