@@ -41,9 +41,9 @@ const Portfolio = () => {
           <ButtonD text="Our works" />
         </div>
 
-        <div className="row d-flex justify-content-between gx-5 my-5 py-5 "  >
+        <div className="row d-flex justify-content-between gx-5 my-5 py-5 ">
           <div className="col-md-5 " data-aos="fade-up">
-            <Imgg path={Img1} title="Interior design studio"  />
+            <Imgg path={Img1} title="Interior design studio" />
           </div>
           <div className="col-md-5 pt-md-5 m-0">
             {" "}
