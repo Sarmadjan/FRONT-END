@@ -16,6 +16,7 @@ import m2 from "../images/m2.jpg";
 import Button_Rm from "../button/Button-Rm";
 import TeamCard from "../TeamCard";
 
+
 const Home = () => {
   useEffect(() => {
     AOS.init({

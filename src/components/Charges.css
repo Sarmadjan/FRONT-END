@@ -1,0 +1,8 @@
+.hovv:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: .5s ease-in-out;
+}
+.hovv {
+  color: white;
+}

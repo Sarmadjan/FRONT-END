@@ -1,7 +1,16 @@
-import  { useState } from "react";
+import  { useState, useEffect } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function FAQSection() {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      easing: "ease",
+      offset: 120,
+    });
+  }, []);
   const [activeIndex, setActiveIndex] = useState(null); // No FAQ is open initially.
 
   const faqs = [
@@ -44,7 +53,7 @@ function FAQSection() {
           <div key={index} className="faq-item mb-3">
             {/* Question Section */}
             <div
-              className="faq-question d-flex justify-content-between align-items-center p-3 bg-light"
+              className="faq-question d-flex justify-content-between align-items-center p-3 bg-light"  data-aos="fade-up"
               onClick={() => toggleFAQ(index)}
               style={{ cursor: "pointer" }}
             >

@@ -6,7 +6,7 @@ const Footer_li = (props) => {
   return (
     <>
       <li className="" style={{ listStyle: "none" }}>
-        <NavLink className="text-decoration-none liii " onClick={()=>{
+        <NavLink className="text-decoration-none liii " onClick={() => {
           window.scrollTo(0, 0)
         }} to={props.path}>
           <span className="fs-2 text-white ">{props.name}</span>

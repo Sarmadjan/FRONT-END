@@ -26,7 +26,11 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto pe-md-5  ">
             {/* Dropdown Menu */}
-            <Link name="Home" path="/" />
+            <li className="nav-item">
+              <Link className="nav-link" to="/">
+              Home
+              </Link>
+            </li>
             <li className="nav-item ">
               <Link className="nav-link" to="/about">
                 About
@@ -43,7 +47,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown" >
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -59,13 +63,13 @@ function Navbar() {
                 aria-labelledby="navbarDropdown"
               >
                 <li>
-                  <Link className="dropdown-item" to="/services">
+                  <Link className="dropdown-item" to="/services" onClick={()=> {window.scrollTo(1.1)}}>
                     services
                   </Link>
                 </li>
 
                 <li>
-                  <Link className="dropdown-item " to="/iservice">
+                  <Link className="dropdown-item " to="/iservice"  onClick={()=> {window.scrollTo(1.1)}}>
                     individual service
                   </Link>
                 </li>
