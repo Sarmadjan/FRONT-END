@@ -17,11 +17,11 @@ const Charges = (props) => {
   return (
     <NavLink  onClick={() => { window.scrollTo(0.0) }} to={props.path}>
       <div >
-        <div  className=" hovv col-md-12 d-flex flex-wrap py-5  justify-content-start border border-start-0 border-end-0">
+        <div  className=" hovv col-md-12 d-flex flex-wrap pt-5  justify-content-start border border-start-0 border-end-0">
           <div className="ps-md-5 ps-4 me-auto col-md-2 position-relative"  data-aos="fade-right">
             <span
               style={{ top: "45px" }}
-              className="position-absolute text-white pe-5"
+              className="position-absolute  pe-5"
             >
               $
             </span>{" "}
@@ -65,6 +65,7 @@ const Charges = (props) => {
           </div>
         </div>
       </div>
+     
     </NavLink>
   );
 };

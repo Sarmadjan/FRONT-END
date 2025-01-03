@@ -6,3 +6,27 @@
 .hovv {
   color: white;
 }
+
+.hovv2:hover {
+  background-color:#ff9800;
+  color: black;
+  transition: .5s ease-in-out;
+}
+.hovv2 {
+  border-radius: 50px;
+  background-color:#a66c14;
+  color: black;
+}
+
+
+.hovv3:hover {
+  background-color:#ff9800;
+  color: black;
+  transition: .5s ease-in-out ;
+}
+.hovv3 {
+  border-radius: 50px;
+  background-color:#d69128;
+  color: black;
+}
+

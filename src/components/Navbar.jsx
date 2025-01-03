@@ -26,24 +26,24 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto pe-md-5  ">
             {/* Dropdown Menu */}
-            <li className="nav-item">
-              <Link className="nav-link" to="/">
+            <li  className="nav-item">
+              <Link onClick={()=> {window.scrollTo(0.0)}} className="nav-link" to="/">
               Home
               </Link>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link" to="/about">
-                About
+              <Link onClick={()=> {window.scrollTo(0.0)}} className="nav-link" to="/portfolio">
+                Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/services">
+              <Link onClick={()=> {window.scrollTo(0.0)}} className="nav-link" to="/services">
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/portfolio">
-                Portfolio
+              <Link onClick={()=> {window.scrollTo(0.0)}} className="nav-link" to="/contact">
+               Contact
               </Link>
             </li>
 
