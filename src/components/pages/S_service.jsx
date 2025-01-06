@@ -9,6 +9,7 @@ import ButtonD from "../button/ButtonD";
 import Button_Rm from "../button/Button-Rm";
 import FAQ_s from "../FAQ_s";
 import Charges from "../Charges";
+import Service_card from "../Service_card";
 const S_service = () => {
 
   useEffect(() => {
@@ -141,7 +142,10 @@ const S_service = () => {
 
           </div>
           <div className="row g-0">
-            <div className="col-md-4"></div>
+            <div className="col-md-4">
+              <Service_card />
+
+            </div>
             <div className="col-md-4"></div>
             <div className="col-md-4"></div>
 

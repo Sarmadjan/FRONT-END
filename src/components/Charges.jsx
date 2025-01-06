@@ -15,10 +15,10 @@ const Charges = (props) => {
     });
   }, []);
   return (
-    <NavLink  onClick={() => { window.scrollTo(0.0) }} to={props.path}>
+    <NavLink onClick={() => { window.scrollTo(0.0) }} to={props.path}>
       <div >
-        <div  className=" hovv col-md-12 d-flex flex-wrap pt-5  justify-content-start border border-start-0 border-end-0">
-          <div className="ps-md-5 ps-4 me-auto col-md-2 position-relative"  data-aos="fade-right">
+        <div className=" hovv col-md-12 d-flex flex-wrap pt-5  justify-content-start border border-start-0 border-end-0">
+          <div className="ps-md-5 ps-4 me-auto col-md-2 position-relative" data-aos="fade-right">
             <span
               style={{ top: "45px" }}
               className="position-absolute  pe-5"
@@ -32,17 +32,17 @@ const Charges = (props) => {
             </p>
           </div>
 
-          <div className="col-md-4 ps-4 fs-4 px-2 me-auto"  data-aos="fade-up">
+          <div className="col-md-4 ps-4 fs-4 px-2 me-auto" data-aos="fade-up">
             <span >Increasing and customized design solution</span>
           </div>
 
-          <div className="col-md-4 ps-4"  data-aos="fade-up">
+          <div className="col-md-4 ps-4" data-aos="fade-up">
             <span >
               Increasing and customized design solution Increasing and
               customized design solution
             </span>
           </div>
-          <div className="col-md-2 ps-4"  data-aos="fade-left">
+          <div className="col-md-2 ps-4" data-aos="fade-left">
             <div
               style={{
                 margin: "0 auto",
@@ -65,7 +65,7 @@ const Charges = (props) => {
           </div>
         </div>
       </div>
-     
+
     </NavLink>
   );
 };
