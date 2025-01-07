@@ -183,27 +183,23 @@ const Home = () => {
           </div>
           <div className="row gy-5 py-md-0 py-4 d-flex  ">
             <div
-              className=" col-md-3 border border-dark-subtle border-bottom-0 "
-              data-aos="fade-up"
-            >
-              <Card
-                heading="Branding and  "
-                heading2="Identity Design"
-                data="my na,e ialsdjaskj kjajsdbkbasdkj kjasjda "
-              />
-              <p className="mt-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-                voluptate quae enim, suscipit eaque ipsum?
-              </p>
-            </div>
-            <div
-              className=" col-md-3 border border-dark-subtle border-bottom-0"
+              className=" col-md-3 border border-dark-subtle border-bottom-0  "
               data-aos="fade-up"
             >
               <Card heading="Website Design  " heading2="and Development" />
-              <p className="mt-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-                voluptate quae enim, suscipit eaque ipsum?
+              <p className="mt-3">
+                Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs.
+
+
+              </p>
+            </div>
+            <div
+              className=" col-md-3 border border-dark-subtle border-bottom-0"
+              data-aos="fade-up"
+            >
+              <Card heading="Digital  " heading2="Marketing" />
+              <p className="mt-3">
+                Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively.
               </p>
             </div>
             <div
@@ -211,22 +207,20 @@ const Home = () => {
               data-aos="fade-up"
             >
               <Card
-                heading="Advertising and   "
-                heading2="Marketing Compaigns"
+                heading="3D   "
+                heading2="Animations"
               />
-              <p className="mt-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-                voluptate quae enim, suscipit eaque ipsum?
+              <p className="mt-3">
+                Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases.
               </p>
             </div>
             <div
               className=" col-md-3 border border-dark-subtle border-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Creative Consultig  " heading2="and Development" />
+              <Card heading="Video  " heading2="Editing" />
               <p className="mt-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-                voluptate quae enim, suscipit eaque ipsum?
+                Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects.
               </p>
             </div>
           </div>

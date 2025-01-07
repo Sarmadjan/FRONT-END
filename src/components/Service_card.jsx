@@ -1,19 +1,55 @@
+/* eslint-disable react/prop-types */
+
+import Button_Rm from "./button/Button-Rm";
+import "./TeamCard.css";
 
 
-const Service_card = () => {
+const Service_card = (props) => {
   return (
-    <div>
-      <div className="p-5">
+    <div className="servicehover ">
+      <div className=" p-5  border m-4   ">
 
-        <h2>
-          Web design and development
+        <h2 className="">
+          {props.service}
 
         </h2>
 
-        <p className="text-black">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ducimus beatae excepturi, eos recusandae ea ipsa eum itaque nam culpa numquam id porro officia, consectetur eaque cupiditate omnis debitis facere!
+        <p className="text-black my-3 ">
+          {props.detail}
         </p>
-        
+
+
+        <div className="row">
+
+          <ul className="lihover">
+            <li className="py-3 px-0 mx-0 w-100 border border-start-0 border-end-0 text-uppercase">
+              <b>Ux Audits </b>
+
+            </li>
+            <li className="py-3 px-0 mx-0 w-100 border border-start-0 border-end-0 text-uppercase">
+              <b> Design Thinking</b>
+
+            </li>
+            <li className="py-3 px-0 mx-0 w-100 border border-start-0 border-end-0 text-uppercase">
+              <b> Methodologies</b>
+
+            </li>
+            <li className="py-3 px-0 mx-0 w-100 border border-start-0 border-end-0 text-uppercase">
+              <b> Wireframing</b>
+
+            </li>
+          </ul>
+
+
+        </div>
+        <div className="row">
+          <Button_Rm text="Read more" fill="black" />
+        </div>
+
+
+
+
+
       </div>
 
     </div>

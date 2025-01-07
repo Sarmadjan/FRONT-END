@@ -142,12 +142,19 @@ const S_service = () => {
 
           </div>
           <div className="row g-0">
-            <div className="col-md-4">
-              <Service_card />
+            <div className="col-md-4 ">
+              <Service_card service="Website Development" detail="Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs." />
 
             </div>
-            <div className="col-md-4"></div>
-            <div className="col-md-4"></div>
+            <div className="col-md-4">
+              <Service_card service="Digital Marketing" detail="Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively." />
+            </div>
+            <div className="col-md-4">
+              <Service_card service="3D Animations" detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases." />
+            </div>
+            <div className="col-md-4">
+              <Service_card service="Video Editing" detail="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects." />
+            </div>
 
           </div>
 

@@ -2,7 +2,7 @@
   position: relative;
 }
 .imgggg {
-  width:100%;
+  width: 100%;
   display: block;
   margin: auto;
 }
@@ -27,4 +27,14 @@
 .content > * {
   transform: translateY(25px);
   transition: transform 0.5s;
+}
+
+.servicehover :hover {
+  background-color: #ff9800;
+  transition: all 0.5s ease;
+  
+}
+
+.lihover :hover{
+  border-width: 23px;
 }

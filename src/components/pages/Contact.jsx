@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
             <div>
               <a href="#sec-contact" className=" col-3 py-3 mt-4 mx-auto d-flex align-items-center justify-content-between px-5 " >
-                <div style={{ textTransform: "uppercase", fontWeight: "bold" }}> <span>individual service </span></div>
+                <div style={{ textTransform: "uppercase", fontWeight: "bold" }}> <span className="text-black">Send Message </span></div>
                 <div className="rounded-circle" style={{ backgroundColor: "black" }}>
                   <svg style={{ width: "35px", backgroundColor: 'dark', padding: "12px" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path
