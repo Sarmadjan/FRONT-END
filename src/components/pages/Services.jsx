@@ -8,6 +8,7 @@ import Button from "../button/button";
 
 import ButtonD from "../button/ButtonD";
 import Button_Rm from "../button/Button-Rm";
+import { NavLink } from "react-router-dom";
 const Services = () => {
   useEffect(() => {
     AOS.init({
@@ -17,7 +18,7 @@ const Services = () => {
     });
   }, []);
   return (
-    <div>
+    <>
       <div className="container-fluid bg-black">
         <div className="col-md-10 mx-auto pt-5 ">
           <div
@@ -47,12 +48,11 @@ const Services = () => {
           <div id="sec-1" className="row d-flex txtt py-0 py-md-5 mt-md-5 mt-0">
             <div className="col-md-5"></div>
             <div className="col-md-7">
-              <div className="row gx-5">
+              <div className="row ">
                 <div className="col-md-6 mt-md-5 pt-md-5">
-                  <h4>Branding and Identity Design</h4>
+                  <h4>Website Development</h4>
                   <p className="mt-4">
-                    Our creative agency is a team of professionals focused on
-                    helping your brand grow.
+                    Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs.
                   </p>
                   <ul>
                     <li>UX Audits</li>
@@ -61,25 +61,27 @@ const Services = () => {
                     <li>Wireframing</li>
                   </ul>
                   <div>
-                    <Button_Rm
-                      text="Read more"
-                      color="#ffa500"
-                      fill="#ffa500"
-                    />
+                    <NavLink onClick={(()=>{window.scrollTo(0.0)})} to="/frontend">
+                      <Button_Rm
+                        text="Read more"
+                        color="#ffa500"
+                        fill="#ffa500"
+                      />
+                    </NavLink>
                   </div>
                 </div>
                 <div className="col-md-6">
-                  <h4>Website Design and Development</h4>
+                  <h4>Digital Marketing</h4>
                   <p className="mt-4">
                     {" "}
-                    Our creative agency is a team of professionals focused on
-                    helping your brand grow.
+                    Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively.
                   </p>
                   <ul>
-                    <li>UX Audits</li>
-                    <li>Design thinking</li>
-                    <li>Methodologies</li>
-                    <li>Wireframing</li>
+                    <li>SEO Audits & Optimization</li>
+                    <li>Pay-Per-Click (PPC) Advertising</li>
+                    <li>Social Media Marketing & Management</li>
+                    <li>Email Marketing & Automation</li>
+                    <li>Content Creation & Marketing Strategy</li>
                   </ul>
                   <div>
                     <Button_Rm
@@ -89,18 +91,18 @@ const Services = () => {
                     />
                   </div>
                 </div>
-                <div className="col-md-6 mt-md-5 pt-md-5">
-                  <h4>Advertising and Marketing Campaigns</h4>
+                <div className="col-md-6  mt-md-5 pt-md-5">
+                  <h4>3D Animations</h4>
                   <p className="mt-4">
-                    Our creative agency is a team of professionals focused on
-                    helping your brand grow.
+                    Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases.
                   </p>
                   <ul>
-                    <li>UX Audits</li>
-                    <li>Design thinking</li>
-                    <li>Methodologies</li>
-                    <li>Wireframing</li>
+                    <li>3D Character Modeling and Animation</li>
+                    <li>Environmental Modeling and Texturing</li>
+                    <li>Keyframe Animation and Physics Simulations</li>
+                    <li>Visual Effects and Compositing</li>
                   </ul>
+
                   <div>
                     <Button_Rm
                       text="Read more"
@@ -110,16 +112,15 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="col-md-6">
-                  <h4> Creative Consulting Concept Development</h4>
+                  <h4> Video Editing</h4>
                   <p className="mt-4">
-                    Our creative agency is a team of professionals focused on
-                    helping your brand grow.
+                    Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects.
                   </p>
                   <ul>
-                    <li>UX Audits</li>
-                    <li>Design thinking</li>
-                    <li>Methodologies</li>
-                    <li>Wireframing</li>
+                    <li>Video Cutting and Editing</li>
+                    <li>Visual Effects and Motion Graphics</li>
+                    <li>Color Correction and Grading</li>
+                    <li>Sound Design and Audio Mixing</li>
                   </ul>
                   <div>
                     <Button_Rm
@@ -160,16 +161,16 @@ const Services = () => {
           </div>
 
           <div className="row pb-5 " data-aos="fade-up">
-            <div className=" ">
+            <div className=" mx-auto ">
               {" "}
-              <Button text="Sarmad" />
+              <NavLink to="/contact"> <Button text="Contact Us" /> </NavLink>
             </div>
           </div>
         </div>
       </div>
 
 
-    </div>
+    </>
   );
 };
 

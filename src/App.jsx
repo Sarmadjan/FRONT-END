@@ -9,7 +9,8 @@ import Footer from "./components/pages/Footer";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import MouseFollower from "./components/MouseFollower";
 import Navbar from "./components/Navbar";
-import S_service from "./components/pages/S_service";
+import Frontend from "./components/pages/Frontend";
+import Back_end from "./components/pages/Back_end";
 export default function App() {
   return (
     <Router>
@@ -21,7 +22,8 @@ export default function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/iservice" element={<S_service />} />
+        <Route path="/frontend" element={<Frontend />} />
+        <Route path="/backend" element={<Back_end />} />
         <Route path="*" element={<Home />} />
       </Routes>
       <Footer />

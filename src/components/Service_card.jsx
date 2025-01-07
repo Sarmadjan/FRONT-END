@@ -7,7 +7,7 @@ import "./TeamCard.css";
 const Service_card = (props) => {
   return (
     <div className="servicehover ">
-      <div className=" p-5  border m-4   ">
+      <div className=" p-3 p-md-5  border m-0   ">
 
         <h2 className="">
           {props.service}

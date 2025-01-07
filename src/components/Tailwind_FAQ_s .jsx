@@ -15,12 +15,12 @@ function FAQSection() {
 
   const faqs = [
     {
-      question: "Why should I choose React for my project?",
-      answer: "React is ideal for building dynamic, fast, and interactive user interfaces. Its component-based architecture promotes reusability and efficiency, making it perfect for scalable applications.",
+      question: "What makes Tailwind CSS different from other frameworks?",
+      answer: "Tailwind CSS uses a utility-first approach, giving you complete control over your design. Unlike frameworks like Bootstrap, it doesn’t come with predefined components, allowing for greater customization.",
     },
     {
-      question: "Can React handle complex frontend requirements?",
-      answer: "Absolutely! React is designed for complex UIs and integrates well with tools like Redux for state management and Next.js for server-side rendering.",
+      question: "Is Tailwind CSS good for responsive design?",
+      answer: "Yes, Tailwind CSS has built-in utilities for responsive design, making it easy to create layouts that look great on any device.",
     },
 
   ];

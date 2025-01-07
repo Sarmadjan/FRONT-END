@@ -15,12 +15,12 @@ function FAQSection() {
 
   const faqs = [
     {
-      question: "Why should I choose React for my project?",
-      answer: "React is ideal for building dynamic, fast, and interactive user interfaces. Its component-based architecture promotes reusability and efficiency, making it perfect for scalable applications.",
+      question: "Is Vue.js suitable for small and large projects?",
+      answer: "Yes, Vue.js is lightweight and flexible, making it perfect for small projects. Its robust ecosystem and scalability also allow it to handle large, complex applications.",
     },
     {
-      question: "Can React handle complex frontend requirements?",
-      answer: "Absolutely! React is designed for complex UIs and integrates well with tools like Redux for state management and Next.js for server-side rendering.",
+      question: "How does Vue.js compare to other frameworks?",
+      answer: "Vue.js is simpler to learn and implement than Angular and has a smaller size compared to React, making it a great middle-ground for developers.",
     },
 
   ];

@@ -15,12 +15,16 @@ function FAQSection() {
 
   const faqs = [
     {
-      question: "Why should I choose React for my project?",
-      answer: "React is ideal for building dynamic, fast, and interactive user interfaces. Its component-based architecture promotes reusability and efficiency, making it perfect for scalable applications.",
+      question: "What makes Node.js ideal for backend development?",
+      answer: "Node.js uses JavaScript for both frontend and backend, ensuring faster development cycles. Its non-blocking I/O model is excellent for real-time and data-intensive applications.",
     },
     {
-      question: "Can React handle complex frontend requirements?",
-      answer: "Absolutely! React is designed for complex UIs and integrates well with tools like Redux for state management and Next.js for server-side rendering.",
+      question: "Can Node.js support enterprise applications?",
+      answer: "Yes, Node.js is highly scalable and used by companies like Netflix and LinkedIn, proving its capability for enterprise-grade solutions.",
+    },
+    {
+      question: "Is Node.js suitable for API development?",
+      answer: "Definitely! Node.js is widely used for creating RESTful APIs and microservices due to its speed and lightweight architecture.",
     },
 
   ];

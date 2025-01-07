@@ -15,12 +15,16 @@ function FAQSection() {
 
   const faqs = [
     {
-      question: "Why should I choose React for my project?",
-      answer: "React is ideal for building dynamic, fast, and interactive user interfaces. Its component-based architecture promotes reusability and efficiency, making it perfect for scalable applications.",
+      question: "What types of applications can benefit from Firebase?",
+      answer: "Firebase is ideal for real-time apps, such as chat applications, collaborative tools, and live data dashboards.",
     },
     {
-      question: "Can React handle complex frontend requirements?",
-      answer: "Absolutely! React is designed for complex UIs and integrates well with tools like Redux for state management and Next.js for server-side rendering.",
+      question: "Does Firebase support scalable applications?",
+      answer: "Yes, Firebase is designed to handle scalable apps with features like Cloud Firestore and serverless architecture using Cloud Functions.",
+    },
+    {
+      question: "Is Firebase secure for handling sensitive data?",
+      answer: "Absolutely! Firebase offers built-in authentication and robust security rules to protect your data.",
     },
 
   ];

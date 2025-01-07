@@ -42,7 +42,7 @@ const Charges = (props) => {
               customized design solution
             </span>
           </div>
-          <div className="col-md-2 ps-4" data-aos="fade-left">
+          <div className="col-md-2 my-3 ps-4" data-aos="fade-left">
             <div
               style={{
                 margin: "0 auto",

@@ -15,10 +15,10 @@ const Contact = () => {
               <h1> Get in touch!</h1>
             </div>
             <div>
-              <a href="#sec-contact" className=" col-3 py-3 mt-4 mx-auto d-flex align-items-center justify-content-between px-5 " >
+              <a href="#sec-contact" className=" col-md-3 py-3 mt-4 mx-auto d-flex align-items-center justify-content-center px-5 " >
                 <div style={{ textTransform: "uppercase", fontWeight: "bold" }}> <span className="text-black">Send Message </span></div>
-                <div className="rounded-circle" style={{ backgroundColor: "black" }}>
-                  <svg style={{ width: "35px", backgroundColor: 'dark', padding: "12px" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <div className=" ms-3" style={{ backgroundColor: "black", borderRadius:"50%" }}>
+                  <svg style={{ width: "35px", height:"35px", backgroundColor: 'dark', padding: "12px" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path
                       fill="white"
                       d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
@@ -75,11 +75,11 @@ const Contact = () => {
             </form>
             <div className="row d-flex justify-content-between align-items-center">
               <div className="col-md-6">
-                <span className="text-warning">* </span> We promise not to disclose your personal information to third parties.
+                <span className="text-warning ">* </span> We promise not to disclose your personal information to third parties.
               </div>
 
-              <NavLink to={"/"} onClick={() => { window.scrollTo(0.0) }} className="hovv3 col-3 py-2 mt-4 ms-auto d-flex align-items-center justify-content-between px-4 " >
-                <div style={{ textTransform: "uppercase" }}> Send Message</div>
+              <NavLink to={"/"} onClick={() => { window.scrollTo(0.0) }} className="hovv3 col-md-3  py-2 mt-4 ms-auto d-flex align-items-center justify-content-between px-4 " >
+                <div style={{ textTransform: "uppercase", margin:"0 20px" }}> Send Message</div>
                 <div className="rounded-circle" style={{ backgroundColor: "black" }}>
                   <svg
                     style={{ width: "35px", backgroundColor: 'dark', padding: "10px" }}

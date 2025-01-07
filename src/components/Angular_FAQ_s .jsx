@@ -15,12 +15,12 @@ function FAQSection() {
 
   const faqs = [
     {
-      question: "Why should I choose React for my project?",
-      answer: "React is ideal for building dynamic, fast, and interactive user interfaces. Its component-based architecture promotes reusability and efficiency, making it perfect for scalable applications.",
+      question: "Why is Angular a good choice for enterprise applications?",
+      answer: "Angular is a complete framework with built-in tools for routing, forms, and state management. It’s highly scalable and ideal for building enterprise-level applications.",
     },
     {
-      question: "Can React handle complex frontend requirements?",
-      answer: "Absolutely! React is designed for complex UIs and integrates well with tools like Redux for state management and Next.js for server-side rendering.",
+      question: "What kind of applications is Angular best suited for?",
+      answer: "Angular is perfect for applications requiring complex workflows, dynamic content, or multi-user interfaces, such as dashboards and large-scale web apps.",
     },
 
   ];

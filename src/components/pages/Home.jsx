@@ -11,8 +11,8 @@ import Img1 from "../images/p1.jpg";
 import Card from "../Card";
 import Img4 from "../images/p4.jpg";
 import { useEffect } from "react";
-import m1 from "../images/m1.jpg";
-import m2 from "../images/m2.jpg";
+// import m1 from "../images/m1.jpg";
+// import m2 from "../images/m2.jpg";
 import Button_Rm from "../button/Button-Rm";
 import TeamCard from "../TeamCard";
 
@@ -186,21 +186,17 @@ const Home = () => {
               className=" col-md-3 border border-dark-subtle border-bottom-0  "
               data-aos="fade-up"
             >
-              <Card heading="Website Design  " heading2="and Development" />
-              <p className="mt-3">
-                Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs.
+              <Card heading="Website  " heading2=" Development" detail="Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs.
+             " />
 
-
-              </p>
             </div>
             <div
               className=" col-md-3 border border-dark-subtle border-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Digital  " heading2="Marketing" />
-              <p className="mt-3">
-                Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively.
-              </p>
+              <Card heading="Digital  " heading2="Marketing" detail=" Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively.
+             " />
+
             </div>
             <div
               className=" col-md-3 border border-dark-subtle border-bottom-0"
@@ -209,23 +205,24 @@ const Home = () => {
               <Card
                 heading="3D   "
                 heading2="Animations"
+                detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases.
+           "
               />
-              <p className="mt-3">
-                Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases.
-              </p>
+
             </div>
             <div
               className=" col-md-3 border border-dark-subtle border-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Video  " heading2="Editing" />
-              <p className="mt-5">
-                Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects.
-              </p>
+              <Card heading="Video  " heading2="Editing" detail="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects.
+             " />
+
             </div>
           </div>
         </div>
       </div>
+
+   
 
       <div className="col-10 mx-auto my-5 ">
         <div className="row d-flex justify-content-between">
@@ -293,7 +290,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div
+     {/*  <div
         className="container-fluid"
         style={{ backgroundColor: "rgb(227, 221, 221)" }}
       >
@@ -332,8 +329,10 @@ const Home = () => {
             </svg>
           </div>
         </div>
-      </div>
-      <div className="container">
+      </div> */}
+
+      
+      {/* <div className="container">
         <div className="row">
           <div
             className="col-md-12 d-flex justify-content-between align-items-center my-5"
@@ -404,7 +403,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

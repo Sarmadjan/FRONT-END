@@ -2,7 +2,7 @@
 import "./Button.css";
 const Button = (props) => {
   return (
-    <div className="input-group input-group-lg w-50 mt-4 ">
+    <div className="input-group input-group-lg w-100 d-flex justify-content-center mt-4 ">
       <div className="custom-input-wrapper ">
         <button onClick={()=>{
           window.scrollTo(0,0)

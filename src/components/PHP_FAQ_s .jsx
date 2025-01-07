@@ -15,12 +15,16 @@ function FAQSection() {
 
   const faqs = [
     {
-      question: "Why should I choose React for my project?",
-      answer: "React is ideal for building dynamic, fast, and interactive user interfaces. Its component-based architecture promotes reusability and efficiency, making it perfect for scalable applications.",
+      question: "Why should I choose PHP for my backend?",
+      answer: "PHP is a time-tested language with a vast community and support for frameworks like Laravel, making it a reliable choice for web applications.",
     },
     {
-      question: "Can React handle complex frontend requirements?",
-      answer: "Absolutely! React is designed for complex UIs and integrates well with tools like Redux for state management and Next.js for server-side rendering.",
+      question: "Can PHP handle modern web application needs?",
+      answer: "Yes, modern PHP is highly efficient and capable of handling complex requirements, including API integrations and cloud-based applications.",
+    },
+    {
+      question: "Is PHP still relevant for backend development?",
+      answer: "Absolutely! With continuous updates and powerful frameworks, PHP remains a top choice for many developers worldwide.",
     },
 
   ];

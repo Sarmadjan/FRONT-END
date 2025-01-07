@@ -3,10 +3,46 @@
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 0 0 10px 10px;
   margin: 0 auto;
-  padding: 20px 0;
-
-  
+  padding: 10px 0;
+  width: 92%;
 }
-.navvv li{
-    padding: 0 5px;
+.navvv li {
+  padding: 0 5px;
+}
+
+/* General Nav Styling */
+.navbar {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.nav-link {
+  color: #333;
+  padding: 8px 15px;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link{
+  color: black;
+}
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Active Link Styling */
+.nav-link.active {
+  color: #fff !important;
+  background-color: #5b636b;
+  border-radius: 5px;
+}
+
+
+.dropdown-item.active {
+  color: #fff !important;
+  background-color: #5b636b;
 }

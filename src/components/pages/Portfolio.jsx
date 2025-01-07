@@ -12,6 +12,7 @@ import Img6 from "../images/tony.jpg";
 
 import ButtonD from "../button/ButtonD";
 import Button from "../button/button";
+import { NavLink } from "react-router-dom";
 
 const Portfolio = () => {
   useEffect(() => {
@@ -26,7 +27,7 @@ const Portfolio = () => {
       <div className="col-md-10 mx-md-auto px-md-0 px-3 m-0 main-heading">
         <div className="row m-0">
           <div
-            className="col-7 py-5"
+            className="col-md-7 mt-5 py-5"
             style={{ paddingTop: "80px", paddingBottom: "80px" }}
           >
             <div className="pt-5">
@@ -37,11 +38,11 @@ const Portfolio = () => {
                 <span> World Today</span>{" "}
               </h1>
             </div>
-          </div>
+          </div>  
           <ButtonD text="Our works" />
         </div>
 
-        <div className="row d-flex justify-content-between gx-5 my-5 py-5 ">
+        <div className="row d-flex  justify-content-between   my-5 py-5 ">
           <div className="col-md-5 " data-aos="fade-up">
             <Imgg path={Img1} title="Interior design studio" />
           </div>
@@ -92,7 +93,9 @@ const Portfolio = () => {
           <div className="row pb-5 " data-aos="fade-up">
             <div className=" ">
               {" "}
-              <Button text="Sarmad" />
+              <NavLink to="/contact">
+              <Button text="Contact Us" />
+              </NavLink>
             </div>
           </div>
         </div>

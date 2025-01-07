@@ -15,12 +15,16 @@ function FAQSection() {
 
   const faqs = [
     {
-      question: "Why should I choose React for my project?",
-      answer: "React is ideal for building dynamic, fast, and interactive user interfaces. Its component-based architecture promotes reusability and efficiency, making it perfect for scalable applications.",
+      question: "Why is Python a good choice for backend development?",
+      answer: "Python is easy to learn, highly versatile, and supported by a vast library ecosystem, making it ideal for complex applications, data processing, and AI integrations.",
     },
     {
-      question: "Can React handle complex frontend requirements?",
-      answer: "Absolutely! React is designed for complex UIs and integrates well with tools like Redux for state management and Next.js for server-side rendering.",
+      question: "Can Python handle large-scale applications?",
+      answer: "Yes, Python frameworks like Django and Flask are designed for scalability and can handle large-scale, high-traffic applications effectively.",
+    },
+    {
+      question: "Is Python secure for backend development?",
+      answer: "Absolutely! With robust libraries and frameworks, Python provides strong security features to protect your applications from vulnerabilities.",
     },
 
   ];

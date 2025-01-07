@@ -4,6 +4,7 @@ import "./footer.css";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import logo from "../images/Logo Dark.svg";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
@@ -29,7 +30,7 @@ const Footer = () => {
                 lineheight: "100%",
               }}
             >
-              Woltrio
+              <img width={220} src={logo} alt="" />
             </span>
             <p className="mt-4 " data-aos="fade-up">
               Subscribe our newsletter:
