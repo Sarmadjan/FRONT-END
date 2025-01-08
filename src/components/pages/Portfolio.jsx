@@ -23,7 +23,7 @@ const Portfolio = () => {
     });
   }, []);
   return (
-    <div>
+    <div >
       <div className="col-md-10 mx-md-auto px-md-0 px-3 m-0 main-heading">
         <div className="row m-0">
           <div
@@ -66,7 +66,9 @@ const Portfolio = () => {
         </div>
       </div>
       {/* CLOSING OF COL-100000  */}
-      <div className="row bg-body-secondary m-0 ">
+
+
+      <div className="row ">
         <div className="col-md-10 mx-auto  " data-aos="fade-up">
           <div
             className="col-md-5 ms-auto text-end text-dark py-5"

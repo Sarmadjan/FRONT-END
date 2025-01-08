@@ -11,6 +11,8 @@ import MouseFollower from "./components/MouseFollower";
 import Navbar from "./components/Navbar";
 import Frontend from "./components/pages/Frontend";
 import Back_end from "./components/pages/Back_end";
+import Team from "./components/pages/Team";
+import Wordpress from "./components/pages/Wordpress";
 export default function App() {
   return (
     <Router>
@@ -24,6 +26,8 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/frontend" element={<Frontend />} />
         <Route path="/backend" element={<Back_end />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/wordpress" element={<Wordpress />} />
         <Route path="*" element={<Home />} />
       </Routes>
       <Footer />

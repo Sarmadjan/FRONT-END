@@ -36,16 +36,14 @@ const Home = () => {
                 {" "}
                 <h1>
                   {" "}
-                  Designing <span> a better</span> <br />
-                  World <span> Today</span>{" "}
+                  Innovative  <span> Solutions For </span>
+                  Digital <span> Excellance</span>{" "}
                 </h1>
               </div>
             </div>
             <div className=" col-md-6 my-3 my-md-5 ">
               <p>
-                Welcome to our world of endless imagination and boundless
-                creativity. Together, lets embark on a remarkable journey where
-                dreams become tangible realities.
+                Woltrio is a dynamic agency that specializes in website development, digital marketing, 3D animations, and video editing, committed to helping brands thrive in the digital world.
               </p>
             </div>
 
@@ -222,7 +220,7 @@ const Home = () => {
         </div>
       </div>
 
-   
+
 
       <div className="col-10 mx-auto my-5 ">
         <div className="row d-flex justify-content-between">
@@ -242,7 +240,9 @@ const Home = () => {
               Together, our creative team is committed to delivering impactful
               work that exceeds expectations.
             </p>
-            <Button text="Our Team" />
+            <NavLink to="/team">
+              <Button text="Our Team" />
+            </NavLink>
 
             <h3 className="my-5" data-aos="fade-up">
               <span>We</span> delivering <br />
@@ -290,7 +290,7 @@ const Home = () => {
         </div>
       </div>
 
-     {/*  <div
+      {/*  <div
         className="container-fluid"
         style={{ backgroundColor: "rgb(227, 221, 221)" }}
       >
@@ -331,7 +331,7 @@ const Home = () => {
         </div>
       </div> */}
 
-      
+
       {/* <div className="container">
         <div className="row">
           <div

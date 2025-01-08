@@ -1,10 +1,28 @@
 
-import { NavLink } from "react-router-dom";
+
 import "./home.css";
 import "../Charges.css";
 
 import GoogleMap from "../GoogleMap";
+import { useState } from "react";
+
+
+
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  })
+  const handleSubmit = async (e) => {
+    try {
+      e.preventDefault()
+      console.log(formData)
+
+    } catch (error) {
+      console.log(error)
+    }
+  }
   return (
     <div>
       <div className="container-fluid bg-light ">
@@ -17,8 +35,8 @@ const Contact = () => {
             <div>
               <a href="#sec-contact" className=" col-md-3 py-3 mt-4 mx-auto d-flex align-items-center justify-content-center px-5 " >
                 <div style={{ textTransform: "uppercase", fontWeight: "bold" }}> <span className="text-black">Send Message </span></div>
-                <div className=" ms-3" style={{ backgroundColor: "black", borderRadius:"50%" }}>
-                  <svg style={{ width: "35px", height:"35px", backgroundColor: 'dark', padding: "12px" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <div className=" ms-3" style={{ backgroundColor: "black", borderRadius: "50%" }}>
+                  <svg style={{ width: "35px", height: "35px", backgroundColor: 'dark', padding: "12px" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                     <path
                       fill="white"
                       d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
@@ -43,7 +61,7 @@ const Contact = () => {
             </h1>
           </div>
           <div className="row gx-5 py-5 mx-2">
-            <form action="" className=" form-style">
+            <form action="" className=" form-style" onSubmit={handleSubmit}>
               <div className="row">
                 <div className="col-md-6">
                   <input
@@ -51,6 +69,10 @@ const Contact = () => {
                     className="w-100 p-3"
                     placeholder="WHAT'S YOUR NAME"
                     aria-label=""
+                    onChange={(e) => {
+                      setFormData({ ...formData, name: e.target.value })
+
+                    }}
                     aria-describedby=""
                   />
                 </div>
@@ -58,8 +80,11 @@ const Contact = () => {
                   <input
                     type="email"
                     className="w-100 p-3"
-                    placeholder="WHAT'S YOUR NAME"
+                    placeholder="WHAT'S YOUR Email"
                     aria-label=""
+                    onChange={(e) => {
+                      setFormData({ ...formData, email: e.target.value })
+                    }}
                     aria-describedby=""
                   />
                 </div>
@@ -68,18 +93,16 @@ const Contact = () => {
                     className="w-100 p-3"
                     name=" "
                     id=""
+                    onChange={(e) => {
+                      setFormData({ ...formData, message: e.target.value })
+                    }}
                     placeholder="Tell us about our project"
                   ></textarea>
                 </div>
-              </div>
-            </form>
-            <div className="row d-flex justify-content-between align-items-center">
-              <div className="col-md-6">
-                <span className="text-warning ">* </span> We promise not to disclose your personal information to third parties.
-              </div>
 
-              <NavLink to={"/"} onClick={() => { window.scrollTo(0.0) }} className="hovv3 col-md-3  py-2 mt-4 ms-auto d-flex align-items-center justify-content-between px-4 " >
-                <div style={{ textTransform: "uppercase", margin:"0 20px" }}> Send Message</div>
+              </div>
+              <button type="submit" className="hovv3 col-md-3  py-2 mt-4 ms-auto d-flex align-items-center justify-content-between px-4 " >
+                <div style={{ textTransform: "uppercase", margin: "0 20px" }}> Send Message</div>
                 <div className="rounded-circle" style={{ backgroundColor: "black" }}>
                   <svg
                     style={{ width: "35px", backgroundColor: 'dark', padding: "10px" }}
@@ -92,7 +115,14 @@ const Contact = () => {
                 </div>
 
 
-              </NavLink>
+              </button>
+            </form>
+            <div className="row d-flex justify-content-between align-items-center">
+              <div className="col-md-6">
+                <span className="text-warning ">* </span> We promise not to disclose your personal information to third parties.
+              </div>
+
+
 
 
 
