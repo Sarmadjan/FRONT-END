@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
-import logo from "../components/images/logo.png";
+import logo from "../components/images/LOGO.png";
 
 function Navbar() {
   const scrollToTop = () => {
