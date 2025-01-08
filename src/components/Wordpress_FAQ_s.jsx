@@ -16,16 +16,9 @@ function FAQSection() {
   const faqs = [
     {
       question: "Why Choose Woltrio for WordPress Development?",
-      answer: "",
+      answer: "We offer custom WordPress solutions tailored to your vision, including bespoke themes and plugins, SEO optimization for increased visibility and traffic, scalable solutions for growing businesses, and ongoing maintenance and security updates to ensure your site runs smoothly and securely.",
     },
-    {
-      question: "Does Firebase support scalable applications?",
-      answer: "Yes, Firebase is designed to handle scalable apps with features like Cloud Firestore and serverless architecture using Cloud Functions.",
-    },
-    {
-      question: "Is Firebase secure for handling sensitive data?",
-      answer: "Absolutely! Firebase offers built-in authentication and robust security rules to protect your data.",
-    },
+   
 
   ];
 
