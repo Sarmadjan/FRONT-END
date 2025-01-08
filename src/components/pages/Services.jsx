@@ -3,7 +3,7 @@ import "./home.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import ButtonD from "../button/ButtonD";
-import Button from "../button/button";
+import Button from "../button/Button";  
 
 
 import ButtonD from "../button/ButtonD";
