@@ -1,4 +1,4 @@
-import Button from "../button/button";
+import Button from "../button/Button";
 import img2 from "../images/p2.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";

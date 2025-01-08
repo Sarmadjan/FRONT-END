@@ -110,6 +110,17 @@ function Navbar() {
                       Back-End
                     </NavLink>
                   </li>
+                  <hr className="py-1 mb-0" />
+
+                  <li>
+                    <NavLink
+                      className={({ isActive }) => (isActive ? "dropdown-item active" : "dropdown-item")}
+                      to="/wordpress"
+                      onClick={() => { scrollToTop(); closeNavbar(); }}
+                    >
+                      Wordpress and Shopify
+                    </NavLink>
+                  </li>
                 </ul>
               </li>
             </ul>

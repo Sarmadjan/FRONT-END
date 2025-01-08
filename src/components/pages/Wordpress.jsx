@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import '../Charges.css';
 
 import Wordpress_FAQ_s from '../Wordpress_FAQ_s';
+import Shopify_FAQ_s from '../Shopify_FAQ_s';
 
 import ButtonD from "../button/ButtonD";
 import Button_Rm from "../button/Button-Rm";
@@ -31,7 +32,7 @@ const Wordpress = () => {
                             {" "}
                             <h1 className="pt-md-0 pt-5  mt-5">
                                 {" "}
-                                WordPress and  <br /> Shopify<span> Development </span>
+                                WordPress <span>and </span>  <br /> Shopify<span> Development </span>
                             </h1>
                         </div>
                         <div className="col-md-6 my-5">
@@ -91,7 +92,7 @@ const Wordpress = () => {
                             </div>
                             <div className="col-md-8 m-0 " data-aos="fade-up">
                                 <p className="text-black-50 ">
-                                Shopify is a premier e-commerce platform for building and scaling online stores. Its intuitive interface and customizable templates enable businesses to create seamless shopping experiences. With robust inventory management and secure payment gateways, Shopify ensures efficient and reliable online retail operations  </p>
+                                    Shopify is a premier e-commerce platform for building and scaling online stores. Its intuitive interface and customizable templates enable businesses to create seamless shopping experiences. With robust inventory management and secure payment gateways, Shopify ensures efficient and reliable online retail operations  </p>
                             </div>
                             <div className="col-8  " data-aos="fade-up">
                                 <Link
@@ -105,7 +106,7 @@ const Wordpress = () => {
                             </div>
                         </div>
                         <div className="col-md-6  bg-body-secondary rounded-1  mt-3  p-3" data-aos="fade-up">
-                            <Wordpress_FAQ_s />
+                            <Shopify_FAQ_s />
 
                         </div>
                     </div>

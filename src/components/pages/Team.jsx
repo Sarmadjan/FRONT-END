@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import TeamCard from "../TeamCard";
 import ButtonD from "../button/ButtonD";
-import Button from "../button/button";
+import Button from "../button/Button";
 import Img4 from "../images/p4.jpg";
 import "./home.css";
 const Team = () => {

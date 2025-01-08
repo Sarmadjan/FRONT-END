@@ -11,7 +11,7 @@ import Img5 from "../images/Air.jpg";
 import Img6 from "../images/tony.jpg";
 
 import ButtonD from "../button/ButtonD";
-import Button from "../button/button";
+import Button from "../button/Button";
 import { NavLink } from "react-router-dom";
 
 const Portfolio = () => {
