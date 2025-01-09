@@ -19,61 +19,72 @@ const Team = () => {
                             </h1>
                         </div>
                         <div className="row my-md-5 g-0">
-                            <ButtonD text="Our Team" />
+                            <a href="#section2">
+                                <ButtonD text="Our Team" />
+                            </a>
                         </div>
                     </div>
 
-                    <div className="row  my-5 g-5 mx-0 px-0 py-5">
-                        <div className="col-md-3">
+                    <div id="section2" className="row  my-5 g-5 mx-0 px-0 py-5">
+                        <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
-                                name="Ema Oldman"
+                                name="Ehtisham Ilyas"
                                 imgsrc={Img4}
                                 title={"ART DIRECTOR"}
-                            />
+                                linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
-                                name="Ema Oldman"
+                                name="Syed Ali Musa
+ "
                                 imgsrc={Img4}
                                 title={"ART DIRECTOR"}
+                                linkedin="https://www.linkedin.com/in/syedalimusa/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
-                                name="Ema Oldman"
+                                name="Awon Ali
+"
                                 imgsrc={Img4}
                                 title={"ART DIRECTOR"}
+                                linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
-                                name="Ema Oldman"
+                                name="Syed Ali Musa
+ "
                                 imgsrc={Img4}
                                 title={"ART DIRECTOR"}
+                                linkedin="https://www.linkedin.com/in/syedalimusa/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
-                                name="Ema Oldman"
+                                name="Yasir Khan"
                                 imgsrc={Img4}
                                 title={"ART DIRECTOR"}
+                                linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
-                                name="Ema Oldman"
+                                name="Sher (Ali) Khan"
                                 imgsrc={Img4}
                                 title={"ART DIRECTOR"}
+                                linkedin="https://www.linkedin.com/in/sharewithsher/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3  " data-aos="zoom-in">
                             <TeamCard
-                                name="Ema Oldman"
+                                name="Waqas Hussain"
                                 imgsrc={Img4}
                                 title={"ART DIRECTOR"}
+                                linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
                                 name="Ema Oldman"
                                 imgsrc={Img4}

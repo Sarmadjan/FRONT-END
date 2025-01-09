@@ -218,7 +218,7 @@ const Back_end = () => {
 
         </NavLink>
       </div>
-      <div className="row g-0">
+      <div className="row ">
         <div className="col-md-10 mx-auto">
           <div className="d-flex justify-content-between align-items-center ">
             <div className="col-md-4 mt-3 ">
@@ -240,15 +240,15 @@ const Back_end = () => {
             </div>
 
           </div>
-          <div className="row g-0">
-            <div className="col-md-4 ">
+          <div className="row my-md-5 my-2 g-3" >
+            <div className="col-md-4  " data-aos="fade-right">
               <Service_card service="Web Development" detail="Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs." />
 
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-up">
               <Service_card service="Digital Marketing" detail="Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively." />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-left">
               <Service_card service="3D Animations" detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases." />
             </div>
 

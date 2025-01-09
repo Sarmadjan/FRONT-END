@@ -257,32 +257,48 @@ const Home = () => {
             <div className="row gx-5 gy-5" data-aos="fade-up">
               <div className="col-md-6 col-12 ">
                 <TeamCard
-                  name="Ema Oldman"
+                  name="Awon Ali
+"
                   imgsrc={Img4}
                   title={"ART DIRECTOR"}
+                  linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
+              </div>
+              <div className="col-md-6 col-12 pt-md-0 pt-5 ">
+                <TeamCard
+                  name="Ehtisham Ilyas"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                  linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
+
               </div>
 
               <div className="col-md-6 col-12 pt-md-0 pt-5 ">
-                <TeamCard
-                  name="Ema Oldman"
-                  imgsrc={Img4}
-                  title={"ART DIRECTOR"}
-                />
+
               </div>
               <div className="col-md-6 col-12  ">
                 <TeamCard
-                  name="Ema Oldman"
+                  name="Yasir Khan"
                   imgsrc={Img4}
                   title={"ART DIRECTOR"}
+                  linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
               </div>
 
               <div className="col-md-6 col-12 pt-md-0 pt-5 ">
                 <TeamCard
-                  name="Ema Oldman"
+                  name="Sher (Ali) Khan"
                   imgsrc={Img4}
                   title={"ART DIRECTOR"}
+                  linkedin="https://www.linkedin.com/in/sharewithsher/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                />
+              </div>
+              <div className="col-md-6 col-12 pt-md-0 pt-5 ">
+                <TeamCard
+                  name="Waqas Hussain"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                  linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
               </div>
             </div>

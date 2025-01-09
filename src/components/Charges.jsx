@@ -17,32 +17,42 @@ const Charges = (props) => {
   return (
     <NavLink onClick={() => { window.scrollTo(0.0) }} to={props.path}>
       <div >
-        <div className=" hovv col-md-12 d-flex flex-wrap pt-5  justify-content-start border border-start-0 border-end-0">
-          <div className="ps-md-5 ps-4 me-auto col-md-2 position-relative" data-aos="fade-right">
+        <div className=" hovv col-md-12 d-flex flex-wrap pt-3 pb-3 px-2 align-items-center text-center border border-start-0 border-end-0">
+
+          <div className="col-md-2 col-4 ">
+            <p className="fs-4 text-warning">{props.plan} </p>
+          </div>
+          <div className="ps-md-5 ps-4 me-auto col-md-2 col-4 position-relative" data-aos="fade-right">
             <span
-              style={{ top: "45px" }}
+              style={{ top: "45px", left: "42%" }}
               className="position-absolute  pe-5"
             >
-              $
+              
             </span>{" "}
-            <p
-              style={{ fontSize: "50px", color: "orange", marginLeft: "10px" }}
+            <p className="text-nowrap"
+              style={{ fontSize: "40px", color: "orange", marginLeft: "10px" }}
             >
-              49
+             ${props.price}
             </p>
           </div>
 
-          <div className="col-md-4 ps-4 fs-4 px-2 me-auto" data-aos="fade-up">
-            <span >Increasing and customized design solution</span>
+          <div className="col-md-2 col-4 ps-4 fs-4 px-2 me-auto text-center" data-aos="fade-up">
+            <span className="fs-5" >{props.Pages}  </span>
           </div>
 
-          <div className="col-md-4 ps-4" data-aos="fade-up">
+          <div className="col-md-2 col-4 ps-4" data-aos="fade-up">
             <span >
-              Increasing and customized design solution Increasing and
-              customized design solution
+              {props.services}
             </span>
           </div>
-          <div className="col-md-2 my-3 ps-4" data-aos="fade-left">
+
+          <div className="col-md-2 col-4 ps-4" data-aos="fade-up">
+            <span >
+
+              {props.revisions}
+            </span>
+          </div>
+          <div className="col-md-2 col-4 my-3 ps-4" data-aos="fade-left">
             <div
               style={{
                 margin: "0 auto",
@@ -54,7 +64,7 @@ const Charges = (props) => {
             >
               <i>
                 <svg
-                  style={{ marginLeft: "11px", marginTop: "9px", width: "18px" }}
+                  style={{ marginLeft: "2px", marginTop: "9px", width: "18px" }}
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 384 512"
                 >

@@ -38,7 +38,7 @@ const Portfolio = () => {
                 <span> World Today</span>{" "}
               </h1>
             </div>
-          </div>  
+          </div>
           <ButtonD text="Our works" />
         </div>
 
@@ -68,7 +68,7 @@ const Portfolio = () => {
       {/* CLOSING OF COL-100000  */}
 
 
-      <div className="row ">
+      <div className="row g-0 ">
         <div className="col-md-10 mx-auto  " data-aos="fade-up">
           <div
             className="col-md-5 ms-auto text-end text-dark py-5"
@@ -82,7 +82,7 @@ const Portfolio = () => {
           </div>
 
           <div
-            className="row main-heading text-center px-5 "
+            className="row g-0 main-heading text-center px-5 "
             data-aos="fade-up"
           >
             <h1>
@@ -92,11 +92,11 @@ const Portfolio = () => {
             </h1>
           </div>
 
-          <div className="row pb-5 " data-aos="fade-up">
+          <div className="row g-0 pb-5 " data-aos="fade-up">
             <div className=" ">
               {" "}
               <NavLink to="/contact">
-              <Button text="Contact Us" />
+                <Button text="Contact Us" />
               </NavLink>
             </div>
           </div>

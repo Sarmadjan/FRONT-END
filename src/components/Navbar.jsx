@@ -63,8 +63,12 @@ function Navbar() {
                   to="/services"
                   onClick={() => { scrollToTop(); closeNavbar(); }}
                 >
+
                   Services
+
+
                 </NavLink>
+
               </li>
               <li className="nav-item">
                 <NavLink
@@ -78,7 +82,9 @@ function Navbar() {
 
               {/* Dropdown Menu */}
               <li className="nav-item dropdown">
+
                 <a
+
                   className="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
@@ -88,6 +94,7 @@ function Navbar() {
                 >
                   More
                 </a>
+
                 <ul
                   className="dropdown-menu dropdown-menu-lg-end"
                   aria-labelledby="navbarDropdown"
