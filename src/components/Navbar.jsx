@@ -15,12 +15,13 @@ function Navbar() {
   };
 
   return (
-    <div className="container ">
-      <nav className="navbar z-3 navbar-expand-lg navbar-light bg-light position-fixed container navvv py-md-3 m-0">
-        <div className="container">
+    <div className="row pt-md-3 pt-0 g-0 bg-white">
+
+      <nav className="navbar mx-auto z-3 navbar-expand-lg navbar-light bg-white  container navvv  py-2 pt-md-3 m-0">
+        
           {/* Logo */}
           <NavLink className="navbar-brand ps-5" to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
-            <img src={logo} alt="Logo" />
+            <img className="img-fluid" src={logo} alt="Logo" />
           </NavLink>
 
           {/* Toggle Button for Small Screens */}
@@ -38,7 +39,7 @@ function Navbar() {
 
           {/* Navbar Links */}
           <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav ms-auto pe-md-5">
+            <ul className="navbar-nav ms-auto px-2">
               <li className="nav-item">
                 <NavLink
                   className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
@@ -132,9 +133,10 @@ function Navbar() {
               </li>
             </ul>
           </div>
-        </div>
+        
       </nav>
     </div>
+
   );
 }
 

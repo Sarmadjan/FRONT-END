@@ -18,12 +18,12 @@ const Footer = () => {
 
 
   return (
-    <div className="Container-fluid bg-black Footer text-light pt-5">
-      <div className="col-md-10 mx-auto">
-        <div className="row  mx-2 mx-md-0">
-          <div className="col-md-6">
+    <div className="Container-fluid bg-black Footer text-light pb-5 pt-5" >
+      <div className="col-md-10 pb-md-5 mb-5 mx-auto">
+        <div className="row  mx-2 mx-md-0 my-md-5" data-aos="fade-up">
+          <div className="col-md-6" >
             <span
-              data-aos="fade-right"
+              
               style={{
                 fontSize: "42px",
                 fontWeight: "500",
@@ -32,7 +32,7 @@ const Footer = () => {
             >
               <img width={220} src={logo} alt="" />
             </span>
-            <p className="mt-4 " data-aos="fade-up">
+            <p className="mt-4 " >
               Subscribe our newsletter:
             </p>
             <div className="input-group input-group-lg w-50 mt-4">
@@ -58,21 +58,21 @@ const Footer = () => {
               <div> </div>
             </div>
           </div>
-          <div className="col-md-3 mt-2 " data-aos="fade-up">
+          <div className="col-md-3 mt-2 "  >
             <Footer_li name="Home" path="/" />
             <Footer_li name="Portfolio" path="/portfolio" />
             <Footer_li name="Services" path="/services" />
             <Footer_li name="Contact" path="/contact" />
           </div>
-          <div className="col-md-3 mt-3" data-aos="fade-up">
+          <div className="col-md-3 mt-3" >
             <Li2 name="Privacy Policy" path="" />
             <Li2 name=" Terms and Conditions" path="" />
             <Li2 name="Cookie Policy" path="" />
             <Li2 name="Careers" path="" />
           </div>
         </div>
-        <div className="row mt-5 mx-2 mx-md-0 ">
-          <div className="col-md-6   ">
+        <div className="row pt-md-5 my-5 mx-2 mx-md-0  " data-aos="fade-up"  >
+          <div className="col-md-6 mb-md-4   ">
             <div className="col svg-width">
 
               <a href="">
@@ -103,12 +103,12 @@ const Footer = () => {
             </div>
             <p>© {new Date().getFullYear()} Woltrio. All Rights Reserved. </p>
           </div>
-          <div className="col-md-3 ">
-            <h4 className="text-white"> Pakistan</h4>
+          <div className="col-md-3 mb-md-4 ">
+            <h5 className="text-white"> Pakistan</h5>
             <p>1st Floor, Gondal Arcade, Satelite Town, Rawalpindi </p>
           </div>
-          <div className="col-md-3">
-            <h4 className="text-white"> Germany</h4>
+          <div className="col-md-3 mb-md-4">
+            <h5 className="text-white"> Germany</h5>
             <p>Leehove 40, 2678 MC De Lier, Netherlands +31 174 705 811</p>
           </div>
         </div>

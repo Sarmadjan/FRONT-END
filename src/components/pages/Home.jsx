@@ -30,9 +30,11 @@ const Home = () => {
     <div>
       <div className="container-fluid">
         <div className="row bg-black text-light first-sec ">
+
+
           <div className="col-md-10 p-md-3  mx-auto main-heading my-md-5 ">
-            <div className="col-md-7 pt-5 mt-5">
-              <div className="pt-5">
+            <div className="col-md-7 pt-3 mt-5">
+              <div className="">
                 {" "}
                 <h1>
                   {" "}
@@ -62,7 +64,7 @@ const Home = () => {
 
               <a
                 href="#section-2"
-                className=" ms-auto    "
+                className=" ms-auto mb-md-0 mb-3  "
                 style={{
                   position: "relative",
                   height: "70px",
@@ -70,10 +72,11 @@ const Home = () => {
                   backgroundColor: "#ff9800",
                   borderRadius: "50%",
                 }}
-              >
+                >
                 <div
                   className="inner-cir text-center pt-1"
                   style={{
+                    right:"10px",
                     top: "27%",
                     left: "25%",
                     position: "absolute",
@@ -82,7 +85,7 @@ const Home = () => {
                     backgroundColor: "black",
                     borderRadius: "50%",
                   }}
-                >
+                 >
                   <svg
                     style={{ width: "15px" }}
                     xmlns="http://www.w3.org/2000/svg"
@@ -179,21 +182,23 @@ const Home = () => {
               </h1>
             </div>
           </div>
-          <div className="row gy-5 py-md-0 py-4 d-flex  ">
+          <div className="row gy-5 py-md-0 py-4 d-flex my-5 ">
             <div
               className=" col-md-3 border border-dark-subtle border-bottom-0  "
               data-aos="fade-up"
             >
-              <Card heading="Website  " heading2=" Development" detail="Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs.
-             " />
+              <Card heading="Website  " heading2=" Development" data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
+              />
 
             </div>
             <div
               className=" col-md-3 border border-dark-subtle border-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Digital  " heading2="Marketing" detail=" Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively.
-             " />
+              <Card heading="Digital  " heading2="Marketing"
+                data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
+
+              />
 
             </div>
             <div
@@ -203,8 +208,8 @@ const Home = () => {
               <Card
                 heading="3D   "
                 heading2="Animations"
-                detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases.
-           "
+                data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
+
               />
 
             </div>
@@ -212,13 +217,14 @@ const Home = () => {
               className=" col-md-3 border border-dark-subtle border-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Video  " heading2="Editing" detail="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects.
-             " />
+              <Card heading="Video  " heading2="Editing" data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
+              />
 
             </div>
           </div>
         </div>
       </div>
+
 
 
 
@@ -255,15 +261,7 @@ const Home = () => {
               <p className="text-end">The Founders of our agency</p>
             </span>
             <div className="row gx-5 gy-5" data-aos="fade-up">
-              <div className="col-md-6 col-12 ">
-                <TeamCard
-                  name="Awon Ali
-"
-                  imgsrc={Img4}
-                  title={"ART DIRECTOR"}
-                  linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                />
-              </div>
+
               <div className="col-md-6 col-12 pt-md-0 pt-5 ">
                 <TeamCard
                   name="Ehtisham Ilyas"
@@ -273,9 +271,7 @@ const Home = () => {
 
               </div>
 
-              <div className="col-md-6 col-12 pt-md-0 pt-5 ">
 
-              </div>
               <div className="col-md-6 col-12  ">
                 <TeamCard
                   name="Yasir Khan"

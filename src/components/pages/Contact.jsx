@@ -25,7 +25,7 @@ const Contact = () => {
   }
   return (
     <div>
-      <div className="container-fluid bg-light ">
+      <div className="container-fluid bg-white ">
         <div className="col-md-10 mx-auto  py-5">
           <div className="row main-heading ">
             <div className="pt-5 my-md-5 my-2 text-center mt-5">

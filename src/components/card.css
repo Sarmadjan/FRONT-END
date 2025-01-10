@@ -1,23 +1,43 @@
-.m-card{
-    position: relative;
+.m-card {
+  position: relative;
 }
-.content1{
-    font-size: xx-large;
-    display: flex;
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-    color: white;
-    left: 0;
-  top: 0;
+.content2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 10px 20px;
+  opacity: 0;
+  transition: 0.5s;
+  color: rgb(248, 230, 230);
+  left: 0;
+  top: 60px;
   height: 100%;
   width: 100%;
+}
 
+.content2:hover {
+  opacity: 1;
 }
-.content:hover{
+.content2 > * {
+  transform: translateY(25px);
+  transition: transform 0.5s;
+}
+.main-card2 {
+  height: 350px;
+}
+.inner-cir svg {
+  margin-top: 9px;
+}
+
+@media only screen and (max-width: 768px) {
+  .content2 {
     opacity: 1;
-}
-.content > * {
-    transform: translateY(25px);
-    transition: transform 0.5s;
+    padding-left: 15px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .circleback {
+    opacity: 0;
+  }
+}

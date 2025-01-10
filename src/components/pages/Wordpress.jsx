@@ -20,10 +20,10 @@ const Wordpress = () => {
         });
     }, []);
     return (
-        <div className="container-fluid g-0">
-            <div className="row bg-white text-dark first-sec m-0 ">
+        <div  style={{overflow:"hidden"}}  className="row  g-0">
+            <div className="row g-0  bg-white text-dark first-sec m-0 ">
                 <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
-                    <div className="row align-items-center pt-md-5 pt-2 mt-md-5 mt-2">
+                    <div className="row g-0 align-items-center pt-md-5 pt-2 mt-md-5 mt-2">
                         <div className="col-md-7 pt-md-5 pt-2 ">
                             {" "}
                             <h1 className="pt-md-0 pt-5  mt-5">
@@ -40,7 +40,7 @@ const Wordpress = () => {
                                 management systems in the world: WordPress and Shopify. Whether
                                 you are looking to build a dynamic blog, an e-commerce store, or
                                 a custom-designed business site, we deliver tailored solutions
-                                to match your unique requirements.{" "}
+                                to match your unique requirements.
                             </p>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ const Wordpress = () => {
                 </div>
             </div>
 
-            <div className="container-fluid g-0 bg-black m-o main-heading  pt-5 ">
+            <div   className="row g-0 bg-black m-o main-heading  pt-5 ">
                 <div className="col-md-10 mx-auto">
                     <div className="col-md-7 text-center mx-auto">
                         <h1 className="text-white mt-md-5 mt-2" data-aos="fade-up">
@@ -166,7 +166,7 @@ const Wordpress = () => {
                     </div>
                 </div>
             </div>
-            <div className="row g-0 bg-black " >
+            <div  className="row g-0 bg-black " >
                 <div className="col-md-10 mx-auto" data-aos="fade-up">
 
                     <div className="col-12 Store rounded-4 w-50 mx-auto text-uppercase  my-5 text-center  py-4 border-bottom">
@@ -244,7 +244,7 @@ const Wordpress = () => {
 
                 </div>
                 <NavLink
-                    to={"/contact"}
+                    to="/contact"
                     onClick={() => {
                         window.scrollTo(0.0);
                     }}
@@ -269,7 +269,7 @@ const Wordpress = () => {
                     </div>
                 </NavLink>
             </div>
-            <div className="row g-0">
+            <div     className="row g-0">
                 <div className="col-md-10 mx-auto">
                     <div className="d-flex justify-content-between align-items-center ">
                         <div className="col-md-4 mt-3 ">
@@ -314,7 +314,7 @@ const Wordpress = () => {
                                 Why Woltrio?
                             </h1>
 
-                            <p className="my-md-3 mb-5 my-2 col-md-7 mx-auto text-black">
+                            <p className="my-md-3 text-uppercase mb-5 my-2 col-md-7 mx-auto text-black">
                                 Our dedicated team ensures that your WordPress or Shopify website is not only visually appealing but also functional, secure, and optimized for conversions. From startups to established enterprises, we’ve got the expertise to elevate your online presence.
                             </p>
                         </div>
