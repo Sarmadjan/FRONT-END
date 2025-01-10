@@ -4,11 +4,13 @@ import ButtonD from "../button/ButtonD";
 import Button from "../button/Button";
 import Img4 from "../images/p4.jpg";
 import "./home.css";
+import Navbar from "../Navbar";
 const Team = () => {
     return (
         <div>
             <div className="row g-0">
                 <div className="col-md-10 mx-auto">
+                <Navbar/>
                     <div className="col-md-7 pt-5 mt-5">
                         <div className="pt-5 px-md-0 px-3 main-heading">
                             {" "}

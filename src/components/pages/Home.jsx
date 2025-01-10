@@ -15,6 +15,7 @@ import { useEffect } from "react";
 // import m2 from "../images/m2.jpg";
 import Button_Rm from "../button/Button-Rm";
 import TeamCard from "../TeamCard";
+import Navbar from "../Navbar";
 
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
     <div>
       <div className="container-fluid">
         <div className="row bg-black text-light first-sec ">
+        <Navbar/>
 
 
           <div className="col-md-10 p-md-3  mx-auto main-heading my-md-5 ">
@@ -76,12 +78,13 @@ const Home = () => {
                 <div
                   className="inner-cir text-center pt-1"
                   style={{
+
                     right:"10px",
-                    top: "27%",
+                    top: "25%",
                     left: "25%",
                     position: "absolute",
-                    height: "3px",
-                    width: "3px",
+                    height: "35px",
+                    width: "35px",
                     backgroundColor: "black",
                     borderRadius: "50%",
                   }}

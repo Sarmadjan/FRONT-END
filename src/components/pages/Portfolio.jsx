@@ -13,6 +13,7 @@ import Img6 from "../images/tony.jpg";
 import ButtonD from "../button/ButtonD";
 import Button from "../button/Button";
 import { NavLink } from "react-router-dom";
+import Navbar from "../Navbar";
 
 const Portfolio = () => {
   useEffect(() => {
@@ -24,7 +25,9 @@ const Portfolio = () => {
   }, []);
   return (
     <div >
+      <Navbar/>
       <div className="col-md-10 mx-md-auto px-md-0 px-3 m-0 main-heading">
+      
         <div className="row m-0">
           <div
             className="col-md-7 mt-5 py-5"

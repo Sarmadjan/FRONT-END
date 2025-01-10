@@ -29,14 +29,14 @@ const Footer = () => {
                 fontWeight: "500",
                 lineheight: "100%",
               }}
-            >
+             >
               <img width={220} src={logo} alt="" />
             </span>
             <p className="mt-4 " >
               Subscribe our newsletter:
             </p>
             <div className="input-group input-group-lg w-50 mt-4">
-              <div  className="custom-input-wrapper">
+              <div  className="custom-input-wrapper w-100">
                 <input style={{paddingLeft:"40px",paddingRight:"50px"}}
                   type="text"
                   className="custom-input  py-md-4  "
@@ -44,7 +44,7 @@ const Footer = () => {
                 />
                 <button style={{backgroundColor:"#ff9800"}} className="custom-arrow-btn">
                   <svg
-                    style={{ width: "25px", }}
+                    style={{ width: "25px" }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
                   >
@@ -58,13 +58,13 @@ const Footer = () => {
               <div> </div>
             </div>
           </div>
-          <div className="col-md-3 mt-2 "  >
+          <div className="col-md-3  "  >
             <Footer_li name="Home" path="/" />
             <Footer_li name="Portfolio" path="/portfolio" />
             <Footer_li name="Services" path="/services" />
             <Footer_li name="Contact" path="/contact" />
           </div>
-          <div className="col-md-3 mt-3" >
+          <div className="col-md-3 " >
             <Li2 name="Privacy Policy" path="" />
             <Li2 name=" Terms and Conditions" path="" />
             <Li2 name="Cookie Policy" path="" />
@@ -75,7 +75,7 @@ const Footer = () => {
           <div className="col-md-6 mb-md-4   ">
             <div className="col svg-width fw-bolder">
 
-              <a href="">
+              <a href="https://www.linkedin.com/company/woltrio/" target="_blank">
                 <i>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="white" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" /></svg>
                 </i>
@@ -104,13 +104,13 @@ const Footer = () => {
             <p >© {new Date().getFullYear()} Woltrio. All Rights Reserved. </p>
           </div>
           <div className="col-md-3 mb-md-4 ">
-            <h5  className="text-white fw-bolder"> Pakistan</h5>
+            <h5  className="text-white fw-bolder"> <span style={{color:'rgba(255, 255, 255, 0.4)', fontWeight:"500"}}>Islamic Republic of</span> Pakistan</h5>
             <p>1st Floor, Gondal Arcade, Satelite Town, Rawalpindi </p>
           </div>
-          <div className="col-md-3 mb-md-4">
+          {/* <div className="col-md-3 mb-md-4">
             <h5 className="text-white fw-bolder"> Germany</h5>
             <p>Leehove 40, 2678 MC De Lier, Netherlands +31 174 705 811</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

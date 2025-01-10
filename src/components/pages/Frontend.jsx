@@ -13,6 +13,7 @@ import Service_card from "../Service_card";
 import VUE_FAQ_s from "../VUE_FAQ_s ";
 import Angular_FAQ_s from "../Angular_FAQ_s ";
 import Tailwind_FAQ_s from "../Tailwind_FAQ_s ";
+import Navbar from "../Navbar";
 
 
 const Frontend = () => {
@@ -27,6 +28,7 @@ const Frontend = () => {
   return (
     <div className="container-fluid">
       <div className="row bg-white text-dark first-sec m-0 ">
+      <Navbar/>
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
           <div className="col-md-7 pt-md-5 pt-2 mt-md-5 mt-2">
             <div className="pt-md-5 pt-2 " >

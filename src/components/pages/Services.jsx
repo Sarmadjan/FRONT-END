@@ -9,6 +9,7 @@ import Button from "../button/Button";
 import ButtonD from "../button/ButtonD";
 import Button_Rm from "../button/Button-Rm";
 import { NavLink } from "react-router-dom";
+import Navbar from "../Navbar";
 const Services = () => {
   useEffect(() => {
     AOS.init({
@@ -20,6 +21,7 @@ const Services = () => {
   return (
     <>
       <div className="container-fluid bg-black">
+      <Navbar/>
         <div className="col-md-10 mx-auto pt-5 ">
           <div
             className="col-7 pt-5 mt-md-5 mt-0 main-heading text-white"

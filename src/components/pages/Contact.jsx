@@ -6,26 +6,45 @@ import "../Charges.css";
 import GoogleMap from "../GoogleMap";
 import { useState } from "react";
 
-
+import emailjs from '@emailjs/browser'
+import Navbar from "../Navbar";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
+  const [loading, setIsLoading] = useState(false)
+  const [msg, setMsg] = useState("")
+  const initialState = {
     name: "",
     email: "",
     message: "",
-  })
+  }
+  const [formData, setFormData] = useState(initialState)
   const handleSubmit = async (e) => {
+    setIsLoading(true)
+
     try {
       e.preventDefault()
+      const res = await emailjs.send('service_3be2sfq', 'template_53137um', { to_name: formData.name, message: formData.message, from_name: "FROM COMPANY" }, {
+        publicKey: "K74BWp8TF2bWZLOvB"
+      })
+      if (res.status == 200) {
+        setMsg('response received')
+        setFormData(initialState)
+      } else {
+        setMsg('falied to send mail')
+      }
       console.log(formData)
 
     } catch (error) {
       console.log(error)
     }
+    finally {
+      setIsLoading(false)
+    }
   }
   return (
     <div>
       <div className="container-fluid bg-white ">
+        <Navbar/>
         <div className="col-md-10 mx-auto  py-5">
           <div className="row main-heading ">
             <div className="pt-5 my-md-5 my-2 text-center mt-5">
@@ -102,7 +121,13 @@ const Contact = () => {
 
               </div>
               <button type="submit" className="hovv3 col-md-3  py-2 mt-4 ms-auto d-flex align-items-center justify-content-between px-4 " >
-                <div style={{ textTransform: "uppercase", margin: "0 20px" }}> Send Message</div>
+                <div style={{ textTransform: "uppercase", margin: "0 20px" }}>
+                  {loading ? <div>
+                    Loading...
+                  </div> : <div>
+                    Send Message
+                  </div>}
+                </div>
                 <div className="rounded-circle" style={{ backgroundColor: "black" }}>
                   <svg
                     style={{ width: "35px", backgroundColor: 'dark', padding: "10px" }}
@@ -117,6 +142,9 @@ const Contact = () => {
 
               </button>
             </form>
+            <div >
+              {msg && <div>{msg}</div>}
+            </div>
             <div className="row d-flex justify-content-between align-items-center">
               <div className="col-md-6">
                 <span className="text-warning ">* </span> We promise not to disclose your personal information to third parties.

@@ -14,6 +14,7 @@ import Button_Rm from "../button/Button-Rm";
 
 import Charges from "../Charges";
 import Service_card from "../Service_card";
+import Navbar from "../Navbar";
 const Back_end = () => {
 
   useEffect(() => {
@@ -26,6 +27,7 @@ const Back_end = () => {
   return (
     <div className="container-fluid">
       <div className="row bg-white text-dark first-sec m-0 ">
+      <Navbar/>
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
 
           <div className="col-md-7 pt-md-5 pt-2 mt-md-5 mt-2">

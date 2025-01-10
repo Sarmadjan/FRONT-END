@@ -11,6 +11,7 @@ import Button_Rm from "../button/Button-Rm";
 import Charges from "../Charges";
 import Service_card from "../Service_card";
 import "./home.css";
+import Navbar from "../Navbar";
 const Wordpress = () => {
     useEffect(() => {
         AOS.init({
@@ -21,6 +22,7 @@ const Wordpress = () => {
     }, []);
     return (
         <div  style={{overflow:"hidden"}}  className="row  g-0">
+            <Navbar/>
             <div className="row g-0  bg-white text-dark first-sec m-0 ">
                 <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
                     <div className="row g-0 align-items-center pt-md-5 pt-2 mt-md-5 mt-2">

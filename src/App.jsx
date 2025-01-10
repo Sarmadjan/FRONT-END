@@ -8,7 +8,7 @@ import Footer from "./components/pages/Footer";
 
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import MouseFollower from "./components/MouseFollower";
-import Navbar from "./components/Navbar";
+
 import Frontend from "./components/pages/Frontend";
 import Back_end from "./components/pages/Back_end";
 import Team from "./components/pages/Team";
@@ -16,7 +16,7 @@ import Wordpress from "./components/pages/Wordpress";
 export default function App() {
   return (
     <Router>
-      <Navbar />
+      
       <MouseFollower />
 
       <Routes>
