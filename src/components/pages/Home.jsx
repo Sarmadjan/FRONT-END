@@ -187,7 +187,7 @@ const Home = () => {
               className=" col-md-3 border border-dark-subtle border-bottom-0  "
               data-aos="fade-up"
             >
-              <Card heading="Website  " heading2=" Development" data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
+              <Card heading="Website  " heading2=" Development" data="Our expert team crafts innovative digital solutions through web development, blending sleek design with robust technology to deliver tailored, engaging, and responsive online experiences that amplify your brand."
               />
 
             </div>
@@ -196,7 +196,7 @@ const Home = () => {
               data-aos="fade-up"
             >
               <Card heading="Digital  " heading2="Marketing"
-                data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
+                data="Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively."
 
               />
 
@@ -217,7 +217,7 @@ const Home = () => {
               className=" col-md-3 border border-dark-subtle border-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Video  " heading2="Editing" data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
+              <Card heading="Video  " heading2="Editing" data="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects."
               />
 
             </div>

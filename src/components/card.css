@@ -41,3 +41,12 @@
     opacity: 0;
   }
 }
+
+
+
+.inner-cir {
+  height: 40px;
+  width: 40px;
+  background-color: #ff9800;
+  border-radius: 50%;
+}

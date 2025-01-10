@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
         <div className="row pt-md-5 my-5 mx-2 mx-md-0  " data-aos="fade-up"  >
           <div className="col-md-6 mb-md-4   ">
-            <div className="col svg-width">
+            <div className="col svg-width fw-bolder">
 
               <a href="">
                 <i>
@@ -101,14 +101,14 @@ const Footer = () => {
                 </i>
               </a>
             </div>
-            <p>© {new Date().getFullYear()} Woltrio. All Rights Reserved. </p>
+            <p >© {new Date().getFullYear()} Woltrio. All Rights Reserved. </p>
           </div>
           <div className="col-md-3 mb-md-4 ">
-            <h5 style={{ fontWeight: "500" }} className="text-white"> Pakistan</h5>
+            <h5  className="text-white fw-bolder"> Pakistan</h5>
             <p>1st Floor, Gondal Arcade, Satelite Town, Rawalpindi </p>
           </div>
           <div className="col-md-3 mb-md-4">
-            <h5 className="text-white"> Germany</h5>
+            <h5 className="text-white fw-bolder"> Germany</h5>
             <p>Leehove 40, 2678 MC De Lier, Netherlands +31 174 705 811</p>
           </div>
         </div>

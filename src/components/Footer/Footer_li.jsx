@@ -9,7 +9,7 @@ const Footer_li = (props) => {
         <NavLink className="text-decoration-none liii " onClick={() => {
           window.scrollTo(0, 0)
         }} to={props.path}>
-          <span className="fs-3 ">{props.name}</span>
+          <span className="fs-3 fw-bold ">{props.name}</span>
         </NavLink>
       </li>
     </>
