@@ -4,7 +4,7 @@ const Li2 = (props) => {
   return (
     <li className="my-md-3 m" >
       <NavLink className=" li2" to={props.path}>
-        <span style={{color: 'rgba(220, 209, 209, 0.4)'}} className="">{props.name}</span>
+        <span >{props.name}</span>
       </NavLink>
     </li>
   );

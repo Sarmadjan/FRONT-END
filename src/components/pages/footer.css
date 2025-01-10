@@ -9,7 +9,7 @@
   border-radius: 50px;
   background-color: #7a7a7a; /* Orange background */
   padding: 13px 50px 12px 10px;
-  font-size: 14px;
+ 
   padding-right: 40px;
   font-weight: 500;
 
@@ -23,6 +23,8 @@
 .custom-input::placeholder {
   color: black;
   text-transform: uppercase;
+  font-size: small;
+  
 }
 
 .custom-input:hover {
@@ -54,42 +56,43 @@
   margin: 5px 6px;
   margin-bottom: 25px;
 }
-.liii :hover {
+.liii:hover span{
   transition-duration: 0.5s;
-
-  margin-left: 15px;
+  color: #ffa500;
+  
+  margin-left: 10px;
 }
 .li2 {
   text-decoration: none;
   color: rgba(220, 209, 209, 0.4);
-  list-style: disc;
+  list-style: none;
+  font-weight: 500;
+}
+.li2:hover span{
+  transition-duration: 0.5s;
+  margin-left: 10px;
+  color: white;
+  font-weight: 500;
+  
 }
 i :hover {
   fill: #ffa500;
   transition-duration: 0.3s;
 
 }
-.liii :hover {
-  transition-duration: 0.5s;
-  color: #ffa500;
 
-  margin-left: 15px;
-  list-style: square;
-}
+
 li {
   list-style: none;
 }
 
-.li2 :hover {
-    transition-duration: 0.4s;
-    
-  
-    margin-left: 15px;
-    list-style: disc;
-  }
+
 p{
   color: rgba(255, 255, 255, .4);
 }
  p :hover{
   color: aliceblue;
+}
+.liii span{
+  color: white;
 }

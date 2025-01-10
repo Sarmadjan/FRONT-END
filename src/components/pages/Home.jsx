@@ -80,8 +80,8 @@ const Home = () => {
                     top: "27%",
                     left: "25%",
                     position: "absolute",
-                    height: "35px",
-                    width: "35px",
+                    height: "3px",
+                    width: "3px",
                     backgroundColor: "black",
                     borderRadius: "50%",
                   }}

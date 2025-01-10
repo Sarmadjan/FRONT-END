@@ -19,11 +19,11 @@ const Footer = () => {
 
   return (
     <div className="Container-fluid bg-black Footer text-light pb-5 pt-5" >
-      <div className="col-md-10 pb-md-5 mb-5 mx-auto">
+      <div className="col-md-10   mx-auto">
         <div className="row  mx-2 mx-md-0 my-md-5" data-aos="fade-up">
           <div className="col-md-6" >
             <span
-              
+
               style={{
                 fontSize: "42px",
                 fontWeight: "500",
@@ -36,20 +36,20 @@ const Footer = () => {
               Subscribe our newsletter:
             </p>
             <div className="input-group input-group-lg w-50 mt-4">
-              <div className="custom-input-wrapper">
-                <input
+              <div  className="custom-input-wrapper">
+                <input style={{paddingLeft:"40px",paddingRight:"50px"}}
                   type="text"
-                  className="custom-input"
+                  className="custom-input  py-md-4  "
                   placeholder="ENTER YOUR EMAIL"
                 />
-                <button className="custom-arrow-btn">
+                <button style={{backgroundColor:"#ff9800"}} className="custom-arrow-btn">
                   <svg
-                    style={{ width: "25px" }}
+                    style={{ width: "25px", }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
                   >
                     <path
-                      fill="white"
+                      fill="black"
                       d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
                     />
                   </svg>{" "}
@@ -104,7 +104,7 @@ const Footer = () => {
             <p>© {new Date().getFullYear()} Woltrio. All Rights Reserved. </p>
           </div>
           <div className="col-md-3 mb-md-4 ">
-            <h5 className="text-white"> Pakistan</h5>
+            <h5 style={{ fontWeight: "500" }} className="text-white"> Pakistan</h5>
             <p>1st Floor, Gondal Arcade, Satelite Town, Rawalpindi </p>
           </div>
           <div className="col-md-3 mb-md-4">
