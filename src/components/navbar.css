@@ -46,3 +46,9 @@
   color: #fff !important;
   background-color: #5b636b;
 }
+
+
+    .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0; /* Align with button */
+        }

@@ -23,7 +23,7 @@ const Contact = () => {
 
     try {
       e.preventDefault()
-      const res = await emailjs.send('service_3be2sfq', 'template_53137um', { to_name: formData.name, message: formData.message, from_name: "FROM COMPANY" }, {
+      const res = await emailjs.send('service_3be2sfq', 'template_53137um', { to_name: "Woltrio", message: formData.message, from_name: formData.name }, {
         publicKey: "K74BWp8TF2bWZLOvB"
       })
       if (res.status == 200) {
@@ -44,7 +44,7 @@ const Contact = () => {
   return (
     <div>
       <div className="container-fluid bg-white ">
-        <Navbar/>
+        <Navbar />
         <div className="col-md-10 mx-auto  py-5">
           <div className="row main-heading ">
             <div className="pt-5 my-md-5 my-2 text-center mt-5">
@@ -145,15 +145,11 @@ const Contact = () => {
             <div >
               {msg && <div>{msg}</div>}
             </div>
-            <div className="row d-flex justify-content-between align-items-center">
-              <div className="col-md-6">
+            <div className="row d-flex justify-content-center mt-5 align-items-center">
+              <div className="col-md-6 text-center">
                 <span className="text-warning ">* </span> We promise not to disclose your personal information to third parties.
               </div>
-
-
-
-
-
+              
             </div>
           </div>
         </div>

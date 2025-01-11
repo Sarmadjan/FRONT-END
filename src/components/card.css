@@ -1,5 +1,8 @@
 .m-card {
   position: relative;
+  overflow: hidden;
+  height: 400px;
+  padding-bottom: 20px;
 }
 .content2 {
   display: flex;
@@ -22,11 +25,9 @@
   transform: translateY(25px);
   transition: transform 0.5s;
 }
-.main-card2 {
-  height: 350px;
-}
+
 .inner-cir svg {
-  margin-top: 1px;
+  padding-top: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -36,13 +37,12 @@
   }
 }
 
+
 @media only screen and (max-width: 768px) {
   .circleback {
     opacity: 0;
   }
 }
-
-
 
 .inner-cir {
   height: 40px;

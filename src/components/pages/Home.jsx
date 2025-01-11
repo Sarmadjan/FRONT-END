@@ -31,7 +31,7 @@ const Home = () => {
     <div>
       <div className="container-fluid">
         <div className="row bg-black text-light first-sec ">
-        <Navbar/>
+          <Navbar />
 
 
           <div className="col-md-10 p-md-3  mx-auto main-heading my-md-5 ">
@@ -74,12 +74,13 @@ const Home = () => {
                   backgroundColor: "#ff9800",
                   borderRadius: "50%",
                 }}
-                >
+              >
                 <div
-                  className="inner-cir text-center pt-1"
+                  className="inner-cir text-center "
                   style={{
 
-                    right:"10px",
+
+                    right: "10px",
                     top: "25%",
                     left: "25%",
                     position: "absolute",
@@ -88,7 +89,7 @@ const Home = () => {
                     backgroundColor: "black",
                     borderRadius: "50%",
                   }}
-                 >
+                >
                   <svg
                     style={{ width: "15px" }}
                     xmlns="http://www.w3.org/2000/svg"

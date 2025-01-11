@@ -16,8 +16,9 @@ import Wordpress from "./components/pages/Wordpress";
 export default function App() {
   return (
     <Router>
+      <MouseFollower/>
       
-      <MouseFollower />
+      
 
       <Routes>
         <Route path="/" element={<Home />} />
