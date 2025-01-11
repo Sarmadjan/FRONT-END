@@ -4,7 +4,7 @@ import "./card.css";
 const Card = (props) => {
   return (
     <div>
-      <div  className="m-card">
+      <div className="m-card mx-0  ">
         <div className="p-2 pt-4 main-card2 ">
           <span className="fs-4 text-white ">
             {props.heading}

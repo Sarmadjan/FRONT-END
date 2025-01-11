@@ -188,7 +188,7 @@ const Home = () => {
           </div>
           <div className="row gy-5 py-md-0 py-4 d-flex my-5 ">
             <div
-              className=" col-md-3 border border-dark-subtle border-bottom-0  "
+              className=" col-md-3 border border-effect border-dark-subtle  border-bottom-0  "
               data-aos="fade-up"
             >
               <Card heading="Website  " heading2=" Development" data="Our expert team crafts innovative digital solutions through web development, blending sleek design with robust technology to deliver tailored, engaging, and responsive online experiences that amplify your brand."
@@ -196,7 +196,7 @@ const Home = () => {
 
             </div>
             <div
-              className=" col-md-3 border border-dark-subtle border-bottom-0"
+              className=" col-md-3 border-effect border border-dark-subtle border-bottom-0"
               data-aos="fade-up"
             >
               <Card heading="Digital  " heading2="Marketing"
@@ -206,7 +206,7 @@ const Home = () => {
 
             </div>
             <div
-              className=" col-md-3 border border-dark-subtle border-bottom-0"
+              className=" col-md-3 border border-effect border-dark-subtle border-bottom-0"
               data-aos="fade-up"
             >
               <Card
@@ -218,7 +218,7 @@ const Home = () => {
 
             </div>
             <div
-              className=" col-md-3 border border-dark-subtle border-bottom-0"
+              className=" col-md-3 border border-effect border-dark-subtle  border-bottom-0"
               data-aos="fade-up"
             >
               <Card heading="Video  " heading2="Editing" data="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects."

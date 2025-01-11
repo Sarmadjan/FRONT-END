@@ -163,6 +163,27 @@ a {
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.shadowtxt{
+.shadowtxt {
   text-shadow: 5px 5px 10px black;
+}
+
+.border-effect {
+  position: relative;
+  transition: border-top 1s;
+}
+
+.border-effect:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 8px;
+  border-radius: 2px;
+  background-color: #ff9800;
+  transition: 0.75s ease-in-out;
+}
+
+.border-effect:hover:before {
+  width: 100%;
 }

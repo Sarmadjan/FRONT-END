@@ -37,7 +37,6 @@
   }
 }
 
-
 @media only screen and (max-width: 768px) {
   .circleback {
     opacity: 0;
@@ -50,3 +49,31 @@
   background-color: #ff9800;
   border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+/* .border-effect {
+  position: relative;
+  transition: border-top 1s;
+}
+
+.border-effect:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 12px;
+  background-color: #ff9800;
+  transition: 0.5s ease-in-out;
+}
+
+.border-effect:hover:before {
+  width: 100%;
+} */

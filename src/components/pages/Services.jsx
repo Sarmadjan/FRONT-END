@@ -20,7 +20,8 @@ const Services = () => {
   }, []);
   return (
     <>
-      <div className="container-fluid bg-black">
+
+      <div className="row bg-black mt-0">
       <Navbar/>
         <div className="col-md-10 mx-auto pt-5 ">
           <div
