@@ -201,7 +201,7 @@ const Back_end = () => {
         <div className="col-md-10 mx-auto" data-aos="fade-up">
 
           <Charges path="/contact" />
-          <Charges path="/services" />
+    
         </div>
 
         <NavLink to={"/contact"} onClick={() => { window.scrollTo(0.0) }} className="hovv2 col-md-3 my-5 col-sm-8 py-3 mt-5 mx-auto d-flex align-items-center justify-content-between px-5 " >

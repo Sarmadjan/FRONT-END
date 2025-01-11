@@ -3,7 +3,7 @@
 import "./home.css";
 import "../Charges.css";
 
-import GoogleMap from "../GoogleMap";
+// import GoogleMap from "../GoogleMap";
 import { useState } from "react";
 
 import emailjs from '@emailjs/browser'
@@ -14,7 +14,9 @@ const Contact = () => {
   const [msg, setMsg] = useState("")
   const initialState = {
     name: "",
+    Number: "",
     email: "",
+    type: "",
     message: "",
   }
   const [formData, setFormData] = useState(initialState)
@@ -23,11 +25,11 @@ const Contact = () => {
 
     try {
       e.preventDefault()
-      const res = await emailjs.send('service_3be2sfq', 'template_53137um', { to_name: "Woltrio", message: formData.message, from_name: formData.name }, {
+      const res = await emailjs.send('service_3be2sfq', 'template_53137um', { to_name: "Woltrio", message: formData.message, from_name: formData.name, type: formData.type, Number: formData.Number }, {
         publicKey: "K74BWp8TF2bWZLOvB"
       })
       if (res.status == 200) {
-        setMsg('response received')
+        setMsg('RESPONCE SENT')
         setFormData(initialState)
       } else {
         setMsg('falied to send mail')
@@ -68,8 +70,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="row m-0">
-          <GoogleMap />
+        <div className="row py-md-5 my-md-5">
+          {/* <GoogleMap />             Google Map                     */}
         </div>
         <div className="col-md-10 mx-auto">
           <div id="sec-contact" className="pt-5 text-center my-5 py-5">
@@ -86,7 +88,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-100 p-3"
-                    placeholder="WHAT'S YOUR NAME"
+                    placeholder="NAME"
                     aria-label=""
                     onChange={(e) => {
                       setFormData({ ...formData, name: e.target.value })
@@ -97,25 +99,59 @@ const Contact = () => {
                 </div>
                 <div className="col-md-6">
                   <input
+                    type="tel"
+                    className="w-100 p-3"
+                    placeholder="Phone Number"
+                    aria-label=""
+                    required
+                    onChange={(e) => {
+                      setFormData({ ...formData, Number: e.target.value })
+
+                    }}
+                    aria-describedby=""
+                  />
+                </div>
+                <div className="col-md-6">
+                  <input
                     type="email"
                     className="w-100 p-3"
-                    placeholder="WHAT'S YOUR Email"
+                    placeholder="Enter Your Email"
                     aria-label=""
+                    required
                     onChange={(e) => {
                       setFormData({ ...formData, email: e.target.value })
                     }}
                     aria-describedby=""
                   />
                 </div>
+
+
+                <div className="col-md-6">
+                  <input
+                    type="text"
+                    className="w-100 p-3"
+                    placeholder="Select service type"
+                    aria-label=""
+                    required
+                    onChange={(e) => {
+                      setFormData({ ...formData, type: e.target.value })
+
+                    }}
+                    aria-describedby=""
+
+                  />
+
+                </div>
                 <div className="col mt-md-3 ">
                   <textarea
                     className="w-100 p-3"
                     name=" "
                     id=""
+                    required
                     onChange={(e) => {
                       setFormData({ ...formData, message: e.target.value })
                     }}
-                    placeholder="Tell us about our project"
+                    placeholder="Message "
                   ></textarea>
                 </div>
 
@@ -142,14 +178,14 @@ const Contact = () => {
 
               </button>
             </form>
-            <div >
-              {msg && <div>{msg}</div>}
+            <div  >
+              {msg && <div className="text-success ">{msg}</div>}
             </div>
             <div className="row d-flex justify-content-center mt-5 align-items-center">
               <div className="col-md-6 text-center">
                 <span className="text-warning ">* </span> We promise not to disclose your personal information to third parties.
               </div>
-              
+
             </div>
           </div>
         </div>

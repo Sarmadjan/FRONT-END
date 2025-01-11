@@ -205,7 +205,7 @@ const Frontend = () => {
         <div className="col-md-10 mx-auto" data-aos="fade-up">
           <div>
             <Charges path="/contact" />
-            <Charges path="/services" />
+            
           </div>
         </div>
 
