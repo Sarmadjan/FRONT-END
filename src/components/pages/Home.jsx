@@ -188,7 +188,7 @@ const Home = () => {
           </div>
           <div className="row gy-5 py-md-0 py-2 d-flex my-4 ">
             <div
-              className=" col-md-3 border-effect border-effect2 border border-dark-subtle  border-md-start-0 border-md-bottom-0"
+              className=" col-md-3 border-effect border-effect2 border border-dark-subtle leftborder border-md-bottom-0"
               data-aos="fade-up"
             >
 

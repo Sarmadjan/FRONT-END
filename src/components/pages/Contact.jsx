@@ -13,7 +13,7 @@ const Contact = () => {
   const [loading, setIsLoading] = useState(false)
   const [msg, setMsg] = useState("")
   const initialState = {
-    name: null,
+    name: "",
     Number: "",
     email: "",
     type: "",
@@ -130,12 +130,12 @@ const Contact = () => {
                 <div className="col-md-6">
                   <select className="w-100 p-3" required onChange={(e) => { setFormData({ ...formData, type: e.target.value }) }}>
                     <option value=""> <span>Select service type </span></option>
-                    <option value="option1">Web Development</option>
-                    <option value="option2">Mobile App Development</option>
-                    <option value="option3">Digital Marketing</option>
-                    <option value="option3">SEO Services</option>
-                    <option value="option3">Video Editing</option>
-                    <option value="option3">3D Animations</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Mobile App Development">Mobile App Development</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="SEO Services">SEO Services</option>
+                    <option value="Video Editing">Video Editing</option>
+                    <option value="3D Animations">3D Animations</option>
                   </select>
                 </div>
                 <div className="col mt-md-3 ">
@@ -154,8 +154,8 @@ const Contact = () => {
               </div>
               <button type="submit" className="hovv3 col-md-3  py-2 mt-4  mx-auto  d-flex justify-content-around align-items-center px-2 " >
                 <div style={{ textTransform: "uppercase", margin: "0 20px" }}>
-                  {loading ? <div>
-                    Loading...
+                  {loading ? <div className="spinner-border text-warning" role="status">
+                    <span className="visually-hidden">Loading...</span>
                   </div> : <div>
                     Send Message
                   </div>}
