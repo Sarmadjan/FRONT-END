@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import logo from "../images/Logo Dark.svg";
+import { NavLink } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
@@ -35,13 +36,14 @@ const Footer = () => {
             <p className="mt-4 " >
               Subscribe our newsletter:
             </p>
-            <div className="input-group input-group-lg w-50 mt-4">
+            <div className="input-group input-group-lg w-75 mt-4">
               <div  className="custom-input-wrapper w-100">
                 <input style={{paddingLeft:"40px",paddingRight:"50px"}}
                   type="text"
                   className="custom-input  py-md-4  "
                   placeholder="ENTER YOUR EMAIL"
                 />
+                <NavLink to='contact' onClick={(()=> { window.scrollTo(0.0)})}>
                 <button style={{backgroundColor:"#ff9800"}} className="custom-arrow-btn">
                   <svg
                     style={{ width: "25px" }}
@@ -54,6 +56,7 @@ const Footer = () => {
                     />
                   </svg>{" "}
                 </button>
+                </NavLink>
               </div>
               <div> </div>
             </div>

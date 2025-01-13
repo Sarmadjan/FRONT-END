@@ -27,7 +27,7 @@ const Back_end = () => {
   return (
     <div className="container-fluid">
       <div className="row bg-white text-dark first-sec m-0 ">
-      <Navbar/>
+        <Navbar />
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
 
           <div className="col-md-7 pt-md-5 pt-2 mt-md-5 mt-2">
@@ -201,7 +201,7 @@ const Back_end = () => {
         <div className="col-md-10 mx-auto" data-aos="fade-up">
 
           <Charges path="/contact" />
-    
+
         </div>
 
         <NavLink to={"/contact"} onClick={() => { window.scrollTo(0.0) }} className="hovv2 col-md-3 my-5 col-sm-8 py-3 mt-5 mx-auto d-flex align-items-center justify-content-between px-5 " >
@@ -260,6 +260,23 @@ const Back_end = () => {
 
 
         </div>
+      </div>
+      <div className="row mx-auto  ">
+        <div className="col-md-10 p-0 main-heading mx-auto text-center">
+          <div className="col mt-md-5 mb-5">
+            <h1 className="shadowtxt">
+              Why Woltrio?
+            </h1>
+
+            <p className="my-md-3  mb-5 my-2 col-md-7 mx-auto text-black">
+              Our dedicated team ensures that your website is not only visually appealing but also functional, secure, and optimized for conversions. From startups to established enterprises, we’ve got the expertise to elevate your online presence.
+            </p>
+          </div>
+        </div>
+
+
+
+
       </div>
 
     </div>

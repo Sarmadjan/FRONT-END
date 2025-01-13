@@ -316,7 +316,7 @@ const Wordpress = () => {
                                 Why Woltrio?
                             </h1>
 
-                            <p className="my-md-3 text-uppercase mb-5 my-2 col-md-7 mx-auto text-black">
+                            <p className="my-md-3  mb-5 my-2 col-md-7 mx-auto text-black">
                                 Our dedicated team ensures that your WordPress or Shopify website is not only visually appealing but also functional, secure, and optimized for conversions. From startups to established enterprises, we’ve got the expertise to elevate your online presence.
                             </p>
                         </div>

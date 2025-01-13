@@ -13,7 +13,7 @@ const Contact = () => {
   const [loading, setIsLoading] = useState(false)
   const [msg, setMsg] = useState("")
   const initialState = {
-    name: "",
+    name: null,
     Number: "",
     email: "",
     type: "",
@@ -49,12 +49,12 @@ const Contact = () => {
         <Navbar />
         <div className="col-md-10 mx-auto  py-5">
           <div className="row main-heading ">
-            <div className="pt-5 my-md-5 my-2 text-center mt-5">
+            <div className="pt-md-5 my-md-5  text-center mt-md-5 ">
               {" "}
               <h1> Get in touch!</h1>
             </div>
             <div>
-              <a href="#sec-contact" className=" col-md-3 py-3 mt-4 mx-auto d-flex align-items-center justify-content-center px-5 " >
+              <a href="#sec-contact" className=" col-md-3 py-3 mt-md-4 mx-auto d-flex align-items-center justify-content-center px-5 " >
                 <div style={{ textTransform: "uppercase", fontWeight: "bold" }}> <span className="text-black">Send Message </span></div>
                 <div className=" ms-3" style={{ backgroundColor: "black", borderRadius: "50%" }}>
                   <svg style={{ width: "35px", height: "35px", backgroundColor: 'dark', padding: "12px" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -74,7 +74,7 @@ const Contact = () => {
           {/* <GoogleMap />             Google Map                     */}
         </div>
         <div className="col-md-10 mx-auto">
-          <div id="sec-contact" className="pt-5 text-center my-5 py-5">
+          <div id="sec-contact" className="pt-md-5 text-center mt-5 py-md-5">
             {" "}
             <h1 style={{ fontWeight: "bolder" }}>
               {" "}
@@ -88,8 +88,9 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-100 p-3"
-                    placeholder="NAME"
+                    placeholder="Name"
                     aria-label=""
+                    required
                     onChange={(e) => {
                       setFormData({ ...formData, name: e.target.value })
 
@@ -127,20 +128,15 @@ const Contact = () => {
 
 
                 <div className="col-md-6">
-                  <input
-                    type="text"
-                    className="w-100 p-3"
-                    placeholder="Select service type"
-                    aria-label=""
-                    required
-                    onChange={(e) => {
-                      setFormData({ ...formData, type: e.target.value })
-
-                    }}
-                    aria-describedby=""
-
-                  />
-
+                  <select className="w-100 p-3" required onChange={(e) => { setFormData({ ...formData, type: e.target.value }) }}>
+                    <option value=""> <span>Select service type </span></option>
+                    <option value="option1">Web Development</option>
+                    <option value="option2">Mobile App Development</option>
+                    <option value="option3">Digital Marketing</option>
+                    <option value="option3">SEO Services</option>
+                    <option value="option3">Video Editing</option>
+                    <option value="option3">3D Animations</option>
+                  </select>
                 </div>
                 <div className="col mt-md-3 ">
                   <textarea
@@ -156,7 +152,7 @@ const Contact = () => {
                 </div>
 
               </div>
-              <button type="submit" className="hovv3 col-md-3  py-2 mt-4 ms-auto d-flex align-items-center justify-content-between px-4 " >
+              <button type="submit" className="hovv3 col-md-3  py-2 mt-4  mx-auto  d-flex justify-content-around align-items-center px-2 " >
                 <div style={{ textTransform: "uppercase", margin: "0 20px" }}>
                   {loading ? <div>
                     Loading...

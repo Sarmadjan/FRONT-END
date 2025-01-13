@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 
+import { NavLink } from "react-router-dom";
 import "./card.css";
 const Card = (props) => {
   return (
@@ -16,18 +17,23 @@ const Card = (props) => {
           <div className="content2 z-3  px-2 ">
             <p className=" text-light mb-5">{props.data}</p>
             <div className="row">
-              <div
-                className="inner-cir text-center ms-3 mb-5 me-auto "
-                style={{
+              <NavLink onClick={(() => { window.scrollTo(1.1) })} to={props.path}>
+
+                <div
+                  className="inner-cir text-center ms-3 mb-5 me-auto "
+                  style={{
 
 
-                }}
-              >
-                <i>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path fill="white" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" /></svg>
-                </i>
-              </div>
+                  }}
+                >
+
+                  <i>
+                    <svg style={{ width: '15px' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="white" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" /></svg>
+                  </i>
+
+                </div>
+              </NavLink>
             </div>
 
           </div>

@@ -186,42 +186,46 @@ const Home = () => {
               </h1>
             </div>
           </div>
-          <div className="row gy-5 py-md-0 py-4 d-flex my-5 ">
+          <div className="row gy-5 py-md-0 py-2 d-flex my-4 ">
             <div
-              className=" col-md-3 border border-effect border-dark-subtle  border-bottom-0  "
+              className=" col-md-3 border-effect border-effect2 border border-dark-subtle  border-md-start-0 border-md-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Website  " heading2=" Development" data="Our expert team crafts innovative digital solutions through web development, blending sleek design with robust technology to deliver tailored, engaging, and responsive online experiences that amplify your brand."
+
+
+              <Card heading="Website  " heading2=" Development" path="/frontend" data="Our expert team crafts innovative digital solutions through web development, blending sleek design with robust technology to deliver tailored, engaging, and responsive online experiences that amplify your brand."
               />
 
             </div>
+
             <div
-              className=" col-md-3 border-effect border border-dark-subtle border-bottom-0"
+              className=" col-md-3 border-effect border border-effect2  border-dark-subtle border-start-0 border-md-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Digital  " heading2="Marketing"
+              <Card heading="Digital  " heading2="Marketing" path="/services"
                 data="Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively."
 
               />
 
             </div>
             <div
-              className=" col-md-3 border border-effect border-dark-subtle border-bottom-0"
+              className=" col-md-3 border border-effect border-effect2 border-dark-subtle border-start-0 border-md-bottom-0"
               data-aos="fade-up"
             >
               <Card
                 heading="3D   "
                 heading2="Animations"
+                path="/services"
                 data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
 
               />
 
             </div>
             <div
-              className=" col-md-3 border border-effect border-dark-subtle  border-bottom-0"
+              className=" col-md-3 border border-effect border-effect2 border-dark-subtle  border-start-0 border-md-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Video  " heading2="Editing" data="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects."
+              <Card heading="Video  " heading2="Editing" path="/services" data="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects."
               />
 
             </div>
@@ -254,7 +258,7 @@ const Home = () => {
               <Button text="Our Team" />
             </NavLink>
 
-            <h3 className="my-5" data-aos="fade-up">
+            <h3 className="mt-5" data-aos="fade-up">
               <span>We</span> delivering <br />
               <span>expectational</span> results
             </h3>
@@ -266,7 +270,7 @@ const Home = () => {
             </span>
             <div className="row gx-5 gy-5" data-aos="fade-up">
 
-              <div className="col-md-6 col-12 pt-md-0 pt-5 ">
+              <div className="col-md-6 col-12 pt-md-0 pt-2 ">
                 <TeamCard
                   name="Ehtisham Ilyas"
                   imgsrc={Img4}

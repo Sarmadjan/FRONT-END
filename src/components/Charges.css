@@ -1,32 +1,30 @@
 .hovv:hover {
   background-color: aliceblue;
   color: black;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .hovv {
   color: white;
 }
 
 .hovv2:hover {
-  background-color:#ff9800;
+  background-color: #ff9800;
   color: black;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .hovv2 {
   border-radius: 50px;
-  background-color:#a66c14;
+  background-Color:#ff9800;
   color: black;
 }
 
-
 .hovv3:hover {
-  background-color:#ff9800;
+  background-color: #ff9800;
   color: black;
-  transition: .5s ease-in-out ;
+  transition: 0.5s ease-in-out;
 }
 .hovv3 {
   border-radius: 50px;
-  background-color:#d69128;
+  background-color: #ff9800;
   color: black;
 }
-

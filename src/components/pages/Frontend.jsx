@@ -28,7 +28,7 @@ const Frontend = () => {
   return (
     <div className="container-fluid">
       <div className="row bg-white text-dark first-sec m-0 ">
-      <Navbar/>
+        <Navbar />
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
           <div className="col-md-7 pt-md-5 pt-2 mt-md-5 mt-2">
             <div className="pt-md-5 pt-2 " >
@@ -205,7 +205,7 @@ const Frontend = () => {
         <div className="col-md-10 mx-auto" data-aos="fade-up">
           <div>
             <Charges path="/contact" />
-            
+
           </div>
         </div>
 
@@ -248,29 +248,46 @@ const Frontend = () => {
 
           </div>
 
-          
-            <div className="row my-md-5 my-2 g-3 ">
-              <div className="col-md-4  " data-aos="fade-right">
-                <Service_card service="Web Development" detail="Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs." />
 
-              </div>
-              <div className="col-md-4" data-aos="fade-up">
-                <Service_card service="Digital Marketing" detail="Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively." />
-              </div>
-              <div className="col-md-4" data-aos="fade-left">
-                <Service_card service="3D Animations" detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases." />
-              </div>
+          <div className="row my-md-5 my-2 g-3 ">
+            <div className="col-md-4  " data-aos="fade-right">
+              <Service_card service="Web Development" detail="Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs." />
 
-
+            </div>
+            <div className="col-md-4" data-aos="fade-up">
+              <Service_card service="Digital Marketing" detail="Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively." />
+            </div>
+            <div className="col-md-4" data-aos="fade-left">
+              <Service_card service="3D Animations" detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases." />
             </div>
 
 
-          
+          </div>
+
+
+
 
 
 
 
         </div>
+      </div>
+      <div className="row mx-auto  ">
+        <div className="col-md-10 p-0 main-heading mx-auto text-center">
+          <div className="col mt-md-5 mb-5">
+            <h1 className="shadowtxt">
+              Why Woltrio?
+            </h1>
+
+            <p className="my-md-3  mb-5 my-2 col-md-7 mx-auto text-black">
+              Our dedicated team ensures that your website is not only visually appealing but also functional, secure, and optimized for conversions. From startups to established enterprises, we’ve got the expertise to elevate your online presence.
+            </p>
+          </div>
+        </div>
+
+
+
+
       </div>
 
     </div>

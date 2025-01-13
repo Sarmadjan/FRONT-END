@@ -108,7 +108,7 @@
   background-color: transparent;
   height: 50px;
   font-size: 12px;
-  text-transform: uppercase;
+
   letter-spacing: 2px;
   font-weight: 500;
   font-family: "Outfit", sans-serif;
@@ -126,13 +126,28 @@ input:focus {
   background-color: transparent;
   height: 150px;
   font-size: 12px;
-  text-transform: uppercase;
+
   letter-spacing: 2px;
   font-weight: 500;
   font-family: "Outfit", sans-serif;
   border: none;
 
   border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+
+.form-style select {
+  padding-left: 10px !important;
+  background-color: transparent;
+  font-size: 12px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  border: none;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+}
+::placeholder {
+  color: black;
 }
 textarea:focus {
   outline: none;
@@ -152,7 +167,7 @@ a {
   color: rgba(0, 0, 0, 0.5);
 }
 .Store h2 {
-  font-family: "Carter One", serif;
+  font-size: larger;
   font-weight: 700;
 }
 .Store {
@@ -164,26 +179,52 @@ a {
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .shadowtxt {
-  text-shadow: 5px 5px 10px black;
+  text-shadow: 0px 1px 3px black;
+}
+/* // media query for cards border hover shadow* */
+@media (min-width: 768px) {
+  .border-effect {
+    position: relative;
+    transition: border-top 1s;
+  }
+
+  .border-effect:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 8px;
+    border-radius: 2px;
+    background-color: #ff9800;
+    transition: 0.75s ease-in-out;
+  }
+
+  .border-effect:hover:before {
+    width: 100%;
+  }
 }
 
-.border-effect {
-  position: relative;
-  transition: border-top 1s;
-}
+@media (max-width: 767px) {
+  .border-effect2 {
+    position: relative;
+    transition: border-top 1s;
+  }
 
-.border-effect:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0px;
-  height: 8px;
-  border-radius: 2px;
-  background-color: #ff9800;
-  transition: 0.75s ease-in-out;
-}
+  .border-effect2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 99%;
 
-.border-effect:hover:before {
-  width: 100%;
+    width: 8px;
+    height: 0px;
+    border-radius: 2px;
+    background-color: #ff9800;
+    transition: 0.75s ease-in-out;
+  }
+
+  .border-effect2:hover:after {
+    height: 100%;
+  }
 }
