@@ -186,9 +186,9 @@ const Home = () => {
               </h1>
             </div>
           </div>
-          <div className="row gy-5 py-md-0 py-2 d-flex my-4 ">
+          <div className="row gy-5 py-md-0 py-2 d-flex py-5 my-4 ">
             <div
-              className=" col-md-3 border-effect border-effect2 border border-dark-subtle leftborder border-md-bottom-0"
+              className=" col-md-3 border-effect border-effect2 border border-dark-subtle  border-md-bottom-0"
               data-aos="fade-up"
             >
 
@@ -199,7 +199,7 @@ const Home = () => {
             </div>
 
             <div
-              className=" col-md-3 border-effect border border-effect2  border-dark-subtle border-start-0 border-md-bottom-0"
+              className=" col-md-3 border-effect border border-effect2  border-dark-subtle  border-md-bottom-0"
               data-aos="fade-up"
             >
               <Card heading="Digital  " heading2="Marketing" path="/services"
@@ -209,7 +209,7 @@ const Home = () => {
 
             </div>
             <div
-              className=" col-md-3 border border-effect border-effect2 border-dark-subtle border-start-0 border-md-bottom-0"
+              className=" col-md-3 border border-effect border-effect2 border-dark-subtle  border-md-bottom-0"
               data-aos="fade-up"
             >
               <Card
@@ -222,7 +222,7 @@ const Home = () => {
 
             </div>
             <div
-              className=" col-md-3 border border-effect border-effect2 border-dark-subtle  border-start-0 border-md-bottom-0"
+              className=" col-md-3 border border-effect border-effect2 border-dark-subtle   border-md-bottom-0"
               data-aos="fade-up"
             >
               <Card heading="Video  " heading2="Editing" path="/services" data="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects."

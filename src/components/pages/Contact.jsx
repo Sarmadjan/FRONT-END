@@ -9,12 +9,14 @@ import { useState } from "react";
 import emailjs from '@emailjs/browser'
 import Navbar from "../Navbar";
 
+import ButtonSubmit from "../button/ButtonSubmit";
+
 const Contact = () => {
   const [loading, setIsLoading] = useState(false)
   const [msg, setMsg] = useState("")
   const initialState = {
     name: "",
-    Number: "",
+    number: "",
     email: "",
     type: "",
     message: "",
@@ -25,7 +27,7 @@ const Contact = () => {
 
     try {
       e.preventDefault()
-      const res = await emailjs.send('service_3be2sfq', 'template_53137um', { to_name: "Woltrio", message: formData.message, from_name: formData.name, type: formData.type, Number: formData.Number }, {
+      const res = await emailjs.send('service_3be2sfq', 'template_53137um', { to_name: "Woltrio", message: formData.message, from_name: formData.name, type: formData.type, Number: formData.number }, {
         publicKey: "K74BWp8TF2bWZLOvB"
       })
       if (res.status == 200) {
@@ -106,7 +108,7 @@ const Contact = () => {
                     aria-label=""
                     required
                     onChange={(e) => {
-                      setFormData({ ...formData, Number: e.target.value })
+                      setFormData({ ...formData, number: e.target.value })
 
                     }}
                     aria-describedby=""
@@ -152,27 +154,17 @@ const Contact = () => {
                 </div>
 
               </div>
-              <button type="submit" className="hovv3 col-md-3  py-2 mt-4  mx-auto  d-flex justify-content-around align-items-center px-2 " >
-                <div style={{ textTransform: "uppercase", margin: "0 20px" }}>
+
+              <ButtonSubmit text="Send Message" type="submit">
+                <div>
                   {loading ? <div className="spinner-border text-warning" role="status">
                     <span className="visually-hidden">Loading...</span>
                   </div> : <div>
-                    Send Message
+
                   </div>}
                 </div>
-                <div className="rounded-circle" style={{ backgroundColor: "black" }}>
-                  <svg
-                    style={{ width: "35px", backgroundColor: 'dark', padding: "10px" }}
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <path
-                      fill="white" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-                  </svg>{" "}
-                </div>
+              </ButtonSubmit>
 
-
-              </button>
             </form>
             <div  >
               {msg && <div className="text-success ">{msg}</div>}

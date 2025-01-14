@@ -1,13 +1,11 @@
 /* eslint-disable react/prop-types */
 import "./Button.css";
-const Button = (props) => {
+const ButtonSubmit = (props) => {
   return (
     <div className="input-group input-group-lg w-100 d-flex justify-content-center mt-4 ">
       <div className="custom-input-wrapper ">
-        <button onClick={() => {
-          window.scrollTo(0, 0)
-        }} className="custom-button px-5 jhjh" style={{ color: props.color }}>{props.text}</button>
-        <button className="custom-arrow-btn ">
+        <button className="custom-button px-5 jhjh" style={{ color: props.color }}>{props.text}</button>
+        <button className="custom-arrow-btn  ">
           <svg
             style={{ width: "30px" }}
             xmlns="http://www.w3.org/2000/svg"
@@ -23,4 +21,4 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export default ButtonSubmit;
