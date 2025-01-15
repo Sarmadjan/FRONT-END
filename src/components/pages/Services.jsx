@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 // import ButtonD from "../button/ButtonD";
 import Button from "../button/Button";
+import { motion } from 'framer-motion';
 
 
 import ButtonD from "../button/ButtonD";
@@ -20,7 +21,12 @@ const Services = () => {
   }, []);
   return (
     <>
-      <div style={{ overflow: "hidden" }}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: .1 }}
+
+        style={{ overflow: "hidden" }}>
 
         <div className="row bg-black mt-0">
           <Navbar />
@@ -188,7 +194,7 @@ const Services = () => {
         </div>
 
 
-      </div>
+      </motion.div>
     </>
   );
 };

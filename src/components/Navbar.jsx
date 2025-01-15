@@ -44,7 +44,7 @@ function Navbar() {
 
       {/* Navbar Links */}
       <div className="collapse navbar-collapse" id="navbarResponsive">
-        <ul className="navbar-nav ms-auto pe-5">
+        <ul className="navbar-nav ms-auto pe-2">
           <li className="nav-item">
 
             <NavLink
@@ -83,11 +83,16 @@ function Navbar() {
               Contact
             </NavLink>
           </li>
+         
+
 
 
 
         </ul>
+
       </div>
+
+
 
     </nav>
 

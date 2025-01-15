@@ -7,7 +7,7 @@ const Button = (props) => {
         <button onClick={() => {
           window.scrollTo(0, 0)
         }} className="custom-button px-5 jhjh" style={{ color: props.color }}>{props.text}</button>
-        <button className="custom-arrow-btn ">
+        <button className="custom-arrow-btn  ">
           <svg
             style={{ width: "30px" }}
             xmlns="http://www.w3.org/2000/svg"

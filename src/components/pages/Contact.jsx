@@ -8,6 +8,7 @@ import { useState } from "react";
 
 import emailjs from '@emailjs/browser'
 import Navbar from "../Navbar";
+import { motion } from 'framer-motion';
 
 import ButtonSubmit from "../button/ButtonSubmit";
 
@@ -47,7 +48,11 @@ const Contact = () => {
   }
   return (
     <div>
-      <div className="container-fluid bg-white ">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: .1 }}
+        className="container-fluid bg-white ">
         <Navbar />
         <div className="col-md-10 mx-auto  py-5">
           <div className="row main-heading ">
@@ -83,7 +88,7 @@ const Contact = () => {
               Lets <span style={{ fontWeight: "200" }}> Talk! </span>
             </h1>
           </div>
-          <div className="row gx-5 py-5 mx-2">
+          <div className="row gx-5 py-5 mx-2 mb-5">
             <form action="" className=" form-style" onSubmit={handleSubmit}>
               <div className="row">
                 <div className="col-md-6">
@@ -130,7 +135,7 @@ const Contact = () => {
 
 
                 <div className="col-md-6">
-                  <select className="w-100 p-3" required onChange={(e) => { setFormData({ ...formData, type: e.target.value }) }}>
+                  <select className="w-100 " required onChange={(e) => { setFormData({ ...formData, type: e.target.value }) }}>
                     <option value=""> <span>Select service type </span></option>
                     <option value="Web Development">Web Development</option>
                     <option value="Mobile App Development">Mobile App Development</option>
@@ -177,7 +182,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

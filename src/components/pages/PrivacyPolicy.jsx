@@ -1,10 +1,14 @@
-
+import { motion } from 'framer-motion';
 
 const PrivacyPolicy = () => {
     return (
-        <div>
+        <motion.div
 
-        </div>
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: .1 }}>
+
+        </motion.div>
     )
 }
 

@@ -5,10 +5,16 @@ import Button from "../button/Button";
 import Img4 from "../images/p4.jpg";
 import "./home.css";
 import Navbar from "../Navbar";
+import { motion } from 'framer-motion';
 const Team = () => {
     return (
         <div>
-            <div className="row g-0">
+            <motion.div
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{delay:.1}}
+             
+             className="row g-0">
                 <div className="col-md-10 mx-auto">
                 <Navbar/>
                     <div className="col-md-7 pt-5 mt-5">
@@ -133,7 +139,7 @@ const Team = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
 
         </div>
     )

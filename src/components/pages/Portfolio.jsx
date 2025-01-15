@@ -10,6 +10,9 @@ import Img4 from "../images/cascade.jpg";
 import Img5 from "../images/Air.jpg";
 import Img6 from "../images/tony.jpg";
 
+import { motion } from 'framer-motion';
+
+
 import ButtonD from "../button/ButtonD";
 import Button from "../button/Button";
 import { NavLink } from "react-router-dom";
@@ -24,18 +27,25 @@ const Portfolio = () => {
     });
   }, []);
   return (
-    <div >
-      <Navbar/>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: .1 }}
+
+    >
+      <Navbar />
       <div className="col-md-10 mx-md-auto px-md-0 px-3 m-0 main-heading">
-      
+
         <div className="row m-0">
           <div
+
             className="col-md-7 mt-5 py-5"
             style={{ paddingTop: "80px", paddingBottom: "80px" }}
           >
             <div className="pt-5">
               {" "}
-              <h1>
+              <h1
+              >
                 {" "}
                 Designing a <br /> better
                 <span> World Today</span>{" "}
@@ -105,7 +115,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

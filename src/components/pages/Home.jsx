@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 
 import img3 from "../images/p3.jpg";
 import { NavLink } from "react-router-dom";
+import { motion } from 'framer-motion';
 
 import "./home.css";
 import Img1 from "../images/p1.jpg";
@@ -18,6 +19,7 @@ import TeamCard from "../TeamCard";
 import Navbar from "../Navbar";
 
 
+
 const Home = () => {
   useEffect(() => {
     AOS.init({
@@ -28,7 +30,12 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <motion.div
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    transition={{delay:.1}}
+    >
+
       <div className="container-fluid">
         <div className="row bg-black text-light first-sec ">
           <Navbar />
@@ -166,6 +173,8 @@ const Home = () => {
               grow and move forward.
             </p>
           </div>
+
+      
           <div className="row d-flex justify-content-center py-5 text-light main-heading line-center  ">
             <div
               className="col-md-3 d-flex justify-content-md-end justify-content-center "
@@ -186,7 +195,8 @@ const Home = () => {
               </h1>
             </div>
           </div>
-          <div className="row gy-5 py-md-0 py-2 d-flex py-5 my-4 ">
+          <div className="row gy-5 py-md-0 py-2 d-flex px-md-5 py-5 my-4 ">
+            
             <div
               className=" col-md-3 border-effect border-effect2 border border-dark-subtle  border-md-bottom-0"
               data-aos="fade-up"
@@ -280,7 +290,7 @@ const Home = () => {
               </div>
 
 
-              <div className="col-md-6 col-12  ">
+              <div className="col-md-6 pt-md-5 pt-2 col-12  ">
                 <TeamCard
                   name="Yasir Khan"
                   imgsrc={Img4}
@@ -289,7 +299,7 @@ const Home = () => {
                 />
               </div>
 
-              <div className="col-md-6 col-12 pt-md-0 pt-5 ">
+              <div className="col-md-6 col-12 pt-md-0 pt-2 ">
                 <TeamCard
                   name="Sher (Ali) Khan"
                   imgsrc={Img4}
@@ -297,7 +307,7 @@ const Home = () => {
                   linkedin="https://www.linkedin.com/in/sharewithsher/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
               </div>
-              <div className="col-md-6 col-12 pt-md-0 pt-5 ">
+              <div className="col-md-6 col-12 pt-md-5 pt-2 ">
                 <TeamCard
                   name="Waqas Hussain"
                   imgsrc={Img4}
@@ -424,7 +434,7 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-    </div>
+    </motion.div>
   );
 };
 

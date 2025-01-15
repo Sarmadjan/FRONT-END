@@ -11,6 +11,7 @@ import Button_Rm from "../button/Button-Rm";
 import Charges from "../Charges";
 import Service_card from "../Service_card";
 import "./home.css";
+import { motion } from 'framer-motion';
 import Navbar from "../Navbar";
 const Wordpress = () => {
     useEffect(() => {
@@ -21,8 +22,13 @@ const Wordpress = () => {
         });
     }, []);
     return (
-        <div  style={{overflow:"hidden"}}  className="row  g-0">
-            <Navbar/>
+        <motion.div
+
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: .1 }}
+            style={{ overflow: "hidden" }} className="row  g-0">
+            <Navbar />
             <div className="row g-0  bg-white text-dark first-sec m-0 ">
                 <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
                     <div className="row g-0 align-items-center pt-md-5 pt-2 mt-md-5 mt-2">
@@ -146,7 +152,7 @@ const Wordpress = () => {
                 </div>
             </div>
 
-            <div   className="row g-0 bg-black m-o main-heading  pt-5 ">
+            <div className="row g-0 bg-black m-o main-heading  pt-5 ">
                 <div className="col-md-10 mx-auto">
                     <div className="col-md-7 text-center mx-auto">
                         <h1 className="text-white mt-md-5 mt-2" data-aos="fade-up">
@@ -168,7 +174,7 @@ const Wordpress = () => {
                     </div>
                 </div>
             </div>
-            <div  className="row g-0 bg-black " >
+            <div className="row g-0 bg-black " >
                 <div className="col-md-10 mx-auto" data-aos="fade-up">
 
                     <div className="col-12 Store rounded-4 w-50 mx-auto text-uppercase  my-5 text-center  py-4 border-bottom">
@@ -271,7 +277,7 @@ const Wordpress = () => {
                     </div>
                 </NavLink>
             </div>
-            <div     className="row g-0">
+            <div className="row g-0">
                 <div className="col-md-10 mx-auto">
                     <div className="d-flex justify-content-between align-items-center ">
                         <div className="col-md-4 mt-3 ">
@@ -327,7 +333,7 @@ const Wordpress = () => {
 
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

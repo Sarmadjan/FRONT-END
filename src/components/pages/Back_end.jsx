@@ -11,6 +11,7 @@ import Firebase_FAQ_s from "../Firebase_FAQ_s ";
 
 import ButtonD from "../button/ButtonD";
 import Button_Rm from "../button/Button-Rm";
+import { motion } from 'framer-motion';
 
 import Charges from "../Charges";
 import Service_card from "../Service_card";
@@ -25,7 +26,13 @@ const Back_end = () => {
     });
   }, []);
   return (
-    <div className="container-fluid">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: .1 }}
+      style={{ overflow: "hidden" }}
+
+      className="container-fluid">
       <div className="row bg-white text-dark first-sec m-0 ">
         <Navbar />
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
@@ -279,7 +286,7 @@ const Back_end = () => {
 
       </div>
 
-    </div>
+    </motion.div>
   );
 };
 
