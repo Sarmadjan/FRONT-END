@@ -1,21 +1,23 @@
 import Button from "../button/Button";
 import img2 from "../images/p2.jpg";
 import AOS from "aos";
+import Img4 from "../images/p4.jpg"
 import "aos/dist/aos.css";
 
 import img3 from "../images/p3.jpg";
 import { NavLink } from "react-router-dom";
 import { motion } from 'framer-motion';
+import TeamCard from "../TeamCard";
 
 import "./home.css";
 import Img1 from "../images/p1.jpg";
 import Card from "../Card";
-import Img4 from "../images/p4.jpg";
+
 import { useEffect } from "react";
 // import m1 from "../images/m1.jpg";
 // import m2 from "../images/m2.jpg";
 import Button_Rm from "../button/Button-Rm";
-import TeamCard from "../TeamCard";
+
 import Navbar from "../Navbar";
 
 
@@ -278,23 +280,77 @@ const Home = () => {
               {" "}
               <p className="text-end">The Founders of our agency</p>
             </span>
-            <div className="row gx-5 gy-5" data-aos="fade-up">
+
+
+            {/* BADGES FROM LINKEDIN */}
+
+
+            <div className="row d-md-none d-sm-block gx-5 gy-5" data-aos="fade-up">
 
               <div className="col-md-6 col-12 pt-md-0 pt-2 ">
-                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
-
+                <TeamCard
+                  name="Ehtisham Ilyas"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                  linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
 
               </div>
 
 
               <div className="col-md-6 pt-md-5 pt-2 col-12  ">
-                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
+                <TeamCard
+                  name="Yasir Khan"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                  linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                />
               </div>
 
               <div className="col-md-6 col-12 pt-md-0 pt-2 ">
-                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
+                <TeamCard
+                  name="Sher (Ali) Khan"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                  linkedin="https://www.linkedin.com/in/sharewithsher/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                />
               </div>
               <div className="col-md-6 col-12 pt-md-5 pt-2 ">
+                <TeamCard
+                  name="Waqas Hussain"
+                  imgsrc={Img4}
+                  title={"ART DIRECTOR"}
+                  linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                />
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div className="row d-none d-md-flex  gx-5 gy-5" data-aos="fade-up">
+
+
+
+              <div className="col-md-6 rounded-lg pt-2  col-12  ">
+                <div className="  badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ehtisham-ilyas" data-version="v1"><a className=" badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/ehtisham-ilyas?trk=profile-badge"></a></div> </div>
+
+
+              <div className="col-md-6 col-12  pt-2  ">
+                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yasir-khan-a58677137" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/yasir-khan-a58677137?trk=profile-badge"></a></div>
+
+              </div>
+
+
+
+              <div className="col-md-6 col-12 pt-2 ">
+                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
+              </div>
+              <div className="col-md-6 col-12  pt-2 ">
                 <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
               </div>
             </div>
