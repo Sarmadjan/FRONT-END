@@ -31,9 +31,9 @@ const Home = () => {
 
   return (
     <motion.div
-    initial={{opacity:0}}
-    animate={{opacity:1}}
-    transition={{delay:.1}}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: .1 }}
     >
 
       <div className="container-fluid">
@@ -174,7 +174,7 @@ const Home = () => {
             </p>
           </div>
 
-      
+
           <div className="row d-flex justify-content-center py-5 text-light main-heading line-center  ">
             <div
               className="col-md-3 d-flex justify-content-md-end justify-content-center "
@@ -196,9 +196,9 @@ const Home = () => {
             </div>
           </div>
           <div className="row gy-5 py-md-0 py-2 d-flex px-md-5 py-5 my-4 ">
-            
+
             <div
-              className=" col-md-3 border-effect border-effect2 border border-dark-subtle  border-md-bottom-0"
+              className=" col-md-3 border-effect border-effect2  border border-success border-opacity-25  border-md-bottom-0"
               data-aos="fade-up"
             >
 
@@ -209,7 +209,7 @@ const Home = () => {
             </div>
 
             <div
-              className=" col-md-3 border-effect border border-effect2  border-dark-subtle  border-md-bottom-0"
+              className=" col-md-3 border-effect border border-effect2  border-opacity-25 border-success  border-md-bottom-0"
               data-aos="fade-up"
             >
               <Card heading="Digital  " heading2="Marketing" path="/services"
@@ -219,11 +219,11 @@ const Home = () => {
 
             </div>
             <div
-              className=" col-md-3 border border-effect border-effect2 border-dark-subtle  border-md-bottom-0"
+              className=" col-md-3 border border-effect border-effect2 border-opacity-25 border-success  border-md-bottom-0"
               data-aos="fade-up"
             >
               <Card
-                heading="3D   "
+                heading="3D"
                 heading2="Animations"
                 path="/services"
                 data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
@@ -232,7 +232,7 @@ const Home = () => {
 
             </div>
             <div
-              className=" col-md-3 border border-effect border-effect2 border-dark-subtle   border-md-bottom-0"
+              className=" col-md-3 border border-effect border-effect2 border-opacity-25 border-success   border-md-bottom-0"
               data-aos="fade-up"
             >
               <Card heading="Video  " heading2="Editing" path="/services" data="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects."
@@ -281,39 +281,21 @@ const Home = () => {
             <div className="row gx-5 gy-5" data-aos="fade-up">
 
               <div className="col-md-6 col-12 pt-md-0 pt-2 ">
-                <TeamCard
-                  name="Ehtisham Ilyas"
-                  imgsrc={Img4}
-                  title={"ART DIRECTOR"}
-                  linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
+                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
+
 
               </div>
 
 
               <div className="col-md-6 pt-md-5 pt-2 col-12  ">
-                <TeamCard
-                  name="Yasir Khan"
-                  imgsrc={Img4}
-                  title={"ART DIRECTOR"}
-                  linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                />
+                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
               </div>
 
               <div className="col-md-6 col-12 pt-md-0 pt-2 ">
-                <TeamCard
-                  name="Sher (Ali) Khan"
-                  imgsrc={Img4}
-                  title={"ART DIRECTOR"}
-                  linkedin="https://www.linkedin.com/in/sharewithsher/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                />
+                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
               </div>
               <div className="col-md-6 col-12 pt-md-5 pt-2 ">
-                <TeamCard
-                  name="Waqas Hussain"
-                  imgsrc={Img4}
-                  title={"ART DIRECTOR"}
-                  linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                />
+                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
               </div>
             </div>
           </div>

@@ -1,22 +1,23 @@
 import { NavLink } from "react-router-dom";
-import TeamCard from "../TeamCard";
+
 import ButtonD from "../button/ButtonD";
 import Button from "../button/Button";
-import Img4 from "../images/p4.jpg";
+
 import "./home.css";
 import Navbar from "../Navbar";
 import { motion } from 'framer-motion';
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 const Team = () => {
     return (
         <div>
             <motion.div
-            initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{delay:.1}}
-             
-             className="row g-0">
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: .1 }}
+
+                className="row g-0">
                 <div className="col-md-10 mx-auto">
-                <Navbar/>
+                    <Navbar />
                     <div className="col-md-7 pt-5 mt-5">
                         <div className="pt-5 px-md-0 px-3 main-heading">
                             {" "}
@@ -35,69 +36,28 @@ const Team = () => {
 
                     <div id="section2" className="row  my-5 g-5 mx-0 px-0 py-5">
                         <div className="col-md-3" data-aos="zoom-in">
-                            <TeamCard
-                                name="Ehtisham Ilyas"
-                                imgsrc={Img4}
-                                title={"ART DIRECTOR"}
-                                linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
+
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
-                            <TeamCard
-                                name="Syed Ali Musa
- "
-                                imgsrc={Img4}
-                                title={"ART DIRECTOR"}
-                                linkedin="https://www.linkedin.com/in/syedalimusa/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                            />
+                            <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
+
+
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
-                            <TeamCard
-                                name="Awon Ali
-"
-                                imgsrc={Img4}
-                                title={"ART DIRECTOR"}
-                                linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                            />
+
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
-                            <TeamCard
-                                name="Syed Ali Musa
- "
-                                imgsrc={Img4}
-                                title={"ART DIRECTOR"}
-                                linkedin="https://www.linkedin.com/in/syedalimusa/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                            />
+
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
-                            <TeamCard
-                                name="Yasir Khan"
-                                imgsrc={Img4}
-                                title={"ART DIRECTOR"}
-                                linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                            />
-                        </div>
-                        <div className="col-md-3" data-aos="zoom-in">
-                            <TeamCard
-                                name="Sher (Ali) Khan"
-                                imgsrc={Img4}
-                                title={"ART DIRECTOR"}
-                                linkedin="https://www.linkedin.com/in/sharewithsher/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                            />
+
                         </div>
                         <div className="col-md-3  " data-aos="zoom-in">
-                            <TeamCard
-                                name="Waqas Hussain"
-                                imgsrc={Img4}
-                                title={"ART DIRECTOR"}
-                                linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                            />
+
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
-                            <TeamCard
-                                name="Ema Oldman"
-                                imgsrc={Img4}
-                                title={"ART DIRECTOR"}
-                            />
+
                         </div>
 
 
