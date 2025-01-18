@@ -34,94 +34,94 @@ const Home = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: .1 }}
     >
-      
+
       <div className="container-fluid">
         <div className="row bg-black text-light first-sec ">
           <Navbar />
 
 
           <ParticleEffect>
-          <div className="col-md-10 p-md-3  mx-auto main-heading my-md-5 ">
+            <div className="col-md-10 p-md-3  mx-auto main-heading my-md-5 ">
 
-            <div className="col-md-7 pt-3 mt-5">
-              <div className="">
-                {" "}
-                <h1>
+              <div className="col-md-7 pt-3 mt-5">
+                <div className="">
                   {" "}
-                  Innovative  <span> Solutions For </span>
-                  Digital <span> Excellance</span>{" "}
-                </h1>
+                  <h1>
+                    {" "}
+                    Innovative  <span> Solutions For </span>
+                    Digital <span> Excellance</span>{" "}
+                  </h1>
+                </div>
               </div>
-            </div>
-            <div className=" col-md-6 my-3 my-md-5 ">
-              <p>
-                Woltrio is a dynamic agency that specializes in website development, digital marketing, 3D animations, and video editing, committed to helping brands thrive in the digital world.
-              </p>
-            </div>
-
-            <div className=" row d-flex align-items-center">
-              <div className="col-md-3 mb-5 mb-md-0 m-0">
-                <NavLink to="/services">
-                  <Button text="WHAT WE DO" />
-                </NavLink>
+              <div className=" col-md-6 my-3 my-md-5 ">
+                <p>
+                  Woltrio is a dynamic agency that specializes in website development, digital marketing, 3D animations, and video editing, committed to helping brands thrive in the digital world.
+                </p>
               </div>
 
-              <div className=" d-none d-md-block ms-md-4  col-md-2  ">
-                <NavLink to="/portfolio">
-                  <Button_Rm text="Read more" color="white" />
-                </NavLink>
-              </div>
+              <div className=" row d-flex align-items-center">
+                <div className="col-md-3 mb-5 mb-md-0 m-0">
+                  <NavLink to="/services">
+                    <Button text="WHAT WE DO" />
+                  </NavLink>
+                </div>
 
-              <a
-                href="#section-2"
-                className=" d-none d-md-block  ms-auto mb-md-0 mb-3  "
-                style={{
-                  position: "relative",
-                  height: "70px",
-                  width: "70px",
-                  backgroundColor: "#ff9800",
-                  borderRadius: "50%",
-                }}
-              >
-                <div
-                  className="inner-cir text-center "
+                <div className=" d-none d-md-block ms-md-4  col-md-2  ">
+                  <NavLink to="/portfolio">
+                    <Button_Rm text="Read more" color="white" />
+                  </NavLink>
+                </div>
+
+                <a
+                  href="#section-2"
+                  className=" d-none d-md-block  ms-auto mb-md-0 mb-3  "
                   style={{
-
-
-                    right: "10px",
-                    top: "25%",
-                    left: "25%",
-                    position: "absolute",
-                    height: "35px",
-                    width: "35px",
-                    backgroundColor: "black",
+                    position: "relative",
+                    height: "70px",
+                    width: "70px",
+                    backgroundColor: "#ff9800",
                     borderRadius: "50%",
                   }}
                 >
-                  <svg
-                    style={{ width: "15px" }}
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"
+                  <div
+                    className="inner-cir text-center "
+                    style={{
+
+
+                      right: "10px",
+                      top: "25%",
+                      left: "25%",
+                      position: "absolute",
+                      height: "35px",
+                      width: "35px",
+                      backgroundColor: "black",
+                      borderRadius: "50%",
+                    }}
                   >
-                    <path
-                      fill="white"
-                      d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-                    />
-                  </svg>
-                </div>
-              </a>
+                    <svg
+                      style={{ width: "15px" }}
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        fill="white"
+                        d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
           </ParticleEffect>
         </div>
       </div>
-  
-        <div id="section-2" className="container-fluid">
+
+      <div id="section-2" className="container-fluid">
         <div className="col-10 mx-auto">
 
-         
+
           <div className="row  d-flex justify-content-between">
-       
+
             <div
               className="col-md-5 main-heading pt-md-5 mt-md-5 "
               data-aos="fade-up"
@@ -170,8 +170,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        </div>
-      
+      </div>
+
       <div className="container-fluid bg-black mt-md-5 sec-3">
         <div className="col-10 mx-auto pt-md-5">
           <div className="col-md-4 ms-auto pt-5 ">
@@ -319,14 +319,14 @@ const Home = () => {
                   linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
               </div>
-              <div className="col-md-6 col-12 pt-md-5 pt-2 ">
+              {/* <div className="col-md-6 col-12 pt-md-5 pt-2 ">
                 <TeamCard
                   name="Waqas Hussain"
                   imgsrc={'/images/Team/Waqas Hussain.jfif'}
                   title={"ART DIRECTOR"}
                   linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
-              </div>
+              </div> */}
             </div>
 
 
@@ -349,12 +349,13 @@ const Home = () => {
                 <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yasir-khan-a58677137" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/yasir-khan-a58677137?trk=profile-badge"></a></div>
 
               </div>
-
-
-
-              <div className="col-md-6 col-12 pt-2 ">
-                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
+              <div className="col-md-6 col-12  pt-2 ">
+                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="awon-ali-294877122" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/awon-ali-294877122?trk=profile-badge"></a></div>
               </div>
+
+
+
+
               <div className="col-md-6 col-12  pt-2 ">
                 <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
               </div>
