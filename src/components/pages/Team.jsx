@@ -82,8 +82,8 @@ const Team = () => {
 
                         <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
-                                name=""
-                                imgsrc={Img4}
+                                name="Ehtisham Ilyas"
+                                imgsrc={'/images/Team/Ehtisham Ilyas.jfif'}
                                 title={"ART DIRECTOR"}
                                 linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
                         </div>
@@ -100,7 +100,7 @@ const Team = () => {
                             <TeamCard
                                 name="Awon Ali
 "
-                                imgsrc={Img4}
+                                imgsrc={'/images/Team/aawn.jfif'}
                                 title={"ART DIRECTOR"}
                                 linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
@@ -117,7 +117,7 @@ const Team = () => {
                         <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
                                 name="Yasir Khan"
-                                imgsrc={Img4}
+                                imgsrc={'/images/Team/yasir khan.jfif'}
                                 title={"ART DIRECTOR"}
                                 linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
@@ -133,7 +133,7 @@ const Team = () => {
                         <div className="col-md-3  " data-aos="zoom-in">
                             <TeamCard
                                 name="Waqas Hussain"
-                                imgsrc={Img4}
+                                imgsrc={'/images/Team/Waqas Hussain.jfif'}
                                 title={"ART DIRECTOR"}
                                 linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />

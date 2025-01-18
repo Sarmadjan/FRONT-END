@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@popperjs/core": "^2.11.8",
+    "@tsparticles/engine": "^3.7.1",
     "@tsparticles/react": "^3.0.0",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.3",

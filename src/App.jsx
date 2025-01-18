@@ -12,11 +12,14 @@ import Team from "./components/pages/Team";
 import Wordpress from "./components/pages/Wordpress";
 
 
+
 export default function App() {
   return (
     <Router>
+
       <MouseFollower />
       <Routes>
+
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/services" element={<Services />} />

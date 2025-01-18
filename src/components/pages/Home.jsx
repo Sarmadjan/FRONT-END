@@ -1,23 +1,19 @@
 import Button from "../button/Button";
 import img2 from "../images/p2.jpg";
 import AOS from "aos";
-import Img4 from "../images/p4.jpg"
 import "aos/dist/aos.css";
-
 import img3 from "../images/p3.jpg";
 import { NavLink } from "react-router-dom";
 import { motion } from 'framer-motion';
 import TeamCard from "../TeamCard";
-
 import "./home.css";
 import Img1 from "../images/p1.jpg";
 import Card from "../Card";
-
 import { useEffect } from "react";
+import { ParticleEffect } from "../../assets/particles";
 // import m1 from "../images/m1.jpg";
 // import m2 from "../images/m2.jpg";
 import Button_Rm from "../button/Button-Rm";
-
 import Navbar from "../Navbar";
 
 
@@ -32,18 +28,21 @@ const Home = () => {
   }, []);
 
   return (
+
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: .1 }}
     >
-
+      
       <div className="container-fluid">
         <div className="row bg-black text-light first-sec ">
           <Navbar />
 
 
+          <ParticleEffect>
           <div className="col-md-10 p-md-3  mx-auto main-heading my-md-5 ">
+
             <div className="col-md-7 pt-3 mt-5">
               <div className="">
                 {" "}
@@ -61,13 +60,13 @@ const Home = () => {
             </div>
 
             <div className=" row d-flex align-items-center">
-              <div className="col-md-3 m-0">
+              <div className="col-md-3 mb-5 mb-md-0 m-0">
                 <NavLink to="/services">
                   <Button text="WHAT WE DO" />
                 </NavLink>
               </div>
 
-              <div className="ms-md-4 col-md-2  ">
+              <div className=" d-none d-md-block ms-md-4  col-md-2  ">
                 <NavLink to="/portfolio">
                   <Button_Rm text="Read more" color="white" />
                 </NavLink>
@@ -75,7 +74,7 @@ const Home = () => {
 
               <a
                 href="#section-2"
-                className=" ms-auto mb-md-0 mb-3  "
+                className=" d-none d-md-block  ms-auto mb-md-0 mb-3  "
                 style={{
                   position: "relative",
                   height: "70px",
@@ -113,11 +112,16 @@ const Home = () => {
               </a>
             </div>
           </div>
+          </ParticleEffect>
         </div>
       </div>
-      <div id="section-2" className="container-fluid">
+  
+        <div id="section-2" className="container-fluid">
         <div className="col-10 mx-auto">
+
+         
           <div className="row  d-flex justify-content-between">
+       
             <div
               className="col-md-5 main-heading pt-md-5 mt-md-5 "
               data-aos="fade-up"
@@ -166,7 +170,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+        </div>
+      
       <div className="container-fluid bg-black mt-md-5 sec-3">
         <div className="col-10 mx-auto pt-md-5">
           <div className="col-md-4 ms-auto pt-5 ">
@@ -290,7 +295,7 @@ const Home = () => {
               <div className="col-md-6 col-12 pt-md-0 pt-2 ">
                 <TeamCard
                   name="Ehtisham Ilyas"
-                  imgsrc={Img4}
+                  imgsrc={'/images/Team/Ehtisham Ilyas.jfif'}
                   title={"ART DIRECTOR"}
                   linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
 
@@ -300,7 +305,7 @@ const Home = () => {
               <div className="col-md-6 pt-md-5 pt-2 col-12  ">
                 <TeamCard
                   name="Yasir Khan"
-                  imgsrc={Img4}
+                  imgsrc={'/images/Team/yasir khan.jfif'}
                   title={"ART DIRECTOR"}
                   linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
@@ -308,16 +313,16 @@ const Home = () => {
 
               <div className="col-md-6 col-12 pt-md-0 pt-2 ">
                 <TeamCard
-                  name="Sher (Ali) Khan"
-                  imgsrc={Img4}
+                  name="Awon Ali"
+                  imgsrc={'/images/Team/aawn.jfif'}
                   title={"ART DIRECTOR"}
-                  linkedin="https://www.linkedin.com/in/sharewithsher/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
               </div>
               <div className="col-md-6 col-12 pt-md-5 pt-2 ">
                 <TeamCard
                   name="Waqas Hussain"
-                  imgsrc={Img4}
+                  imgsrc={'/images/Team/Waqas Hussain.jfif'}
                   title={"ART DIRECTOR"}
                   linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
@@ -332,7 +337,7 @@ const Home = () => {
 
 
 
-            <div className="row d-none d-md-flex  gx-5 gy-5" data-aos="fade-up">
+            <div className="row d-none d-md-flex   gx-5 gy-5" data-aos="fade-up">
 
 
 
@@ -473,6 +478,7 @@ const Home = () => {
         </div>
       </div> */}
     </motion.div>
+
   );
 };
 
