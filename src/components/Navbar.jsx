@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
-import logo from "../components/images/LOGO.png";
+
 import NavbarItem from "./Navbaritem";
 
 
@@ -22,11 +22,11 @@ function Navbar() {
   return (
 
 
-    <nav className="navbar mx-auto mt-4 z-3 navbar-expand-lg navbar-light bg-transperant   navvv  py-2 pt-md-3 m-0">
+    <nav className="navbar mx-auto px-md-5 px-1 mt-4 z-3 navbar-expand-lg navbar-light bg-transperant   navvv  py-2 pt-md-3 m-0">
 
       {/* Logo */}
       <NavLink className="navbar-brand ms-3 " to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
-        <img className="img-fluid" src={logo} alt="Logo" />
+        <img className="img-fluid" src="/images/Logo Dark.svg" alt="Logo" />
       </NavLink>
 
       {/* Toggle Button for Small Screens */}

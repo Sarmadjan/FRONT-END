@@ -32,7 +32,7 @@ const Back_end = () => {
       transition={{ delay: .1 }}
       style={{ overflow: "hidden" }}
 
-      className="container-fluid">
+      className="container-fluid mx-0 px-0">
       <div className="row bg-white text-dark first-sec m-0 ">
         <Navbar />
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
