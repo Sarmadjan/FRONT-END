@@ -79,6 +79,11 @@ const Team = () => {
 
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="adil-rajpoot-88002b2b5" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/adil-rajpoot-88002b2b5?trk=profile-badge"></a></div>
+
+
+                        </div>
+                        <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sarmad06" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sarmad06?trk=profile-badge"></a></div>
 
 
@@ -155,13 +160,26 @@ const Team = () => {
                                 title={"Full Stack developer"}
                             />
                         </div>
-                        <TeamCard
-                            name="SARMAD ALi"
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <TeamCard
+                                name="Adil Rajpoot
+"
 
-                            linkedin="https://www.linkedin.com/in/sarmad06"
-                            imgsrc={'/images/Team/Sarmad.jpg'}
-                            title={"Front-end Intern"}
-                        />
+                                linkedin="https://www.linkedin.com/in/adil-rajpoot-88002b2b5/"
+                                imgsrc={'/images/Team/Adil.jfif'}
+                                title={"BUSINESS DEVELOPMENT MANAGER"}
+                            />
+                        </div>
+
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <TeamCard
+                                name="SARMAD ALi"
+
+                                linkedin="https://www.linkedin.com/in/sarmad06"
+                                imgsrc={'/images/Team/Sarmad.jpg'}
+                                title={"Front-end Intern"}
+                            />
+                        </div>
                     </div>
                     <div>
                     </div>
