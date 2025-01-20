@@ -25,13 +25,13 @@ function Navbar() {
     <nav className="navbar mx-auto  px-md-5 px-1 mt-4 z-3 navbar-expand-lg navbar-light bg-transperant   navvv  py-2 pt-md-3 m-0">
 
       {/* Logo */}
-      <NavLink className="navbar-brand ms-md-3 ms-1 " to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
-        <img className=" w-50" src="/images/Logo Dark.svg" alt="Logo" />
+      <NavLink className="navbar-brand ms-md-3 m-0 " to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
+        <img className=" img-fluid w-75" src="/images/Logo Dark.svg" alt="Logo" />
       </NavLink>
 
       {/* Toggle Button for Small Screens */}
       <button
-        className="navbar-toggler"
+        className="navbar-toggler w-1 "
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarResponsive"

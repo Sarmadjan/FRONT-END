@@ -345,27 +345,27 @@ const Home = () => {
 
 
 
-            <div className="row d-none d-md-flex justify-content-around   gx-5 gy-5" data-aos="fade-up">
+            <div className="row d-none d-md-flex justify-content-around  gy-5" data-aos="fade-up">
 
 
 
-              <div className="col-md-5 rounded-lg pt-2  col-12  ">
-                <div className="  badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ehtisham-ilyas" data-version="v1"><a className=" badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/ehtisham-ilyas?trk=profile-badge"></a></div> </div>
+              <div className="col-md-5 rounded-lg pt-2   ">
+                <div className="  badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="VERTICAL" data-vanity="ehtisham-ilyas" data-version="v1"><a className=" badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/ehtisham-ilyas?trk=profile-badge"></a></div> </div>
 
 
-              <div className="col-md-5 col-12  pt-md-5  ">
-                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yasir-khan-a58677137" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/yasir-khan-a58677137?trk=profile-badge"></a></div>
+              <div className="col-md-5  pt-md-5  ">
+                <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="VERTICAL" data-vanity="yasir-khan-a58677137" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/yasir-khan-a58677137?trk=profile-badge"></a></div>
 
               </div>
-              <div className="col-md-5 col-12  pt-2 ">
-                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="awon-ali-294877122" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/awon-ali-294877122?trk=profile-badge"></a></div>
+              <div className="col-md-5   pt-2 ">
+                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="VERTICAL" data-vanity="awon-ali-294877122" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/awon-ali-294877122?trk=profile-badge"></a></div>
               </div>
 
 
 
 
-              <div className="col-md-5 col-12  pt-md-5 ">
-                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
+              <div className="col-md-5   pt-md-5 ">
+                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
               </div>
             </div>
           </div>
