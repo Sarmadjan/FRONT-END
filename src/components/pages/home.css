@@ -185,9 +185,8 @@ a {
   .border-effect {
     position: relative;
     transition: border-top 1s;
-    
   }
-  
+
   .border-effect:before {
     content: "";
     position: absolute;

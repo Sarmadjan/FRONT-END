@@ -10,10 +10,19 @@ import Frontend from "./components/pages/Frontend";
 import Back_end from "./components/pages/Back_end";
 import Team from "./components/pages/Team";
 import Wordpress from "./components/pages/Wordpress";
+import { useEffect } from "react";
 
 
 
 export default function App() {
+  useEffect(() => {
+    // Load LinkedIn's profile badge script
+    const script = document.createElement("script");
+    script.src = "https://platform.linkedin.com/badges/js/profile.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+  }, []);
   return (
     <Router>
 

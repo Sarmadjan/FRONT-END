@@ -52,7 +52,7 @@ const Contact = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: .1 }}
-        className="container-fluid bg-white ">
+        className="container-fluid bg-white px-0 mx-0 overflow-hidden ">
         <Navbar />
         <div className="col-md-10 mx-auto  py-5">
           <div className="row main-heading ">

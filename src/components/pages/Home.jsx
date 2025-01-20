@@ -15,9 +15,6 @@ import { ParticleEffect } from "../../assets/particles";
 // import m2 from "../images/m2.jpg";
 import Button_Rm from "../button/Button-Rm";
 import Navbar from "../Navbar";
-
-
-
 const Home = () => {
   useEffect(() => {
     AOS.init({
@@ -26,6 +23,15 @@ const Home = () => {
       offset: 120,
     });
   }, []);
+  useEffect(() => {
+    // Load LinkedIn's profile badge script
+    const script = document.createElement("script");
+    script.src = "https://platform.linkedin.com/badges/js/profile.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+  }, []);
+
 
   return (
 
@@ -319,14 +325,16 @@ const Home = () => {
                   linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
               </div>
-              {/* <div className="col-md-6 col-12 pt-md-5 pt-2 ">
+              <div className="col-md-6 col-12 pt-md-5 pt-2 ">
                 <TeamCard
-                  name="Waqas Hussain"
-                  imgsrc={'/images/Team/Waqas Hussain.jfif'}
+                  name="Sher Khan"
+                  imgsrc={'/images/Team/Sher Khan.jfif'}
                   title={"ART DIRECTOR"}
-                  linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  linkedin="https://www.linkedin.com/in/sharewithsher/"
                 />
-              </div> */}
+              </div>
+
+
             </div>
 
 

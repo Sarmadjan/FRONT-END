@@ -1,10 +1,10 @@
 .navvv {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 28px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  border-radius:  10px;
+
   margin: 0 auto;
-  padding: 10px 0;
-  width: 92%;
+
+  width: 100%;
 }
 .navvv li {
   padding: 0 5px;
@@ -27,7 +27,7 @@
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-.nav-link{
+.nav-link {
   color: black;
 }
 .nav-link:hover {
@@ -41,24 +41,17 @@
   border-radius: 5px;
 }
 
-
 .dropdown-item.active {
   color: #fff !important;
   background-color: #5b636b;
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Align with button */
+}
 
-    .dropdown:hover .dropdown-menu {
-            display: block;
-            margin-top: 0; /* Align with button */
-        }
-
-
-
-        .svg-width2 svg {
-         
-          width: 20px;
-          margin: 5px 6px;
-         
-        }
-        
+.svg-width2 svg {
+  width: 20px;
+  margin: 5px 6px;
+}

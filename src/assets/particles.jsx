@@ -14,14 +14,14 @@ export const ParticleEffect = ({ children }) => {
         });
     }, []);
     return (
-        <div style={{ backgroundColor: "black", overflow: 'hidden', position: "relative", height: "100vh", width: "100%" }}>
+        <div style={{ backgroundColor: "black", overflow: 'hidden', position: "relative", width: "100%" }}>
             {/* Specific area for particles */}
             <div
                 style={{
                     zIndex: 1,
                     position: "absolute",
                     width: "100vw",
-                    height: "100vh",
+                    
                     overflow: "hidden",
                 }}
             >
