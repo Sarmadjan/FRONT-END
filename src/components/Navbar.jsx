@@ -22,7 +22,7 @@ function Navbar() {
   return (
 
 
-    <nav className="navbar mx-auto px-md-5 px-1 mt-4 z-3 navbar-expand-lg navbar-light bg-transperant   navvv  py-2 pt-md-3 m-0">
+    <nav className="navbar mx-auto  px-md-5 px-1 mt-4 z-3 navbar-expand-lg navbar-light bg-transperant   navvv  py-2 pt-md-3 m-0">
 
       {/* Logo */}
       <NavLink className="navbar-brand ms-3 " to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
@@ -31,7 +31,7 @@ function Navbar() {
 
       {/* Toggle Button for Small Screens */}
       <button
-        className="navbar-toggler me-3"
+        className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarResponsive"
@@ -83,7 +83,7 @@ function Navbar() {
               Contact
             </NavLink>
           </li>
-         
+
 
 
 
