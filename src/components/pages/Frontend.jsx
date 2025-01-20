@@ -14,6 +14,7 @@ import VUE_FAQ_s from "../VUE_FAQ_s ";
 import Angular_FAQ_s from "../Angular_FAQ_s ";
 import Tailwind_FAQ_s from "../Tailwind_FAQ_s ";
 import Navbar from "../Navbar";
+import Button from "../button/Button";
 
 
 const Frontend = () => {
@@ -26,12 +27,12 @@ const Frontend = () => {
     });
   }, []);
   return (
-    <motion.div 
-    initial={{opacity:0}}
-    animate={{opacity:1}}
-    transition={{delay:.1}}
-    style={{ overflow: "hidden" }}
-     className="container-fluid mx-0 px-0">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: .1 }}
+      style={{ overflow: "hidden" }}
+      className="container-fluid mx-0 px-0">
       <div className="row bg-white text-dark first-sec m-0 ">
         <Navbar />
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
@@ -265,16 +266,7 @@ const Frontend = () => {
             <div className="col-md-4" data-aos="fade-left">
               <Service_card service="3D Animations" detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases." />
             </div>
-
-
           </div>
-
-
-
-
-
-
-
         </div>
       </div>
       <div className="row mx-auto  ">
@@ -289,11 +281,43 @@ const Frontend = () => {
             </p>
           </div>
         </div>
-
-
-
-
       </div>
+      <div className="row bg-body-secondary m-0 ">
+        <div className="col-md-10 mx-auto  " data-aos="fade-up">
+          <div
+            className="col-md-5 ms-auto text-end text-dark py-5"
+            data-aos="fade-up"
+          >
+            <span className="text-light-emphasis">
+              {" "}
+              Looking to make your mark? We will help you turn <br />
+              your project into a success story.{" "}
+            </span>
+          </div>
+
+          <div
+            className="row  text-center px-5 "
+            data-aos="fade-up"
+          >
+            <h1>
+              {" "}
+              Ready to bring your <span> ideas to</span> Life? <br />
+              We are <span> Here to help</span>{" "}
+            </h1>
+          </div>
+
+          <div className="row pb-5 " data-aos="fade-up">
+            <div className=" ">
+              {" "}
+              <NavLink to="/contact">
+                <Button text="Contact Us" />
+              </NavLink>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
     </motion.div>
   );

@@ -16,6 +16,7 @@ import { motion } from 'framer-motion';
 import Charges from "../Charges";
 import Service_card from "../Service_card";
 import Navbar from "../Navbar";
+import Button from "../button/Button";
 const Back_end = () => {
 
   useEffect(() => {
@@ -284,6 +285,42 @@ const Back_end = () => {
 
 
 
+      </div>
+      <div className="row bg-body-secondary m-0 ">
+        <div className="col-md-10 mx-auto  " data-aos="fade-up">
+          <div
+            className="col-md-5 ms-auto text-end text-dark py-5"
+            data-aos="fade-up"
+          >
+            <span className="text-light-emphasis">
+              {" "}
+              Looking to make your mark? We will help you turn <br />
+              your project into a success story.{" "}
+            </span>
+          </div>
+
+          <div
+            className="row  text-center px-5 "
+            data-aos="fade-up"
+          >
+            <h1>
+              {" "}
+              Ready to bring your <span> ideas to</span> Life? <br />
+              We are <span> Here to help</span>{" "}
+            </h1>
+          </div>
+
+          <div className="row pb-5 " data-aos="fade-up">
+            <div className=" ">
+              {" "}
+              <NavLink to="/contact">
+                <Button text="Contact Us" />
+
+              </NavLink>
+
+            </div>
+          </div>
+        </div>
       </div>
 
     </motion.div>

@@ -26,7 +26,7 @@ function Navbar() {
 
       {/* Logo */}
       <NavLink className="navbar-brand ms-3 " to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
-        <img className="img-fluid" src="/images/Logo Dark.svg" alt="Logo" />
+        <img className="img-fluid w-75" src="/images/Logo Dark.svg" alt="Logo" />
       </NavLink>
 
       {/* Toggle Button for Small Screens */}

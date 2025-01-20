@@ -302,7 +302,7 @@ const Home = () => {
                 <TeamCard
                   name="Ehtisham Ilyas"
                   imgsrc={'/images/Team/Ehtisham Ilyas.jfif'}
-                  title={"ART DIRECTOR"}
+                  title={"DIRECTOR"}
                   linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
 
               </div>
@@ -312,7 +312,7 @@ const Home = () => {
                 <TeamCard
                   name="Yasir Khan"
                   imgsrc={'/images/Team/yasir khan.jfif'}
-                  title={"ART DIRECTOR"}
+                  title={"DIRECTOR"}
                   linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
               </div>
@@ -321,7 +321,7 @@ const Home = () => {
                 <TeamCard
                   name="Awon Ali"
                   imgsrc={'/images/Team/aawn.jfif'}
-                  title={"ART DIRECTOR"}
+                  title={"TEAM LEAD"}
                   linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 />
               </div>
@@ -329,7 +329,7 @@ const Home = () => {
                 <TeamCard
                   name="Sher Khan"
                   imgsrc={'/images/Team/Sher Khan.jfif'}
-                  title={"ART DIRECTOR"}
+                  title={"DIRECTOR"}
                   linkedin="https://www.linkedin.com/in/sharewithsher/"
                 />
               </div>

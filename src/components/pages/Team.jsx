@@ -65,6 +65,11 @@ const Team = () => {
 
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="atia-mujeeb-3a46bb245" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/atia-mujeeb-3a46bb245?trk=profile-badge"></a></div>
+
+
+                        </div>
+                        <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="zain-ul-emaan-a03365319" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/zain-ul-emaan-a03365319?trk=profile-badge"></a></div>
 
                         </div>
@@ -79,12 +84,6 @@ const Team = () => {
 
                         </div>
 
-                        <div className="col-md-3" data-aos="zoom-in">
-                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ehtisham-ilyas" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/ehtisham-ilyas?trk=profile-badge"></a></div>
-
-
-                        </div>
-
 
                     </div>
                     <div id="section2" className="row d-md-none d-sm-block my-5 g-5 mx-0 px-0 py-5">
@@ -93,14 +92,14 @@ const Team = () => {
                             <TeamCard
                                 name="Ehtisham Ilyas"
                                 imgsrc={'/images/Team/Ehtisham Ilyas.jfif'}
-                                title={"ART DIRECTOR"}
+                                title={"DIRECTOR"}
                                 linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
                                 name="Yasir Khan"
                                 imgsrc={'/images/Team/yasir khan.jfif'}
-                                title={"ART DIRECTOR"}
+                                title={"DIRECTOR"}
                                 linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
@@ -109,7 +108,7 @@ const Team = () => {
                                 name="Awon Ali
 "
                                 imgsrc={'/images/Team/aawn.jfif'}
-                                title={"ART DIRECTOR"}
+                                title={"TEAM LEAD"}
                                 linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
@@ -118,7 +117,7 @@ const Team = () => {
                                 name="Sher Khan
  "
                                 imgsrc={'/images/Team/Sher Khan.jfif'}
-                                title={"ART DIRECTOR"}
+                                title={"DIRECTOR"}
                                 linkedin="https://www.linkedin.com/in/syedalimusa/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
@@ -128,9 +127,16 @@ const Team = () => {
                             <TeamCard
                                 name="Waqas Hussain"
                                 imgsrc={'/images/Team/Waqas Hussain.jfif'}
-                                title={"ART DIRECTOR"}
+                                title={"DIRECTOR"}
                                 linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
+                        </div>
+                        <div className="col-md-3  " data-aos="zoom-in">
+                            <TeamCard
+                                name="ATIA MUJEEB"
+                                imgsrc={'/images/Team/HR.jfif'}
+                                title={"HR"}
+                                linkedin="https://www.linkedin.com/in/atia-mujeeb-3a46bb245/" />
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
