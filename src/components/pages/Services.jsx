@@ -81,17 +81,15 @@ const Services = () => {
                     </div>
                   </div>
                   <div className="col-md-6">
-                    <h4>Digital Marketing</h4>
+                    <h4>2D Animated Explainer</h4>
                     <p className="mt-4">
                       {" "}
-                      Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively.
-                    </p>
+                      At Woltrio, we believe that every brand deserves a voice, and our handcrafted 2D explainers are the perfect way to amplify yours. Whether you’re launching a product, sharing a vision, or promoting a service, our animations are designed to leave a lasting impression.       </p>
                     <ul>
-                      <li>SEO Audits & Optimization</li>
-                      <li>Pay-Per-Click (PPC) Advertising</li>
-                      <li>Social Media Marketing & Management</li>
-                      <li>Email Marketing & Automation</li>
-                      <li>Content Creation & Marketing Strategy</li>
+                      <li>Script Development</li>
+                      <li>Storyboard Creation</li>
+                      <li>Character Design</li>
+                      <li>Animation and Motion Graphics</li>
                     </ul>
                     <div>
                       <Button_Rm
@@ -193,41 +191,41 @@ const Services = () => {
 
         </div>
         <div className="row bg-body-secondary m-0 ">
-                        <div className="col-md-10 mx-auto  " data-aos="fade-up">
-                            <div
-                                className="col-md-5 ms-auto text-end text-dark py-5"
-                                data-aos="fade-up"
-                              >
-                                <span className="text-light-emphasis">
-                                    {" "}
-                                    Looking to make your mark? We will help you turn <br />
-                                    your project into a success story.{" "}
-                                </span>
-                            </div>
+          <div className="col-md-10 mx-auto  " data-aos="fade-up">
+            <div
+              className="col-md-5 ms-auto text-end text-dark py-5"
+              data-aos="fade-up"
+            >
+              <span className="text-light-emphasis">
+                {" "}
+                Looking to make your mark? We will help you turn <br />
+                your project into a success story.{" "}
+              </span>
+            </div>
 
-                            <div
-                                className="row  text-center px-5 "
-                                data-aos="fade-up"
-                                   >
-                                <h1>
-                                    {" "}
-                                    Ready to bring your <span> ideas to</span> Life? <br />
-                                    We are <span> Here to help</span>{" "}
-                                </h1>
-                            </div>
+            <div
+              className="row  text-center px-5 "
+              data-aos="fade-up"
+            >
+              <h1>
+                {" "}
+                Ready to bring your <span> ideas to</span> Life? <br />
+                We are <span> Here to help</span>{" "}
+              </h1>
+            </div>
 
-                            <div className="row pb-5 " data-aos="fade-up">
-                                <div className=" ">
-                                    {" "}
-                                    <NavLink to="/contact">
-                                        <Button text="Contact Us" />
+            <div className="row pb-5 " data-aos="fade-up">
+              <div className=" ">
+                {" "}
+                <NavLink to="/contact">
+                  <Button text="Contact Us" />
 
-                                    </NavLink>
+                </NavLink>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
       </motion.div>

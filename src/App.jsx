@@ -10,11 +10,26 @@ import Frontend from "./components/pages/Frontend";
 import Back_end from "./components/pages/Back_end";
 import Team from "./components/pages/Team";
 import Wordpress from "./components/pages/Wordpress";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 
 
 export default function App() {
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth > 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+
   useEffect(() => {
     // Load LinkedIn's profile badge script
     const script = document.createElement("script");
@@ -26,7 +41,8 @@ export default function App() {
   return (
     <Router>
 
-      <MouseFollower />
+
+      {isDesktop && <MouseFollower />}
       <Routes>
 
         <Route path="/" element={<Home />} />
