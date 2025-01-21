@@ -79,6 +79,10 @@ const Team = () => {
 
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
+                        <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="usman-ahmed-1ba80431b" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/usman-ahmed-1ba80431b?trk=profile-badge"></a></div>
+
+                        </div>
+                        <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="adil-rajpoot-88002b2b5" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/adil-rajpoot-88002b2b5?trk=profile-badge"></a></div>
 
 
@@ -158,6 +162,15 @@ const Team = () => {
                                 linkedin="https://www.linkedin.com/in/muhammad-talha-7480492b0/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                                 imgsrc={'/images/Team/Talha.jfif'}
                                 title={"Full Stack developer"}
+                            />
+                        </div>
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <TeamCard
+                                name="Usman Ahmed
+ "
+                                linkedin="https://www.linkedin.com/in/usman-ahmed-1ba80431b/"
+                                imgsrc={'/images/Team/Usman.jfif'}
+                                title={"Wordpress developer"}
                             />
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">

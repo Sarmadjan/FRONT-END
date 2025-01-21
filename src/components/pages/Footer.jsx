@@ -65,6 +65,7 @@ const Footer = () => {
             <Footer_li name="Home" path="/" />
             <Footer_li name="Portfolio" path="/portfolio" />
             <Footer_li name="Services" path="/services" />
+            <Footer_li name="Our Team" path="/team" />
             <Footer_li name="Contact" path="/contact" />
           </div>
           <div className="col-md-3 " >
