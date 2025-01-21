@@ -45,6 +45,7 @@ const Team = () => {
                     </div>
 
                     <div id="section2" className="row d-none d-md-flex my-5 g-5 mx-0 px-0 py-5">
+                        <h2 className="text-center text-secondary ">DIRECTORS</h2>
                         <div className="col-md-3" data-aos="zoom-in">
 
                             <div className="  badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ehtisham-ilyas" data-version="v1"><a className=" badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/ehtisham-ilyas?trk=profile-badge"></a></div> </div>
@@ -54,8 +55,13 @@ const Team = () => {
 
 
                         </div>
+
+
+
+
+
                         <div className="col-md-3" data-aos="zoom-in">
-                            <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="awon-ali-294877122" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/awon-ali-294877122?trk=profile-badge"></a></div>
+                            <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
 
 
                         </div>
@@ -64,6 +70,16 @@ const Team = () => {
 
 
                         </div>
+
+                        <hr />
+                        <h2 className="text-center text-secondary">Web Development</h2>
+
+
+
+
+
+
+
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="atia-mujeeb-3a46bb245" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/atia-mujeeb-3a46bb245?trk=profile-badge"></a></div>
 
@@ -73,13 +89,18 @@ const Team = () => {
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="zain-ul-emaan-a03365319" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/zain-ul-emaan-a03365319?trk=profile-badge"></a></div>
 
                         </div>
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="awon-ali-294877122" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/awon-ali-294877122?trk=profile-badge"></a></div>
+
+
+                        </div>
                         <div className="col-md-3  " data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="muhammad-talha-7480492b0" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/muhammad-talha-7480492b0?trk=profile-badge"></a></div>
 
 
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
-                        <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="usman-ahmed-1ba80431b" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/usman-ahmed-1ba80431b?trk=profile-badge"></a></div>
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="usman-ahmed-1ba80431b" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/usman-ahmed-1ba80431b?trk=profile-badge"></a></div>
 
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
@@ -92,10 +113,54 @@ const Team = () => {
 
 
                         </div>
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="waqas-hussain-a2637b15b" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/waqas-hussain-a2637b15b?trk=profile-badge"></a></div>
+
+
+                        </div>
+
+                        <hr />
+                        <h2 className="text-center text-secondary">EDITING</h2>
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="muhammad-adeel-b2819a250" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/muhammad-adeel-b2819a250?trk=profile-badge"></a></div>
+
+
+                        </div>
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="raja-arwan-6b7b52290" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/raja-arwan-6b7b52290?trk=profile-badge"></a></div>
+
+
+                        </div>
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="itx-muhammad-ali" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/itx-muhammad-ali?trk=profile-badge"></a></div>
+
+
+                        </div>
+
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="raja-haris-a53100334" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/raja-haris-a53100334?trk=profile-badge"></a></div>
+
+
+                        </div>
+
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="asjal-faisal-37431a2a4" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/asjal-faisal-37431a2a4?trk=profile-badge"></a></div>
+
+
+                        </div>
+
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="muhammad-awais-147431336" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/muhammad-awais-147431336?trk=profile-badge"></a></div>
+
+
+                        </div>
+
+
 
 
                     </div>
                     <div id="section2" className="row d-md-none d-sm-block my-5 g-5 mx-0 px-0 py-5">
+                        <h2 className="text-center text-secondary"> DIRECTORS</h2>
 
                         <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
@@ -112,14 +177,14 @@ const Team = () => {
                                 linkedin="https://www.linkedin.com/in/yasir-khan-a58677137/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
+
                         <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
-                                name="Awon Ali
+                                name="Shahid Naseem
 "
-                                imgsrc={'/images/Team/aawn.jfif'}
-                                title={"TEAM LEAD"}
-                                linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                            />
+                                imgsrc={'/images/Team/Shahid.jfif'}
+                                title={"Director"}
+                                linkedin="https://www.linkedin.com/in/shahidnaseemofficial/" />
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
@@ -131,15 +196,11 @@ const Team = () => {
                             />
                         </div>
 
+                        <hr />
+                        <h2 className="text-center text-secondary"> WEB DEVELOPMENT</h2>
 
-                        <div className="col-md-3  " data-aos="zoom-in">
-                            <TeamCard
-                                name="Waqas Hussain"
-                                imgsrc={'/images/Team/Waqas Hussain.jfif'}
-                                title={"DIRECTOR"}
-                                linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                            />
-                        </div>
+
+
                         <div className="col-md-3  " data-aos="zoom-in">
                             <TeamCard
                                 name="ATIA MUJEEB"
@@ -153,6 +214,15 @@ const Team = () => {
                                 linkedin="https://www.linkedin.com/in/zain-ul-emaan-a03365319/overlay/photo/"
                                 imgsrc={'/images/Team/Zain.jfif'}
                                 title={"Backend Developer"}
+                            />
+                        </div>
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <TeamCard
+                                name="Awon Ali
+"
+                                imgsrc={'/images/Team/aawn.jfif'}
+                                title={"TEAM LEAD"}
+                                linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                             />
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
@@ -193,6 +263,69 @@ const Team = () => {
                                 title={"Front-end Intern"}
                             />
                         </div>
+                        <div className="col-md-3  " data-aos="zoom-in">
+                            <TeamCard
+                                name="Waqas Hussain"
+                                imgsrc={'/images/Team/Waqas Hussain.jfif'}
+                                title={"DIRECTOR"}
+                                linkedin="https://www.linkedin.com/in/waqas-hussain-a2637b15b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                            />
+                        </div>
+
+
+                        <hr />
+
+                        <h2 className="text-center text-secondary">VIDEO EDITING </h2>
+
+                        <div className="col-md-3  " data-aos="zoom-in">
+                            <TeamCard
+                                name="Muhammad Adeel"
+                                imgsrc={'/images/Team/Adeel.jfif'}
+                                title={"VIDEO EDITOR"}
+                                linkedin="https://www.linkedin.com/in/muhammad-adeel-b2819a250/?trk=public-profile-badge-profile-badge-view-profile-cta&originalSubdomain=pk" />
+                        </div>
+
+                        <div className="col-md-3  " data-aos="zoom-in">
+                            <TeamCard
+                                name="RAJA ARWAN"
+                                imgsrc={'/images/Team/Arwan.jfif'}
+                                title={"VIDEO EDITOR"}
+                                linkedin="https://www.linkedin.com/in/raja-arwan-6b7b52290/?trk=public-profile-badge-profile-badge-view-profile-cta&originalSubdomain=pk" />
+                        </div>
+
+                        <div className="col-md-3  " data-aos="zoom-in">
+                            <TeamCard
+                                name="Muhammad Ali"
+                                imgsrc={'/images/Team/Ali.jfif'}
+                                title={"VIDEO EDITOR"}
+                                linkedin="https://www.linkedin.com/in/itx-muhammad-ali/?trk=public-profile-badge-profile-badge-view-profile-cta&originalSubdomain=pk" />
+                        </div>
+
+                        <div className="col-md-3  " data-aos="zoom-in">
+                            <TeamCard
+                                name="raja haris"
+                                imgsrc={'/images/Team/Haris.jfif'}
+                                title={"VIDEO EDITOR"}
+                                linkedin="https://www.linkedin.com/in/raja-haris-a53100334/?trk=public-profile-badge-profile-badge-view-profile-cta&originalSubdomain=pk" />
+                        </div>
+
+                        <div className="col-md-3  " data-aos="zoom-in">
+                            <TeamCard
+                                name="Asjal Faisal
+"
+                                imgsrc={'/images/Team/Asjal.jfif'}
+                                title={"VIDEO EDITOR"}
+                                linkedin="https://www.linkedin.com/in/asjal-faisal-37431a2a4/?trk=public-profile-badge-profile-badge-view-profile-cta&originalSubdomain=pk" />
+                        </div>
+
+
+
+
+
+
+
+
+
                     </div>
                     <div>
                     </div>

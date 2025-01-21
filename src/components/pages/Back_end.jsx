@@ -17,6 +17,7 @@ import Charges from "../Charges";
 import Service_card from "../Service_card";
 import Navbar from "../Navbar";
 import Button from "../button/Button";
+
 const Back_end = () => {
 
   useEffect(() => {
@@ -26,6 +27,7 @@ const Back_end = () => {
       offset: 120,
     });
   }, []);
+  
   return (
     <motion.div
       initial={{ opacity: 0 }}

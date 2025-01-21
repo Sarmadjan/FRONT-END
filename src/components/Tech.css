@@ -1,0 +1,12 @@
+.svgwdth svg {
+  width: 4rem;
+}
+
+.svgwdth i :hover {
+  fill: aquamarine;
+  transition-duration: 0.5s ease-in-out;
+}
+.bgg{
+    background-color: black;
+    opacity: .5;
+}

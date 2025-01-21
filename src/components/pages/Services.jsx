@@ -11,6 +11,7 @@ import ButtonD from "../button/ButtonD";
 import Button_Rm from "../button/Button-Rm";
 import { NavLink } from "react-router-dom";
 import Navbar from "../Navbar";
+import Tech from "../Tech";
 const Services = () => {
   useEffect(() => {
     AOS.init({
@@ -225,6 +226,9 @@ const Services = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="row bg-dark-subtle">
+          <Tech />
         </div>
 
 

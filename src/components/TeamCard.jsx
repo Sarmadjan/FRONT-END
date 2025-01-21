@@ -8,8 +8,8 @@ const TeamCard = (props) => {
         <img src={props.imgsrc} className="imgggg" alt="Lights" />
         <div className="content ">
           <div className="pt-5 text-center ">
-            <h3 className="pt-5">{props.name} </h3>
-            <p>{props.title}</p>
+            <h3 className="pt-5 text-uppercase">{props.name} </h3>
+            <p className="text-uppercase">{props.title}</p>
             <div className="col svg-width">
 
               <a href={props.linkedin} target="_blank">
@@ -29,7 +29,7 @@ const TeamCard = (props) => {
                   </svg>
                 </i>
               </a>
-              <a href={props.github} target="_blank" > 
+              <a href={props.github} target="_blank" >
                 <i>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                     <path
