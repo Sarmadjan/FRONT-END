@@ -1,0 +1,33 @@
+.card {
+  width: 550px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+
+  /* Set the CSS variable for the image height */
+  --img-height: 0; /* Default value */
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%; /* Full-width on small screens */
+    /* ... other styles ... */
+  }
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transition: transform 15s linear;
+}
+
+.card:hover img {
+  /* Use the CSS variable for translation */
+  transform: translateY(calc(-1 * var(--img-height)));
+}

@@ -37,8 +37,9 @@ const Back_end = () => {
 
       className="container-fluid mx-0 px-0">
       <div className="row bg-white text-dark first-sec m-0 ">
-        <Navbar />
+        
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
+        <Navbar />
 
           <div className="col-md-7 pt-md-5 pt-2 mt-md-5 mt-2">
             <div className="pt-md-5 pt-2 " >

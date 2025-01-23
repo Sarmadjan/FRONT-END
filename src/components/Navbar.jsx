@@ -69,6 +69,16 @@ function Navbar() {
 
 
           <NavbarItem />
+          <li className="nav-item">
+            <NavLink
+              className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+              to="/team"
+              onClick={() => { scrollToTop(); closeNavbar(); }}
+            >
+
+              Team
+            </NavLink>
+          </li>
 
 
 

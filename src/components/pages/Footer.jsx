@@ -19,7 +19,7 @@ const Footer = () => {
 
 
   return (
-    <div className="Container-fluid bg-black Footer text-light pb-5 pt-5" >
+    <div className="Container-fluid bg-black Footer text-light pb-md-5 pb-1 pt-5" >
       <div className="col-md-10   mx-auto">
         <div className="row  mx-2 mx-md-0 my-md-5" data-aos="fade-up">
           <div className="col-md-6" >

@@ -15,6 +15,7 @@ import { ParticleEffect } from "../../assets/particles";
 // import m2 from "../images/m2.jpg";
 import Button_Rm from "../button/Button-Rm";
 import Navbar from "../Navbar";
+import Tech from "../Tech";
 const Home = () => {
   useEffect(() => {
     AOS.init({
@@ -39,15 +40,16 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: .1 }}
-    >
+     >
 
-      <div className="container-fluid">
-        <div className="row bg-black text-light first-sec ">
-          <Navbar />
+      
+        <div className="row g-0 bg-black text-light first-sec ">
+
 
 
           <ParticleEffect>
-            <div className="col-md-10 p-md-3  mx-auto main-heading my-md-5 ">
+            <div className="col-md-10 p-md-3  mx-auto main-heading mb-md-5 ">
+              <Navbar />
 
               <div className="col-md-7 pt-3 mt-5">
                 <div className="">
@@ -120,7 +122,9 @@ const Home = () => {
             </div>
           </ParticleEffect>
         </div>
-      </div>
+       
+        
+      
 
       <div id="section-2" className="container-fluid">
         <div className="col-10 mx-auto">
@@ -177,6 +181,16 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="container-fluid">
+      <div className="row gx-o bg-light-subtle ">
+        <div className="col mx-md-0 mx-5">
+          <Tech />
+          </div>
+        </div>
+      </div>
+      
+     
+     
 
       <div className="container-fluid bg-black mt-md-5 sec-3">
         <div className="col-10 mx-auto pt-md-5">
@@ -319,11 +333,12 @@ const Home = () => {
 
               <div className="col-md-6 col-12 pt-md-0 pt-2 ">
                 <TeamCard
-                  name="Awon Ali"
-                  imgsrc={'/images/Team/aawn.jfif'}
-                  title={"TEAM LEAD"}
-                  linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                />
+                  name="Shahid Naseem"
+
+                  imgsrc={'/images/Team/Shahid.jfif'}
+                  title={"Director"}
+                  linkedin="https://www.linkedin.com/in/shahidnaseemofficial/" />
+
               </div>
               <div className="col-md-6 col-12 pt-md-5 pt-2 ">
                 <TeamCard
@@ -336,6 +351,7 @@ const Home = () => {
 
 
             </div>
+
 
 
 
@@ -358,7 +374,7 @@ const Home = () => {
 
               </div>
               <div className="col-md-5   pt-2 ">
-                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="VERTICAL" data-vanity="awon-ali-294877122" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/awon-ali-294877122?trk=profile-badge"></a></div>
+                <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
               </div>
 
 

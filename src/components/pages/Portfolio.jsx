@@ -1,14 +1,10 @@
 import "./home.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Imgg from "../Imgg";
+
 import { useEffect } from "react";
-import Img1 from "../images/interior.jpg";
-import Img2 from "../images/home.jpg";
-import Img3 from "../images/kemia.jpg";
-import Img4 from "../images/cascade.jpg";
-import Img5 from "../images/Air.jpg";
-import Img6 from "../images/tony.jpg";
+import Project_card from './Project_card'
+
 
 import { motion } from 'framer-motion';
 
@@ -33,8 +29,9 @@ const Portfolio = () => {
       transition={{ delay: .1 }}
 
     >
-      <Navbar />
+
       <div className="col-md-10 mx-md-auto px-md-0 px-3 m-0 main-heading">
+        <Navbar />
 
         <div className="row m-0">
           <div
@@ -55,7 +52,7 @@ const Portfolio = () => {
           <ButtonD text="Our works" />
         </div>
 
-        <div className="row d-flex  justify-content-between   my-5 py-5 ">
+        {/* <div className="row d-flex  justify-content-between   my-5 py-5 ">
           <div className="col-md-5 " data-aos="fade-up">
             <Imgg path={Img1} title="Interior design studio" />
           </div>
@@ -76,9 +73,33 @@ const Portfolio = () => {
           <div className="col-md-5 pt-md-5">
             <Imgg path={Img6} title="Tony Chocolonely" />
           </div>
+        </div> */}
+      </div>
+
+
+
+
+
+
+
+
+      {/* CLOSING OF COL-100000  */}
+      <div className="row g-0">
+        <div className="col-md-10 mx-auto d-flex   flex-wrap">
+          <div className="col-md-6  mt-5 ">
+            <Project_card imgpath="./images/Projects/IC360.png" title="IC360" detail="Woltrio leverages transformative technologies to accelerate our enterprise software development, delivering tailored solutions that address the unique business needs of our clients" />
+          </div>
+          <div className="col-md-6  mt-5">
+            <Project_card imgpath="./images/Projects/blissiree.png"  title="Blissiree" detail="Woltrio leverages transformative technologies to accelerate our enterprise software development, delivering tailored solutions that address the unique business needs of our clients" />
+          </div>
+          <div className="col-md-6  mt-5">
+            <Project_card imgpath="./images/Projects/innovo.png" title="Innovo" detail="Woltrio leverages transformative technologies to accelerate our enterprise software development, delivering tailored solutions that address the unique business needs of our clients" />
+          </div>
+          <div className="col-md-6  mt-5">
+            <Project_card imgpath="./images/Projects/swiftreels.png" title="Swiftreels" detail="Woltrio leverages transformative technologies to accelerate our enterprise software development, delivering tailored solutions that address the unique business needs of our clients" />
+          </div>
         </div>
       </div>
-      {/* CLOSING OF COL-100000  */}
 
 
       <div className="row g-0 ">

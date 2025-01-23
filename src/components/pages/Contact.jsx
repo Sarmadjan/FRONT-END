@@ -53,8 +53,9 @@ const Contact = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: .1 }}
         className="container-fluid bg-white px-0 mx-0 overflow-hidden ">
+       
+        <div className="col-md-10 mx-auto  pb-5">
         <Navbar />
-        <div className="col-md-10 mx-auto  py-5">
           <div className="row main-heading ">
             <div className="pt-md-5 my-md-5  text-center mt-md-5 ">
               {" "}
