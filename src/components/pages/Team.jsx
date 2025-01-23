@@ -82,6 +82,11 @@ const Team = () => {
                         </div>
                         <hr />
                         <h2 className="text-center text-secondary">WEB DEVELOPERS</h2>
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="awon-ali-294877122" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/awon-ali-294877122?trk=profile-badge"></a></div>
+
+
+                        </div>
 
 
 
@@ -94,11 +99,7 @@ const Team = () => {
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="zain-ul-emaan-a03365319" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/zain-ul-emaan-a03365319?trk=profile-badge"></a></div>
 
                         </div>
-                        <div className="col-md-3" data-aos="zoom-in">
-                            <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="awon-ali-294877122" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/awon-ali-294877122?trk=profile-badge"></a></div>
 
-
-                        </div>
                         <div className="col-md-3  " data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="muhammad-talha-7480492b0" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/muhammad-talha-7480492b0?trk=profile-badge"></a></div>
 
@@ -220,6 +221,15 @@ const Team = () => {
                         <hr />
 
                         <h2 className="text-center text-secondary"> WEB DEVELOPMENT</h2>
+                        <div className="col-md-3" data-aos="zoom-in">
+                            <TeamCard
+                                name="Awon Ali
+"
+                                imgsrc={'/images/Team/aawn.jfif'}
+                                title={"TEAM LEAD"}
+                                linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                            />
+                        </div>
 
 
 
@@ -232,15 +242,7 @@ const Team = () => {
                                 title={"Backend Developer"}
                             />
                         </div>
-                        <div className="col-md-3" data-aos="zoom-in">
-                            <TeamCard
-                                name="Awon Ali
-"
-                                imgsrc={'/images/Team/aawn.jfif'}
-                                title={"TEAM LEAD"}
-                                linkedin="https://www.linkedin.com/in/awon-ali-294877122/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                            />
-                        </div>
+
                         <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
                                 name="Muhammad Talha
