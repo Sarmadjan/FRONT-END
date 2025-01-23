@@ -14,7 +14,7 @@ const Card = (props) => {
       const cardHeight = cardRef.current.offsetHeight;
 
       // Set the CSS custom property (--img-height) to the difference of image and card height
-      cardRef.current.style.setProperty('--img-height', `${imageHeight - cardHeight}px`);
+      cardRef.current.style.setProperty('--img-height', `${Math.abs(imageHeight - cardHeight)}px`);
     }
   }, []);
 
