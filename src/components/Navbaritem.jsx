@@ -80,7 +80,7 @@ const NavbarItem = () => {
             className={({ isActive }) =>
               isActive ? "dropdown-item active" : "dropdown-item"
             }
-            to="video_editing"
+            to="/video_editing"
           >
             Video Editing
           </NavLink>

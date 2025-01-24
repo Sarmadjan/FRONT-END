@@ -1,13 +1,14 @@
 
 import { useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../Charges.css";
+import "./Editing.css";
 
-import Shopify_FAQ_s from "../Shopify_FAQ_s";
+
 import ButtonD from "../button/ButtonD";
-import Button_Rm from "../button/Button-Rm";
+
 
 import "./home.css";
 import { motion } from 'framer-motion';
@@ -31,24 +32,24 @@ const Video_editing = () => {
             <div className="row g-0  bg-white text-dark first-sec m-0 ">
                 <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
                     <Navbar />
-                    <div className="row g-0 align-items-center pt-md-5 pt-2 mt-md-5 mt-2">
-                        <div className="col-md-7 pt-md-5 pt-2 ">
+                    <div className="row g-0 align-items-center justify-content-between pt-md-5 pt-2 mt-md-5 mt-2">
+                        <div className="col-md-8 pt-md-5 pt-2 ">
                             {" "}
                             <h1 className="pt-md-0 pt-5  mt-5">
                                 {" "}
-                                WordPress <span>and </span> <br /> Shopify
-                                <span> Development </span>
+                                Video <span>Editing </span>
+
+                                <img className="img-fluid " width={"75px"} src="/images/Dot Network.png" alt="" />
                             </h1>
+
+
+                            <h4 className="text-light-subtle">In partnership with Dot Networks</h4>
                         </div>
+
                         <div className="col-md-6 my-5">
                             <p className="text-black">
                                 {" "}
-                                At Woltrio, we specialize in creating seamless, professional,
-                                and high-performing websites on two of the most popular content
-                                management systems in the world: WordPress and Shopify. Whether
-                                you are looking to build a dynamic blog, an e-commerce store, or
-                                a custom-designed business site, we deliver tailored solutions
-                                to match your unique requirements.
+                                At Woltrio, we specialize in delivering high-quality, professional video editing services in partnership with <b> Dot Networks.</b> Leveraging the latest technologies and expert techniques, we craft compelling visual stories that captivate audiences. Whether you need to refine a corporate video, enhance a social media clip, or produce a cinematic masterpiece, our team delivers tailored video editing solutions to match your unique vision and requirements.
                             </p>
                         </div>
                     </div>
@@ -61,56 +62,166 @@ const Video_editing = () => {
                         </div>
                     </div>
 
-                    
-
-                    <div className="row my-md-5 d-flex align-items-center">
-                        <div className="col-md-6 my-md-5 ">
-                            <div className="col  my-md-5" data-aos="fade-up">
-                                <h2>
-                                    Shopify
-                                    <i className="ms-5">
-                                        <svg
-                                            width={50}
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 512 512"
-                                        >
-                                            <path d="M388.3 104.1a4.7 4.7 0 0 0 -4.4-4c-2 0-37.2-.8-37.2-.8s-21.6-20.8-29.6-28.8V503.2L442.8 472S388.7 106.5 388.3 104.1zM288.7 70.5a116.7 116.7 0 0 0 -7.2-17.6C271 32.9 255.4 22 237 22a15 15 0 0 0 -4 .4c-.4-.8-1.2-1.2-1.6-2C223.4 11.6 213 7.6 200.6 8c-24 .8-48 18-67.3 48.8-13.6 21.6-24 48.8-26.8 70.1-27.6 8.4-46.8 14.4-47.2 14.8-14 4.4-14.4 4.8-16 18-1.2 10-38 291.8-38 291.8L307.9 504V65.7a41.7 41.7 0 0 0 -4.4 .4S297.9 67.7 288.7 70.5zM233.4 87.7c-16 4.8-33.6 10.4-50.8 15.6 4.8-18.8 14.4-37.6 25.6-50 4.4-4.4 10.4-9.6 17.2-12.8C232.2 54.9 233.8 74.5 233.4 87.7zM200.6 24.4A27.5 27.5 0 0 1 215 28c-6.4 3.2-12.8 8.4-18.8 14.4-15.2 16.4-26.8 42-31.6 66.5-14.4 4.4-28.8 8.8-42 12.8C131.3 83.3 163.8 25.2 200.6 24.4zM154.2 244.6c1.6 25.6 69.3 31.2 73.3 91.7 2.8 47.6-25.2 80.1-65.7 82.5-48.8 3.2-75.7-25.6-75.7-25.6l10.4-44s26.8 20.4 48.4 18.8c14-.8 19.2-12.4 18.8-20.4-2-33.6-57.2-31.6-60.8-86.9-3.2-46.4 27.2-93.3 94.5-97.7 26-1.6 39.2 4.8 39.2 4.8L221.4 225.4s-17.2-8-37.6-6.4C154.2 221 153.8 239.8 154.2 244.6zM249.4 82.9c0-12-1.6-29.2-7.2-43.6 18.4 3.6 27.2 24 31.2 36.4Q262.6 78.7 249.4 82.9z" />
-                                        </svg>
-                                    </i>
-                                </h2>
-                            </div>
-                            <div className="col-md-8 m-0 " data-aos="fade-up">
-                                <p className="text-black-50 ">
-                                    Shopify is a premier e-commerce platform for building and
-                                    scaling online stores. Its intuitive interface and
-                                    customizable templates enable businesses to create seamless
-                                    shopping experiences. With robust inventory management and
-                                    secure payment gateways, Shopify ensures efficient and
-                                    reliable online retail operations{" "}
-                                </p>
-                            </div>
-                            <div className="col-8  " data-aos="fade-up">
-                                <Link
-                                    to="/portfolio"
-                                    onClick={() => {
-                                        window.scrollTo(1.1);
-                                    }}
-                                >
-                                    <Button_Rm color="grey" text="our work" data-aos="fade-up" />
-                                </Link>
-                            </div>
+                    <div className="row justify-content-center align-items-center">
+                        <div className="col-md-6">
+                            <h6> <b>Transform Your Vision into Engaging Visual Masterpieces with Dot Networks.:</b></h6>
+                            <p className=" my-4">
+                                {" "}
+                                Need high-quality, fast, and professional video editing? Look no further! At Dot Networks, we specialize in taking raw footage and turning it into stunning videos that captivate, inspire, and deliver results. Whether it’s a short social media clip, a promotional video, or a full-scale production, we’ve got you covered.           </p>
                         </div>
-                        <div
-                            className="col-md-6  bg-body-secondary rounded-1  mt-3  p-3"
-                            data-aos="fade-up"
-                        >
-                            <Shopify_FAQ_s />
+                        <div className="col-md-6">
+
+                            <video className="w-100  rounded-3"
+                                src="/videos/1.mp4" controls type="video/mp4">
+                            </video>
+
                         </div>
                     </div>
+                    <hr />
+
+
+                    <div className="row my-5 justify-content-center align-items-center">
+                        <div className="col-md-6 order-md-1 order-2">
+
+                            <video className="w-100  rounded-3"
+                                src="/videos/1.mp4" controls type="video/mp4">
+                            </video>
+
+                        </div>
+                        <div className="col-md-6 order-md-2 order-1 ">
+                            <h4>Why Choose Dot Networks for Video Editing?</h4>
+
+
+                            <h6> <b>Speed and Precision:</b></h6>
+                            <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
+
+
+                            <h6> <b>Customized Solutions:</b></h6>
+                            <p>Every video has a purpose, and we tailor our editing to suit your goals. From visual storytelling to brand-focused edits, we ensure your video aligns perfectly with your message.</p>
+
+
+                            <h6> <b>Creativity and Expertise:</b></h6>
+                            <p>Our team of skilled editors combines technical expertise with artistic flair. Using the latest software and techniques, we create videos that are not just visually appealing but also emotionally impactful.</p>
+
+
+                            <h6> <b>Full-Service Editing:</b></h6>
+                            <p>From trimming and sequencing to color grading, sound design, and special effects, we handle every aspect of the editing process, ensuring your footage transforms into a polished masterpiece.</p>
+
+
+
+                        </div>
+
+                    </div>
+                    <hr />
+                    <div className="row my-5 justify-content-center align-items-center">
+
+                        <div className="col-md-6">
+                            <h4>Why Choose Dot Networks for Video Editing?</h4>
+
+
+                            <h6> <b>Speed and Precision:</b></h6>
+                            <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
+
+
+                            <h6> <b>Customized Solutions:</b></h6>
+                            <p>Every video has a purpose, and we tailor our editing to suit your goals. From visual storytelling to brand-focused edits, we ensure your video aligns perfectly with your message.</p>
+
+
+                            <h6> <b>Creativity and Expertise:</b></h6>
+                            <p>Our team of skilled editors combines technical expertise with artistic flair. Using the latest software and techniques, we create videos that are not just visually appealing but also emotionally impactful.</p>
+
+
+                            <h6> <b>Full-Service Editing:</b></h6>
+                            <p>From trimming and sequencing to color grading, sound design, and special effects, we handle every aspect of the editing process, ensuring your footage transforms into a polished masterpiece.</p>
+
+
+
+                        </div>
+                        <div className="col-md-6">
+
+                            <video className="w-100  rounded-3"
+                                src="/videos/1.mp4" controls type="video/mp4">
+                            </video>
+
+                        </div>
+
+                    </div>
+                    <hr />
+                    <div className="row my-5 justify-content-center align-items-center">
+                        <div className="col-md-6 order-md-1 order-2">
+
+                            <video className="w-100  rounded-3"
+                                src="/videos/1.mp4" controls type="video/mp4">
+                            </video>
+
+                        </div>
+                        <div className="col-md-6 order-md-2 order-1 ">
+                            <h4>Why Choose Dot Networks for Video Editing?</h4>
+
+
+                            <h6> <b>Speed and Precision:</b></h6>
+                            <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
+
+
+                            <h6> <b>Customized Solutions:</b></h6>
+                            <p>Every video has a purpose, and we tailor our editing to suit your goals. From visual storytelling to brand-focused edits, we ensure your video aligns perfectly with your message.</p>
+
+
+                            <h6> <b>Creativity and Expertise:</b></h6>
+                            <p>Our team of skilled editors combines technical expertise with artistic flair. Using the latest software and techniques, we create videos that are not just visually appealing but also emotionally impactful.</p>
+
+
+                            <h6> <b>Full-Service Editing:</b></h6>
+                            <p>From trimming and sequencing to color grading, sound design, and special effects, we handle every aspect of the editing process, ensuring your footage transforms into a polished masterpiece.</p>
+
+
+
+                        </div>
+
+                    </div>
+                    <hr />
+                    <div className="row my-5 justify-content-center align-items-center">
+
+                        <div className="col-md-6">
+                            <h4>Why Choose Dot Networks for Video Editing?</h4>
+
+
+                            <h6> <b>Speed and Precision:</b></h6>
+                            <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
+
+
+                            <h6> <b>Customized Solutions:</b></h6>
+                            <p>Every video has a purpose, and we tailor our editing to suit your goals. From visual storytelling to brand-focused edits, we ensure your video aligns perfectly with your message.</p>
+
+
+                            <h6> <b>Creativity and Expertise:</b></h6>
+                            <p>Our team of skilled editors combines technical expertise with artistic flair. Using the latest software and techniques, we create videos that are not just visually appealing but also emotionally impactful.</p>
+
+
+                            <h6> <b>Full-Service Editing:</b></h6>
+                            <p>From trimming and sequencing to color grading, sound design, and special effects, we handle every aspect of the editing process, ensuring your footage transforms into a polished masterpiece.</p>
+
+
+
+                        </div>
+                        <div className="col-md-6">
+
+                            <video className="w-100  rounded-3"
+                                src="/videos/1.mp4" controls type="video/mp4">
+                            </video>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
                 </div>
             </div>
 
-           
+
 
 
         </motion.div>
