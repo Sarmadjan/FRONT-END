@@ -29,9 +29,12 @@ const Video_editing = () => {
             transition={{ delay: .1 }}
             style={{ overflow: "hidden" }} className="row  g-0">
 
+
             <div className="row g-0  bg-white text-dark first-sec m-0 ">
+
                 <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
                     <Navbar />
+
                     <div className="row g-0 align-items-center justify-content-between pt-md-5 pt-2 mt-md-5 mt-2">
                         <div className="col-md-8 pt-md-5 pt-2 ">
                             {" "}
@@ -39,7 +42,7 @@ const Video_editing = () => {
                                 {" "}
                                 Video <span>Editing </span>
 
-                                <img className="img-fluid " width={"75px"} src="/images/Dot Network.png" alt="" />
+                                <img className="img-fluid rounded-circle " width={"75px"} src="/images/Dot Network.png" alt="" />
                             </h1>
 
 
