@@ -11,6 +11,8 @@ import Back_end from "./components/pages/Back_end";
 import Team from "./components/pages/Team";
 import Wordpress from "./components/pages/Wordpress";
 import { useEffect, useState } from "react";
+import Video_editing from "./components/pages/Video_editing";
+import Animation_3D from "./components/pages/3D_animation";
 
 
 
@@ -53,6 +55,9 @@ export default function App() {
         <Route path="/backend" element={<Back_end />} />
         <Route path="/team" element={<Team />} />
         <Route path="/wordpress" element={<Wordpress />} />
+        <Route path="/video_editing" element={<Video_editing />} />
+        <Route path="/3d_animation" element={<Animation_3D />} />
+
         <Route path="*" element={<Home />} />
       </Routes>
       <Footer />

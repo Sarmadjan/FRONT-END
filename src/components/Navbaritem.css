@@ -1,0 +1,13 @@
+.dropdown-menu {
+  display: none; /* Initially hidden */
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-menu.show {
+  width: auto;
+
+  display: block; /* Shown when the show class is added */
+}

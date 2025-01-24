@@ -1,5 +1,6 @@
 import  { useState } from "react";
 import { NavLink, useNavigate, useLocation } from "react-router-dom";
+import "./Navbaritem.css";
 
 const NavbarItem = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -73,6 +74,28 @@ const NavbarItem = () => {
             WordPress and Shopify
           </NavLink>
         </li>
+        <hr className="py-1 mb-0" />
+        <li>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "dropdown-item active" : "dropdown-item"
+            }
+            to="video_editing"
+          >
+            Video Editing
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "dropdown-item active" : "dropdown-item"
+            }
+            to="/3d_animation"
+          >
+            3D Animation
+          </NavLink>
+        </li>
+
       </ul>
     </li>
   );

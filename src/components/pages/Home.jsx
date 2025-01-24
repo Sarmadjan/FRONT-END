@@ -239,8 +239,8 @@ const Home = () => {
               className=" col-md-3 border-effect border border-effect2  border-opacity-25 border-success  border-md-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Digital  " heading2="Marketing" path="/services"
-                data="Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively."
+              <Card heading="2D " heading2="Animations" path="/services"
+                data="At Woltrio, we believe that every brand deserves a voice, and our handcrafted 2D explainers are the perfect way to amplify yours. Whether you’re launching a product, sharing a vision, or promoting a service, our animations are designed to leave a lasting impression."
 
               />
 
@@ -250,7 +250,7 @@ const Home = () => {
               data-aos="fade-up"
             >
               <Card
-                heading="3D"
+                heading="3D "
                 heading2="Animations"
                 path="/services"
                 data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
