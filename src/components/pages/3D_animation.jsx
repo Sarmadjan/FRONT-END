@@ -13,6 +13,7 @@ import ButtonD from "../button/ButtonD";
 import "./home.css";
 import { motion } from 'framer-motion';
 import Navbar from "../Navbar";
+import Button from "../button/Button";
 const Animation_3D = () => {
   useEffect(() => {
     AOS.init({
@@ -30,7 +31,7 @@ const Animation_3D = () => {
       style={{ overflow: "hidden" }} className="row  g-0">
 
 
-      <div className="row g-0  bg-white text-dark first-sec m-0 ">
+      <div className="row g-0 edit bg-white text-dark first-sec m-0 ">
 
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
           <Navbar />
@@ -40,7 +41,7 @@ const Animation_3D = () => {
               {" "}
               <h1 className="pt-md-0 pt-5  mt-5">
                 {" "}
-                3D <span>Animation </span> <img className="img-fluid rounded-circle " width={"75px"} src="/images/Dot Network.png" alt="" /> <br />  Explainer
+                3D <span>Animation </span> <img className="img-fluid rounded-circle ms-md-5 " width={"75px"} src="/images/Dot Network.png" alt="" /> <br />  Explainer
 
 
               </h1>
@@ -66,10 +67,18 @@ const Animation_3D = () => {
 
           <div className="row justify-content-center align-items-center">
             <div className="col-md-6">
-              <h6> <b>Transform Your Vision into Engaging Visual Masterpieces with Dot Networks.</b></h6>
+              <h5> <b>Why Choose Dot Networks for Your 3D Explainer Animations?
+              </b></h5>
               <p className=" my-4">
                 {" "}
-                Need high-quality, fast, and professional video editing? Look no further! At Dot Networks, we specialize in taking raw footage and turning it into stunning videos that captivate, inspire, and deliver results. Whether it’s a short social media clip, a promotional video, or a full-scale production, we’ve got you covered.           </p>
+                <b>Elevate Your Brand’s Voice: </b>   At Dot Networks, every creation starts with a single dot, evolving into vibrant and immersive animations. Our expertly crafted 3D explainer animations not only captivate but also effectively communicate your message, bridging the gap between your vision and your audience.          </p>
+              <p>
+                <b>Precision and Perfection:</b>Our skilled team of 3D animators meticulously designs every frame to ensure your story is told with clarity and impact. Each animation is a testament to our commitment to perfection, ensuring your brand’s essence shines through every detail.
+
+              </p>
+              <p>
+                <b>Innovation at Every Step:</b>We don’t just create animations; we create experiences. Leveraging the latest technologies, our 3D explainer animations set your brand apart, turning complex concepts into visually stunning narratives that resonate with your audience.
+              </p>
             </div>
             <div className="col-md-6">
 
@@ -91,26 +100,19 @@ const Animation_3D = () => {
 
             </div>
             <div className="col-md-6 order-md-2 order-1 ">
-              <h4>Our Video Editing Services Include.</h4>
+              <h4>Our 3D Explainer Animation Services</h4>
 
 
-              <h6> <b>Social Media Video Editing:</b></h6>
-              <p>Stand out on platforms like Instagram, TikTok, and YouTube with short, engaging, and optimized videos designed to grab attention and drive engagement.</p>
-
+              <h6> <b>Visual Storytelling That Sticks</b></h6>
+              <p>Every brand has a story, and we help you tell it with animations that move, inspire, and engage. Our 3D explainer animations bring your ideas to life, creating emotional connections that leave a lasting impression.</p>
 
               <h6> <b>Corporate and Promotional Videos:</b></h6>
               <p>Communicate your brand’s message with professional edits that elevate your corporate identity and leave a lasting impression.</p>
 
 
-              <h6> <b>Event Highlights:</b></h6>
-              <p>Relive and share the best moments from your events with dynamic highlight reels and recap videos that keep the excitement alive.</p>
+              <h6> <b>Simplify Complex Concepts:</b></h6>
+              <p>Whether it’s a product demonstration or a detailed process, our 3D explainer animations transform intricate ideas into accessible, visually stunning narratives. Let us make your message clear, concise, and captivating.</p>
 
-
-              <h6> <b>Creative Storytelling:</b></h6>
-              <p>Transform your raw footage into a compelling narrative that connects with your audience and tells your story with impact.</p>
-
-              <h6> <b>Advanced Post-Production:</b></h6>
-              <p>Enhance your videos with professional-grade color correction, audio syncing, motion graphics, and more to achieve a cinematic look and feel.</p>
 
 
             </div>
@@ -120,21 +122,24 @@ const Animation_3D = () => {
           <div className="row my-5 justify-content-center align-items-center">
 
             <div className="col-md-6">
-              <h4>Why Professional Video Editing Matters?</h4>
+              <h4>What Are 3D Explainer Animations?</h4>
 
 
-              <h6> <>In today’s visual-first world, high-quality videos are essential to capturing attention and conveying your message effectively. Professional video editing ensures your footage is:</></h6>
-              <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
 
+              <p>3D explainer animations combine the realism of three-dimensional visuals with the art of storytelling. They are designed to make your message more engaging, accessible, and unforgettable. Using advanced animation techniques, we create lifelike objects and characters that move and interact in a virtual 3D space, turning static ideas into dynamic visuals.</p>
+              <p><b>This approach is perfect for:</b></p>
 
-              <h6> <b>Engaging:</b></h6>
-              <p>Grab attention with dynamic visuals and seamless storytelling.</p>
+              <h6> <b>Product Demonstrations:</b></h6>
+              <p>Showcase your product in action without physical limitations.</p>
 
-              <h6> <b>Polished:</b></h6>
-              <p>Create a professional impression with flawless editing.</p>
+              <h6> <b>Training Materials:</b></h6>
+              <p> Simplify learning with interactive and immersive animations.</p>
 
-              <h5> <b>Optimized:</b></h5>
-              <p>Tailor your video for specific platforms and audiences to maximize reach and engagement.</p>
+              <h6> <b>Marketing Videos:</b></h6>
+              <p>Enhance your campaigns with captivating visuals that drive results.</p>
+              <p>
+                3D explainer animations are widely used across industries, from healthcare and technology to retail and education, helping brands communicate more effectively.
+              </p>
 
 
 
@@ -158,92 +163,20 @@ const Animation_3D = () => {
 
             </div>
             <div className="col-md-6 order-md-2 order-1 ">
-              <h4>Why Choose Dot Networks for Video Editing?</h4>
+              <h4>Why Are Companies Using 3D Explainer Animations?</h4>
 
 
-              <h6> <b>Speed and Precision:</b></h6>
-              <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
+              <p>In today’s competitive market, 3D animations have become a game-changer for businesses looking to connect with their audience. They offer unparalleled versatility, allowing companies to:</p>
 
+              <ul className="ulul" >
+                <li>Present ideas in a visually appealing way.</li>
+                <li>Add realism and depth to their marketing materials.</li>
+                <li>Stand out with unique and memorable content.</li>
+              </ul>
 
-              <h6> <b>Customized Solutions:</b></h6>
-              <p>Every video has a purpose, and we tailor our editing to suit your goals. From visual storytelling to brand-focused edits, we ensure your video aligns perfectly with your message.</p>
-
-
-              <h6> <b>Creativity and Expertise:</b></h6>
-              <p>Our team of skilled editors combines technical expertise with artistic flair. Using the latest software and techniques, we create videos that are not just visually appealing but also emotionally impactful.</p>
-
-
-              <h6> <b>Full-Service Editing:</b></h6>
-              <p>From trimming and sequencing to color grading, sound design, and special effects, we handle every aspect of the editing process, ensuring your footage transforms into a polished masterpiece.</p>
-
-
-
-            </div>
-
-          </div>
-          <hr />
-          <div className="row my-5 justify-content-center align-items-center">
-
-            <div className="col-md-6">
-              <h4>Why Choose Dot Networks for Video Editing?</h4>
-
-
-              <h6> <b>Speed and Precision:</b></h6>
-              <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
-
-
-              <h6> <b>Customized Solutions:</b></h6>
-              <p>Every video has a purpose, and we tailor our editing to suit your goals. From visual storytelling to brand-focused edits, we ensure your video aligns perfectly with your message.</p>
-
-
-              <h6> <b>Creativity and Expertise:</b></h6>
-              <p>Our team of skilled editors combines technical expertise with artistic flair. Using the latest software and techniques, we create videos that are not just visually appealing but also emotionally impactful.</p>
-
-
-              <h6> <b>Full-Service Editing:</b></h6>
-              <p>From trimming and sequencing to color grading, sound design, and special effects, we handle every aspect of the editing process, ensuring your footage transforms into a polished masterpiece.</p>
-
-
-
-            </div>
-            <div className="col-md-6">
-
-              <video className="w-100  rounded-3"
-                src="/videos/1.mp4" controls type="video/mp4">
-              </video>
-
-            </div>
-
-          </div>
-
-          <hr />
-          <div className="row my-5 justify-content-center align-items-center">
-            <div className="col-md-6 order-md-1 order-2">
-
-              <video className="w-100  rounded-3"
-                src="/videos/1.mp4" controls type="video/mp4">
-              </video>
-
-            </div>
-            <div className="col-md-6 order-md-2 order-1 ">
-              <h4>The Dot Networks Video Editing Process</h4>
-
-
-              <h6> <b>Concept Development:</b></h6>
-              <p>We begin by understanding your goals, audience, and vision to create a clear roadmap for the editing process.</p>
-
-              <h6> <b>Footage Review:</b></h6>
-              <p> We meticulously review and organize your raw footage to ensure the best shots are selected.</p>
-
-              <h6> <b>Editing and Refinement:</b></h6>
-              <p>From cutting and sequencing to adding transitions, effects, and music, we craft a seamless video experience.</p>
-
-              <h6> <b>Feedback and Revisions:</b></h6>
-              <p>Your input matters. We provide drafts for review and refine the edit until it meets your exact specifications.</p>
-
-              <h6> <b>Final Delivery:</b></h6>
-              <p>Your polished, professional video is delivered in your preferred format, ready to impress your audience.</p>
-
+              <p>
+                Major brands are increasingly incorporating 3D explainer animations into their strategies, using them for explainer videos, product showcases, and even immersive ad campaigns. By choosing 3D animation, you ensure your brand remains innovative, engaging, and ahead of the curve.
+              </p>
             </div>
 
           </div>
@@ -252,6 +185,47 @@ const Animation_3D = () => {
 
 
 
+
+
+
+
+
+        </div>
+        <div className="row bg-body-secondary m-0 ">
+          <div className="col-md-10 mx-auto  " data-aos="fade-up">
+            <div
+              className="col-md-5 ms-auto text-end text-dark py-5"
+              data-aos="fade-up"
+            >
+              <span className="text-light-emphasis">
+                {" "}
+                Looking to make your mark? We will help you turn <br />
+                your project into a success story.{" "}
+              </span>
+            </div>
+
+            <div
+              className="row  text-center px-5 "
+              data-aos="fade-up"
+            >
+              <h1>
+                {" "}
+                Ready to bring your <span> ideas to</span> Life? <br />
+                We are <span> Here to help</span>{" "}
+              </h1>
+            </div>
+
+            <div className="row pb-5 " data-aos="fade-up">
+              <div className=" ">
+                {" "}
+                <NavLink to="/contact">
+                  <Button text="Contact Us" />
+
+                </NavLink>
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

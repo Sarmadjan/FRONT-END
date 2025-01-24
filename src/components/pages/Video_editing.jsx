@@ -13,6 +13,7 @@ import ButtonD from "../button/ButtonD";
 import "./home.css";
 import { motion } from 'framer-motion';
 import Navbar from "../Navbar";
+import Button from "../button/Button";
 const Video_editing = () => {
     useEffect(() => {
         AOS.init({
@@ -30,15 +31,15 @@ const Video_editing = () => {
             style={{ overflow: "hidden" }} className="row  g-0">
 
 
-            <div className="row g-0  bg-white text-dark first-sec m-0 ">
+            <div className="row edit g-0  bg-white text-dark first-sec m-0 ">
 
                 <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
                     <Navbar />
 
                     <div className="row g-0 align-items-center justify-content-between pt-md-5 pt-2 mt-md-5 mt-2">
-                        <div className="col-md-8 pt-md-5 pt-2 ">
+                        <div className="col-md-8  pt-2 ">
                             {" "}
-                            <h1 className="pt-md-0 pt-5  mt-5">
+                            <h1 className="pt-2  ">
                                 {" "}
                                 Video <span>Editing </span>
 
@@ -49,7 +50,7 @@ const Video_editing = () => {
                             <p  >In partnership with Dot Networks</p>
                         </div>
 
-                        <div className="col-md-6 my-5">
+                        <div className="col-md-6 mt-5">
                             <p className="text-black">
                                 {" "}
                                 At Woltrio, we specialize in delivering high-quality, professional video editing services in partnership with <b> Dot Networks.</b> Leveraging the latest technologies and expert techniques, we craft compelling visual stories that captivate audiences. Whether you need to refine a corporate video, enhance a social media clip, or produce a cinematic masterpiece, our team delivers tailored video editing solutions to match your unique vision and requirements.
@@ -58,14 +59,14 @@ const Video_editing = () => {
                     </div>
 
                     <div className=" row d-flex align-items-center">
-                        <div className="col-my-5 my-3 mb-md-5">
-                            <NavLink to="#sec-down">
+                        <div className="col-my-5  mb-md-5">
+                            <NavLink href="#sec-2">
                                 <ButtonD color="grey" text="About service" fill="black" />
                             </NavLink>
                         </div>
                     </div>
 
-                    <div className="row justify-content-center align-items-center">
+                    <div id="sec-2" className="row justify-content-center align-items-center">
                         <div className="col-md-6">
                             <h6> <b>Transform Your Vision into Engaging Visual Masterpieces with Dot Networks.</b></h6>
                             <p className=" my-4">
@@ -253,6 +254,42 @@ const Video_editing = () => {
 
 
 
+                </div>
+                <div className="row bg-body-secondary m-0 ">
+                    <div className="col-md-10 mx-auto  " data-aos="fade-up">
+                        <div
+                            className="col-md-5 ms-auto text-end text-dark py-5"
+                            data-aos="fade-up"
+                        >
+                            <span className="text-light-emphasis">
+                                {" "}
+                                Looking to make your mark? We will help you turn <br />
+                                your project into a success story.{" "}
+                            </span>
+                        </div>
+
+                        <div
+                            className="row  text-center px-5 "
+                            data-aos="fade-up"
+                        >
+                            <h1>
+                                {" "}
+                                Ready to bring your <span> ideas to</span> Life? <br />
+                                We are <span> Here to help</span>{" "}
+                            </h1>
+                        </div>
+
+                        <div className="row pb-5 " data-aos="fade-up">
+                            <div className=" ">
+                                {" "}
+                                <NavLink to="/contact">
+                                    <Button text="Contact Us" />
+
+                                </NavLink>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

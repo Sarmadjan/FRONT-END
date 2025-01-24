@@ -34,9 +34,9 @@ const Frontend = () => {
       style={{ overflow: "hidden" }}
       className="container-fluid mx-0 px-0">
       <div className="row bg-white text-dark first-sec m-0 ">
-        
+
         <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
-        <Navbar />
+          <Navbar />
           <div className="col-md-7 pt-md-5 pt-2 mt-md-5 mt-2">
             <div className="pt-md-5 pt-2 " >
               {" "}
@@ -216,21 +216,12 @@ const Frontend = () => {
           </div>
         </div>
 
-        <NavLink to={"/contact"} onClick={() => { window.scrollTo(0.0) }} className="hovv2 col-md-3 my-5 col-sm-8 py-3 mt-5 mx-auto d-flex align-items-center justify-content-between px-5 " >
-          <div style={{ textTransform: "uppercase" }}> individual service</div>
-          <div className="rounded-circle" style={{ backgroundColor: "black" }}>
-            <svg
-              style={{ width: "35px", backgroundColor: 'dark', padding: "10px" }}
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-            >
-              <path
-                fill="white" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>{" "}
-          </div>
+        <div className="my-4">
 
-
-        </NavLink>
+          <NavLink to={"/contact"}>
+            <Button text="INDIVIDUAL SERVICE" />
+          </NavLink>
+        </div>
       </div>
       <div className="row  ">
         <div className="col-md-10  mx-auto">
