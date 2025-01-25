@@ -85,7 +85,7 @@ const Animation_3D = () => {
             <div className="col-md-6" data-aos="fade-left">
 
 
-              <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
+              <Video src="https://youtu.be/8x0NwXR9Jvo" />
 
             </div>
           </div>
@@ -95,7 +95,7 @@ const Animation_3D = () => {
           <div className="row my-5 justify-content-center align-items-center" >
             <div className="col-md-6 order-md-1 order-2" data-aos="fade-right" >
 
-              <Video src="https://www.youtube.com/watch?v=2otDQDy_1gU" />
+              <Video src="https://youtu.be/2otDQDy_1gU" />
 
             </div>
             <div className="col-md-6 order-md-2 order-1 " data-aos="fade-left">
@@ -145,7 +145,7 @@ const Animation_3D = () => {
             </div>
             <div className="col-md-6" data-aos="fade-left">
 
-              <Video src="https://www.youtube.com/watch?v=vl8iFfbKElI" />
+              <Video src="https://youtu.be/cE_14sgqPHE" />
 
             </div>
 
@@ -154,7 +154,7 @@ const Animation_3D = () => {
           <div className="row my-5 justify-content-center align-items-center">
             <div className="col-md-6 order-md-1 order-2" data-aos="fade-right">
 
-              <Video src="https://www.youtube.com/watch?v=kj3F1D5YBJo" />
+              <Video src="https://youtu.be/vl8iFfbKElI" />
 
             </div>
             <div className="col-md-6 order-md-2 order-1 " data-aos="fade-left">

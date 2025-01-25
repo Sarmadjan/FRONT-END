@@ -13,6 +13,7 @@ import Wordpress from "./components/pages/Wordpress";
 import { useEffect, useState } from "react";
 import Video_editing from "./components/pages/Video_editing";
 import Animation_3D from "./components/pages/3D_animation";
+import Animation_2D from "./components/pages/2D_animation";
 
 
 
@@ -57,6 +58,8 @@ export default function App() {
         <Route path="/wordpress" element={<Wordpress />} />
         <Route path="/video_editing" element={<Video_editing />} />
         <Route path="/3d_animation" element={<Animation_3D />} />
+        <Route path="/2d_animation" element={<Animation_2D />} />
+      
 
         <Route path="*" element={<Home />} />
       </Routes>

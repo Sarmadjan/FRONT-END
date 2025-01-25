@@ -77,7 +77,7 @@ const Video_editing = () => {
                         <div className="col-md-6">
 
 
-                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
+                            <Video src="https://youtu.be/ufn7xyQbd8Y" />
 
                         </div>
                     </div>
@@ -88,11 +88,11 @@ const Video_editing = () => {
                         <div className="col-md-6 order-md-1 order-2">
 
 
-                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
+                            <Video src="https://youtu.be/_x-n4aCu0Q4" />
 
                         </div>
                         <div className="col-md-6 order-md-2 order-1 ">
-                            <h4>Our Video Editing Services Include.</h4>
+                            <h4>Our Video Editing Services Include:</h4>
 
 
                             <h6> <b>Social Media Video Editing:</b></h6>
@@ -143,7 +143,7 @@ const Video_editing = () => {
                         <div className="col-md-6">
 
 
-                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
+                            <Video src="https://youtu.be/YL8rhwTHF_k" />
 
                         </div>
 
@@ -153,7 +153,7 @@ const Video_editing = () => {
                         <div className="col-md-6 order-md-1 order-2">
 
 
-                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
+                            <Video src="https://youtu.be/F4psQbZoWyo" />
 
                         </div>
                         <div className="col-md-6 order-md-2 order-1 ">
@@ -208,7 +208,7 @@ const Video_editing = () => {
                         <div className="col-md-6">
 
 
-                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
+                            <Video src="https://youtu.be/gKcVglqjyds" />
 
                         </div>
 

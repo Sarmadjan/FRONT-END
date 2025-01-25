@@ -31,7 +31,8 @@
   color: black;
 }
 .nav-link:hover {
-  color: #007bff;
+  border-bottom: 1px solid;
+  
 }
 
 /* Active Link Styling */
@@ -39,6 +40,7 @@
   color: #fff !important;
   background-color: #5b636b;
   border-radius: 5px;
+  
 }
 
 

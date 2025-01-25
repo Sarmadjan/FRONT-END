@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import "./Navbaritem.css";
 
@@ -43,6 +43,7 @@ const NavbarItem = () => {
         className={`dropdown-menu dropdown-menu-lg-end ${isDropdownOpen ? "show" : ""}`}
         aria-labelledby="navbarDropdown"
       >
+       
         <li>
           <NavLink
             className={({ isActive }) =>
@@ -63,7 +64,7 @@ const NavbarItem = () => {
             Back-End
           </NavLink>
         </li>
-        <hr className="py-1 mb-0" />
+        <hr  />
         <li>
           <NavLink
             className={({ isActive }) =>
@@ -74,7 +75,7 @@ const NavbarItem = () => {
             WordPress and Shopify
           </NavLink>
         </li>
-        <hr className="py-1 mb-0" />
+        <hr  />
         <li>
           <NavLink
             className={({ isActive }) =>
@@ -97,7 +98,10 @@ const NavbarItem = () => {
         </li>
 
       </ul>
+      
     </li>
+    
+    
   );
 };
 
