@@ -5,7 +5,7 @@
 
   display: none; /* Initially hidden */
   position: absolute;
-  background-color: aliceblue;
+ 
 
   border: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
@@ -15,8 +15,7 @@
   width: auto;
   display: block; /* Shown when the show class is added */
 }
-.dropdown-menu li:hover {
-}
+
 
 .dropdown-toggle::after {
   display: none !important;
