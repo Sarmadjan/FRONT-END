@@ -14,6 +14,8 @@ import "./home.css";
 import { motion } from 'framer-motion';
 import Navbar from "../Navbar";
 import Button from "../button/Button";
+
+import Video from "../Embed_video";
 const Animation_3D = () => {
   useEffect(() => {
     AOS.init({
@@ -65,8 +67,8 @@ const Animation_3D = () => {
             </div>
           </div>
 
-          <div className="row justify-content-center align-items-center">
-            <div className="col-md-6">
+          <div className="row justify-content-center align-items-center" >
+            <div className="col-md-6" data-aos="fade-right">
               <h5> <b>Why Choose Dot Networks for Your 3D Explainer Animations?
               </b></h5>
               <p className=" my-4">
@@ -80,26 +82,23 @@ const Animation_3D = () => {
                 <b>Innovation at Every Step:</b>We don’t just create animations; we create experiences. Leveraging the latest technologies, our 3D explainer animations set your brand apart, turning complex concepts into visually stunning narratives that resonate with your audience.
               </p>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-left">
 
-              <video className="w-100  rounded-3"
-                src="/videos/1.mp4" controls type="video/mp4">
-              </video>
+
+              <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
 
             </div>
           </div>
           <hr />
 
 
-          <div className="row my-5 justify-content-center align-items-center">
-            <div className="col-md-6 order-md-1 order-2">
+          <div className="row my-5 justify-content-center align-items-center" >
+            <div className="col-md-6 order-md-1 order-2" data-aos="fade-right" >
 
-              <video className="w-100  rounded-3"
-                src="/videos/1.mp4" controls type="video/mp4">
-              </video>
+              <Video src="https://www.youtube.com/watch?v=2otDQDy_1gU" />
 
             </div>
-            <div className="col-md-6 order-md-2 order-1 ">
+            <div className="col-md-6 order-md-2 order-1 " data-aos="fade-left">
               <h4>Our 3D Explainer Animation Services</h4>
 
 
@@ -119,9 +118,9 @@ const Animation_3D = () => {
 
           </div>
           <hr />
-          <div className="row my-5 justify-content-center align-items-center">
+          <div className="row my-5 justify-content-center align-items-center" >
 
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-right">
               <h4>What Are 3D Explainer Animations?</h4>
 
 
@@ -144,25 +143,21 @@ const Animation_3D = () => {
 
 
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-left">
 
-              <video className="w-100  rounded-3"
-                src="/videos/1.mp4" controls type="video/mp4">
-              </video>
+              <Video src="https://www.youtube.com/watch?v=vl8iFfbKElI" />
 
             </div>
 
           </div>
           <hr />
           <div className="row my-5 justify-content-center align-items-center">
-            <div className="col-md-6 order-md-1 order-2">
+            <div className="col-md-6 order-md-1 order-2" data-aos="fade-right">
 
-              <video className="w-100  rounded-3"
-                src="/videos/1.mp4" controls type="video/mp4">
-              </video>
+              <Video src="https://www.youtube.com/watch?v=kj3F1D5YBJo" />
 
             </div>
-            <div className="col-md-6 order-md-2 order-1 ">
+            <div className="col-md-6 order-md-2 order-1 " data-aos="fade-left">
               <h4>Why Are Companies Using 3D Explainer Animations?</h4>
 
 
@@ -191,11 +186,11 @@ const Animation_3D = () => {
 
 
         </div>
-        <div className="row bg-body-secondary m-0 ">
-          <div className="col-md-10 mx-auto  " data-aos="fade-up">
+        <div className="row bg-body-secondary m-0 " >
+          <div className="col-md-10 mx-auto  ">
             <div
               className="col-md-5 ms-auto text-end text-dark py-5"
-              data-aos="fade-up"
+              data-aos="fade-left"
             >
               <span className="text-light-emphasis">
                 {" "}

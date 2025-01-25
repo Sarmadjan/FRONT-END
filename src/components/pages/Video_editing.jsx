@@ -14,6 +14,7 @@ import "./home.css";
 import { motion } from 'framer-motion';
 import Navbar from "../Navbar";
 import Button from "../button/Button";
+import Video from "../Embed_video";
 const Video_editing = () => {
     useEffect(() => {
         AOS.init({
@@ -75,9 +76,8 @@ const Video_editing = () => {
                         </div>
                         <div className="col-md-6">
 
-                            <video className="w-100  rounded-3"
-                                src="/videos/1.mp4" controls type="video/mp4">
-                            </video>
+
+                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
 
                         </div>
                     </div>
@@ -87,9 +87,8 @@ const Video_editing = () => {
                     <div className="row my-5 justify-content-center align-items-center">
                         <div className="col-md-6 order-md-1 order-2">
 
-                            <video className="w-100  rounded-3"
-                                src="/videos/1.mp4" controls type="video/mp4">
-                            </video>
+
+                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
 
                         </div>
                         <div className="col-md-6 order-md-2 order-1 ">
@@ -143,9 +142,8 @@ const Video_editing = () => {
                         </div>
                         <div className="col-md-6">
 
-                            <video className="w-100  rounded-3"
-                                src="/videos/1.mp4" controls type="video/mp4">
-                            </video>
+
+                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
 
                         </div>
 
@@ -154,9 +152,8 @@ const Video_editing = () => {
                     <div className="row my-5 justify-content-center align-items-center">
                         <div className="col-md-6 order-md-1 order-2">
 
-                            <video className="w-100  rounded-3"
-                                src="/videos/1.mp4" controls type="video/mp4">
-                            </video>
+
+                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
 
                         </div>
                         <div className="col-md-6 order-md-2 order-1 ">
@@ -210,9 +207,8 @@ const Video_editing = () => {
                         </div>
                         <div className="col-md-6">
 
-                            <video className="w-100  rounded-3"
-                                src="/videos/1.mp4" controls type="video/mp4">
-                            </video>
+
+                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
 
                         </div>
 
@@ -222,9 +218,8 @@ const Video_editing = () => {
                     <div className="row my-5 justify-content-center align-items-center">
                         <div className="col-md-6 order-md-1 order-2">
 
-                            <video className="w-100  rounded-3"
-                                src="/videos/1.mp4" controls type="video/mp4">
-                            </video>
+
+                            <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
 
                         </div>
                         <div className="col-md-6 order-md-2 order-1 ">
