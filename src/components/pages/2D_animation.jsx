@@ -40,32 +40,39 @@ const Animation_2D = () => {
           <Navbar />
 
           <div className="row g-0 align-items-center justify-content-between pt-md-5 pt-2 mt-md-5 mt-2">
-            <div className="col-md-8 pt-md-5 pt-2 ">
+            <div className="col-md-8 col-10   ">
               {" "}
               <h1 className="pt-md-0 pt-5  mt-5">
                 {" "}
-                2D <span>Animation </span> <img className="img-fluid rounded-circle ms-md-5 " width={"75px"} src="/images/Dot Network.png" alt="" /> <br />  Explainer
+                2D <span>Animation </span>   Explainer
 
 
               </h1>
 
 
-              <p  >In partnership with Dot Networks</p>
+              <h4  >In partnership with Dot Networks</h4>
+
+
+              <div className="row ">
+                <p className="text-black">
+
+                  At<b> Woltrio, </b> we partner with <b>Dot Networks </b> to craft engaging <b>2D animated  explainer</b> videos that simplify complex ideas and leave a lasting impact. Our talented team delivers bespoke solutions that align with your brand's voice, focusing on 2D business and product explainers, character design, and custom animations. With our expertise, we ensure clear communication and a memorable experience, helping you effectively convey your message through the timeless appeal of 2D animation.</p>     </div>
+
+              <div className=" row d-flex align-items-center">
+                <div className=" my-3 mb-md-5">
+                  <NavLink to="#sec-down">
+                    <ButtonD color="grey" text="About service" fill="black" />
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-2 d-flex justify-content-center mb-auto mt-md-5  mt-5 ">
+              <img className="img-fluid rounded-circle mt-md-0 mt-5" src="/images/Dot Network.png " alt="" />
             </div>
 
-            <div className="col-md-6 my-5">
-              <p className="text-black">
-
-                At<b> Woltrio, </b> we partner with <b>Dot Networks </b> to craft engaging <b>2D animated  explainer</b> videos that simplify complex ideas and leave a lasting impact. Our talented team delivers bespoke solutions that align with your brand's voice, focusing on 2D business and product explainers, character design, and custom animations. With our expertise, we ensure clear communication and a memorable experience, helping you effectively convey your message through the timeless appeal of 2D animation.</p>     </div>
           </div>
 
-          <div className=" row d-flex align-items-center">
-            <div className="col-my-5 my-3 mb-md-5">
-              <NavLink to="#sec-down">
-                <ButtonD color="grey" text="About service" fill="black" />
-              </NavLink>
-            </div>
-          </div>
+
 
           <div className="row justify-content-center align-items-center" >
             <div className="col-md-6" data-aos="fade-right">

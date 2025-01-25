@@ -96,6 +96,17 @@ const NavbarItem = () => {
             3D Animation
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "dropdown-item active" : "dropdown-item"
+            }
+            to="/2d_animation"
+          >
+            2D Animation
+          </NavLink>
+        </li>
+
 
       </ul>
       

@@ -1,5 +1,7 @@
 .edit p {
   color: black !important;
+  line-height: normal;
+  
 }
 
 .ulul li {
