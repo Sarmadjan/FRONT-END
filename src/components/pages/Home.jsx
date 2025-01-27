@@ -48,7 +48,7 @@ const Home = () => {
 
 
           <ParticleEffect>
-            <div className="col-md-10  mx-auto main-heading mb-md-5 ">
+            <div className="col-md-10 pb-5  mx-auto main-heading mb-md-5 ">
               <Navbar />
 
               <div className="col-md-7 pt-3 mt-5">

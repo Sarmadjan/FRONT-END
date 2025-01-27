@@ -35,3 +35,7 @@
 .list-group-item.active{
   background-color:  #5b636b;
 }
+
+.list-group-item:hover{
+  border-left: 3px solid black;
+}

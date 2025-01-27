@@ -87,16 +87,16 @@ const Portfolio = () => {
       <div className="row g-0">
         <div className="col-md-10 mx-auto d-flex   flex-wrap">
           <div className="col-md-6  mt-5 ">
-            <Project_card imgpath="/images/Projects/IC360.png" title="IC360" detail="Firnas.tech leverages transformative technologies to accelerate our enterprise software development for unique business needs." />
+            <Project_card imgpath="/images/Projects/IC360.png" title="IC360" detail="Woltrio leverages transformative technologies to accelerate our enterprise software development for unique business needs." />
           </div>
           <div className="col-md-6  mt-5">
-            <Project_card imgpath="/images/Projects/blissiree.png" title="Blissiree" detail="Firnas.tech leverages transformative technologies to accelerate our enterprise software development for unique business needs." />
+            <Project_card imgpath="/images/Projects/blissiree.png" title="Blissiree" detail="Woltrio leverages transformative technologies to accelerate our enterprise software development for unique business needs." />
           </div>
           <div className="col-md-6  mt-5">
-            <Project_card imgpath="/images/Projects/innovo.png" title="Innovo" detail="Firnas.tech leverages transformative technologies to accelerate our enterprise software development for unique business needs." />
+            <Project_card imgpath="/images/Projects/innovo.png" title="Innovo" detail="Woltrio leverages transformative technologies to accelerate our enterprise software development for unique business needs." />
           </div>
           <div className="col-md-6  mt-5">
-            <Project_card imgpath="/images/Projects/swiftreels.png" title="Swiftreels" detail="Firnas.tech leverages transformative technologies to accelerate our enterprise software development for unique business needs." />
+            <Project_card imgpath="/images/Projects/swiftreels.png" title="Swiftreels" detail="Woltrio leverages transformative technologies to accelerate our enterprise software development for unique business needs." />
           </div>
         </div>
       </div>
