@@ -54,13 +54,13 @@ const Back_end = () => {
 
           <div className=" row d-flex align-items-center">
             <div className="col-my-5 my-3 mb-md-5">
-              <NavLink to="#sec-down">
+              <NavLink href="#sec-down">
                 <ButtonD color="grey" text="About service" fill="black" />
               </NavLink>
             </div>
           </div>
 
-          <div className="row my-md-5 d-flex align-items-center" >
+          <div id="sec-down" className="row my-md-5 d-flex align-items-center" >
             <div className="col-md-6 my-md-5 ">
               <div className="col  my-md-5" data-aos="fade-up">
                 <h2>

@@ -60,7 +60,7 @@ const Animation_2D = () => {
 
               <div className=" row d-flex align-items-center">
                 <div className=" my-3 mb-md-5">
-                  <NavLink to="#sec-down">
+                  <NavLink to="#">
                     <ButtonD color="grey" text="About service" fill="black" />
                   </NavLink>
                 </div>

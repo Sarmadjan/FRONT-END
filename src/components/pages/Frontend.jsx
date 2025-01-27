@@ -49,9 +49,9 @@ const Frontend = () => {
 
           <div className=" row d-flex align-items-center">
             <div className="col-my-5 my-3 mb-md-5">
-              <a href="#sec-1" >
+              <NavLink href="#sec-1" >
                 <ButtonD color="grey" text="About service" fill="black" />
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="p-2">
