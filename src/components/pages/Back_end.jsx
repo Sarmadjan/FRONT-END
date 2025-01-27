@@ -217,9 +217,9 @@ const Back_end = () => {
 
         <div className="my-4">
 
-        <NavLink to={"/contact"}>
-          <Button text="INDIVIDUAL SERVICE" />
-        </NavLink>
+          <NavLink to={"/contact"}>
+            <Button text="INDIVIDUAL SERVICE" />
+          </NavLink>
         </div>
       </div>
       <div className="row ">

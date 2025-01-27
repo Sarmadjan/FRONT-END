@@ -1,14 +1,9 @@
 import "./home.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 import { useEffect } from "react";
 import Project_card from './Project_card'
-
-
 import { motion } from 'framer-motion';
-
-
 import ButtonD from "../button/ButtonD";
 import Button from "../button/Button";
 import { NavLink } from "react-router-dom";
@@ -27,9 +22,7 @@ const Portfolio = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: .1 }}
-
     >
-
       <div className="col-md-10 mx-auto  main-heading">
         <Navbar />
 
@@ -75,14 +68,6 @@ const Portfolio = () => {
           </div>
         </div> */}
       </div>
-
-
-
-
-
-
-
-
       {/* CLOSING OF COL-100000  */}
       <div className="row g-0">
         <div className="col-md-10 mx-auto d-flex   flex-wrap">

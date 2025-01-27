@@ -4,7 +4,7 @@ const Button_Rm = (props) => {
   return (
     <div className="input-group input-group-lg w-50 mt-4 ">
       <div className="custom-input-wrapper2 ">
-        <button  className="custom-button2 pe-5" onClick={() => {scrollTo(0 , 0)}} style={{ color: props.color }}> 
+        <button className="custom-button2 pe-5" onClick={() => { scrollTo(0, 0) }} style={{ color: props.color }}>
           {props.text}
         </button>
         <button className="custom-arrow-btn2 "  >
