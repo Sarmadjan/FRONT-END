@@ -33,7 +33,7 @@ const Services = () => {
 
         <div className="row bg-black mt-0">
 
-          <div className="col-md-10 mx-auto px-md-0 px-4 pt-2 ">
+          <div className="col-md-10 mx-auto   ">
             <Navbar />
             <ParticleEffect>
               <div

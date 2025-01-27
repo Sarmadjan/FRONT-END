@@ -5,7 +5,6 @@
 
   display: none; /* Initially hidden */
   position: absolute;
- 
 
   border: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
@@ -16,17 +15,23 @@
   display: block; /* Shown when the show class is added */
 }
 
-
 .dropdown-toggle::after {
   display: none !important;
 }
-hr {
-  padding: 0px;
-  margin: 0px;
-  margin-top: 0px;
-}
+
 .dropdown-item:hover {
   color: #ccc;
   transition-duration: 0.1s;
   background-color: #5b636b;
+}
+
+/* Navbaritem.css */
+.dropdown-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-10%);
+  max-width: 40vw; /* Ensures the dropdown doesn't overflow */
+}
+.list-group-item.active{
+  background-color:  #5b636b;
 }

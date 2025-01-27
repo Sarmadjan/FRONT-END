@@ -30,7 +30,7 @@ const Portfolio = () => {
 
     >
 
-      <div className="col-md-10 mx-md-auto px-md-0 px-3 m-0 main-heading">
+      <div className="col-md-10 mx-auto  main-heading">
         <Navbar />
 
         <div className="row m-0">

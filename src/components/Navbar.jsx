@@ -22,7 +22,7 @@ function Navbar() {
   return (
 
 
-    <nav className="navbar mx-auto  px-md-4 px-1 mt-4 z-3 navbar-expand-lg navbar-light bg-transperant   navvv  py-2 pt-md-3 m-0">
+    <nav className="navbar mx-auto  px-md-4 px-1 mt-4 z-3 navbar-expand-lg navbar-light bg-transperant   navvv   py-md-3 m-0">
 
       {/* Logo */}
       <NavLink className="navbar-brand ms-md-3 col-5   m-0 " to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
@@ -66,7 +66,7 @@ function Navbar() {
               Portfolio
             </NavLink>
           </li>
-          
+
 
 
           <NavbarItem />

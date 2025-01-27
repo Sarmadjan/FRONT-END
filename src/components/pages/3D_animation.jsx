@@ -35,7 +35,7 @@ const Animation_3D = () => {
 
       <div className="row g-0 edit bg-white text-dark first-sec m-0 ">
 
-        <div className="col-md-10 p-md-3 px-md-0 px-2  mx-auto main-heading  ">
+        <div className="col-md-10     mx-auto main-heading  ">
           <Navbar />
           <div className="row g-0 align-items-center justify-content-between pt-md-5 pt-2 mt-md-5 mt-2">
             <div className="col-md-8 col-10   ">

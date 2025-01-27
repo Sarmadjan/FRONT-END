@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import "./Navbaritem.css";
 
@@ -6,25 +6,28 @@ const NavbarItem = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+  const dropdownRef = useRef(null);
 
   const handleMouseEnter = () => {
     setIsDropdownOpen(true);
   };
 
-  const handleMouseLeave = () => {
-    setIsDropdownOpen(false);
+  const handleMouseLeave = (e) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(e.relatedTarget)) {
+      setIsDropdownOpen(false);
+    }
   };
 
   const handleMoreClick = (e) => {
-    e.preventDefault(); // Prevent dropdown behavior
-    navigate("/services"); // Navigate to the "Services" page
+    e.preventDefault();
+    navigate("/services");
   };
 
-  const isActive = location.pathname === "/services"; // Check if current path is "/services"
+  const isActive = location.pathname === "/services";
 
   return (
     <li
-      className="nav-item dropdown"
+      className="nav-item dropdown position-static"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -36,83 +39,39 @@ const NavbarItem = () => {
         onClick={handleMoreClick}
         aria-expanded="false"
       >
-        Services
+        Services <b className="fw-bold">+</b>
       </a>
 
-      <ul
-        className={`dropdown-menu dropdown-menu-lg-end ${isDropdownOpen ? "show" : ""}`}
+      <div
+        className={`dropdown-menu w-100 mt-0 ${isDropdownOpen ? "show" : ""} dropdown-center`}
         aria-labelledby="navbarDropdown"
+        ref={dropdownRef}
+        style={{ borderTopLeftRadius: 0, borderTopRightRadius: 0 }}
       >
-       
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "dropdown-item active" : "dropdown-item"
-            }
-            to="/frontend"
-          >
-            Front-End
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "dropdown-item active" : "dropdown-item"
-            }
-            to="/backend"
-          >
-            Back-End
-          </NavLink>
-        </li>
-        <hr  />
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "dropdown-item active" : "dropdown-item"
-            }
-            to="/wordpress"
-          >
-            WordPress and Shopify
-          </NavLink>
-        </li>
-        <hr  />
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "dropdown-item active" : "dropdown-item"
-            }
-            to="/video_editing"
-          >
-            Video Editing
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "dropdown-item active" : "dropdown-item"
-            }
-            to="/3d_animation"
-          >
-            3D Animation
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "dropdown-item active" : "dropdown-item"
-            }
-            to="/2d_animation"
-          >
-            2D Animation
-          </NavLink>
-        </li>
+
+        <div className="row ">
+          <div className="col-md-6  mb-3 ">
+            <div className="list-group list-group-flush">
+              <NavLink to="/frontend" className="list-group-item list-group-item-action">Front-End</NavLink>
+              <NavLink to="/backend" className="list-group-item list-group-item-action">Back-End</NavLink>
+              <NavLink to="/wordpress" className="list-group-item list-group-item-action">WordPress and Shopify</NavLink>
+
+            </div>
+          </div>
+          <div className="col-md-6  mb-3 ">
+            <div className="list-group list-group-flush">
+              <NavLink to="/video_editing" className="list-group-item list-group-item-action">Video Editing</NavLink>
+              <NavLink to="/3d_animation" className="list-group-item list-group-item-action">3D Animation</NavLink>
+              <NavLink to="/2d_animation" className="list-group-item list-group-item-action">2D Animation</NavLink>
+
+            </div>
+          </div>
 
 
-      </ul>
-      
+        </div>
+      </div>
+
     </li>
-    
-    
   );
 };
 

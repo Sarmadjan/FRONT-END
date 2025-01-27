@@ -54,10 +54,10 @@ const Contact = () => {
         transition={{ delay: .1 }}
         className="container-fluid bg-white px-0 mx-0 overflow-hidden ">
        
-        <div className="col-md-10 mx-auto  pb-5">
+        <div className="col-md-10 mx-auto  ">
         <Navbar />
           <div className="row main-heading ">
-            <div className="pt-md-5 my-md-5  text-center mt-md-5 ">
+            <div className="pt-5 my-5  text-center mt-md-5 ">
               {" "}
               <h1> Get in touch!</h1>
             </div>
