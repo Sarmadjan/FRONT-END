@@ -33,10 +33,10 @@ const Video_editing = () => {
 
 
             <div className="row g-0 edit bg-white text-dark first-sec m-0 ">
-            
+
 
                 <div className="col-md-10  mx-auto main-heading  ">
-                <Navbar />
+                    <Navbar />
                     <div className="row g-0 align-items-center justify-content-between pt-md-5 pt-2 mt-md-5 mt-2">
                         <div className="col-md-8 col-10   ">
                             {" "}
@@ -44,7 +44,7 @@ const Video_editing = () => {
                                 {" "}
                                 Video Editing
                             </h1>
-                            <h4  >In partnership with Dot Networks</h4>
+                            <h4  >In partnership with <a  href="https://thedotnetworks.com/" target="blank">Dot Networks </a></h4>
 
 
                             <div className="row ">
@@ -66,7 +66,7 @@ const Video_editing = () => {
 
                         </div>
                         <div className="col-md-4 col-2 d-flex justify-content-center mb-auto mt-md-5  mt-5 ">
-                            <img className="img-fluid rounded-circle mt-md-0 mt-5" src="/images/Dot Network.png " alt="" />
+                            <a href="https://thedotnetworks.com/" target="blank"><img className="img-fluid rounded-circle mt-md-0 mt-5" src="/images/Dot Network.png " alt="" /></a>
                         </div>
 
 

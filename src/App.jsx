@@ -59,7 +59,7 @@ export default function App() {
         <Route path="/video_editing" element={<Video_editing />} />
         <Route path="/3d_animation" element={<Animation_3D />} />
         <Route path="/2d_animation" element={<Animation_2D />} />
-      
+
 
         <Route path="*" element={<Home />} />
       </Routes>

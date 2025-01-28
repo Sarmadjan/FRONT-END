@@ -17,3 +17,10 @@
     height: 200px;
   }
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+b:hover {
+  color: black;
+}

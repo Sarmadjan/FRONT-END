@@ -46,7 +46,7 @@ const Animation_2D = () => {
                 {" "}
                 2D <span>Animation </span>   Explainer
               </h1>
-              <h4  >In partnership with Dot Networks</h4>
+              <h4  >In partnership with <a href="https://thedotnetworks.com/" target="blank">Dot Networks </a></h4>
               <div className="row ">
                 <p className="text-black">
 
@@ -61,7 +61,7 @@ const Animation_2D = () => {
               </div>
             </div>
             <div className="col-md-4 col-2 d-flex justify-content-center mb-auto mt-md-5  mt-5 ">
-              <img className="img-fluid rounded-circle mt-md-0 mt-5" src="/images/Dot Network.png " alt="" />
+              <a href="https://thedotnetworks.com/" target="blank"><img className="img-fluid rounded-circle mt-md-0 mt-5" src="/images/Dot Network.png " alt="" /> </a>
             </div>
           </div>
 

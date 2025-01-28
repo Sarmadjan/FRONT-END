@@ -40,91 +40,91 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: .1 }}
-     >
-
-      
-        <div className="row g-0 bg-black text-light first-sec ">
+    >
 
 
+      <div className="row g-0 bg-black text-light first-sec ">
 
-          <ParticleEffect>
-            <div className="col-md-10 pb-5  mx-auto main-heading mb-md-5 ">
-              <Navbar />
 
-              <div className="col-md-7 pt-3 mt-5">
-                <div className="">
+
+        <ParticleEffect>
+          <div className="col-md-10 pb-5  mx-auto main-heading mb-md-5 ">
+            <Navbar />
+
+            <div className="col-md-7 pt-3 mt-5">
+              <div className="">
+                {" "}
+                <h1>
                   {" "}
-                  <h1>
-                    {" "}
-                    Innovative  <span> Solutions For </span>
-                    Digital <span> Excellance</span>{" "}
-                  </h1>
-                </div>
+                  Innovative  <span> Solutions For </span>
+                  Digital <span> Excellance</span>{" "}
+                </h1>
               </div>
-              <div className=" col-md-6 my-3 my-md-5 ">
-                <p>
-                  Woltrio is a dynamic agency that specializes in website development, digital marketing, 3D animations, and video editing, committed to helping brands thrive in the digital world.
-                </p>
+            </div>
+            <div className=" col-md-6 my-3 my-md-5 ">
+              <p>
+                Woltrio is a dynamic agency that specializes in website development, digital marketing, 3D animations, and video editing, committed to helping brands thrive in the digital world.
+              </p>
+            </div>
+
+            <div className=" row d-flex align-items-center">
+              <div className="col-md-3 mb-5 mb-md-0 m-0">
+                <NavLink to="/services">
+                  <Button text="WHAT WE DO" />
+                </NavLink>
               </div>
 
-              <div className=" row d-flex align-items-center">
-                <div className="col-md-3 mb-5 mb-md-0 m-0">
-                  <NavLink to="/services">
-                    <Button text="WHAT WE DO" />
-                  </NavLink>
-                </div>
+              <div className=" d-none d-md-block ms-md-4  col-md-2  ">
+                <NavLink to="/portfolio">
+                  <Button_Rm text="Read more" color="white" />
+                </NavLink>
+              </div>
 
-                <div className=" d-none d-md-block ms-md-4  col-md-2  ">
-                  <NavLink to="/portfolio">
-                    <Button_Rm text="Read more" color="white" />
-                  </NavLink>
-                </div>
-
-                <a
-                  href="#section-2"
-                  className=" d-none d-md-block  ms-auto mb-md-0 mb-3  "
+              <a
+                href="#section-2"
+                className=" d-none d-md-block  ms-auto mb-md-0 mb-3  "
+                style={{
+                  position: "relative",
+                  height: "70px",
+                  width: "70px",
+                  backgroundColor: "#ff9800",
+                  borderRadius: "50%",
+                }}
+              >
+                <div
+                  className="inner-cir text-center "
                   style={{
-                    position: "relative",
-                    height: "70px",
-                    width: "70px",
-                    backgroundColor: "#ff9800",
+
+
+                    right: "10px",
+                    top: "25%",
+                    left: "25%",
+                    position: "absolute",
+                    height: "35px",
+                    width: "35px",
+                    backgroundColor: "black",
                     borderRadius: "50%",
                   }}
                 >
-                  <div
-                    className="inner-cir text-center "
-                    style={{
-
-
-                      right: "10px",
-                      top: "25%",
-                      left: "25%",
-                      position: "absolute",
-                      height: "35px",
-                      width: "35px",
-                      backgroundColor: "black",
-                      borderRadius: "50%",
-                    }}
+                  <svg
+                    style={{ width: "15px" }}
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"
                   >
-                    <svg
-                      style={{ width: "15px" }}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                    >
-                      <path
-                        fill="white"
-                        d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-                      />
-                    </svg>
-                  </div>
-                </a>
-              </div>
+                    <path
+                      fill="white"
+                      d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                    />
+                  </svg>
+                </div>
+              </a>
             </div>
-          </ParticleEffect>
-        </div>
-       
-        
-      
+          </div>
+        </ParticleEffect>
+      </div>
+
+
+
 
       <div id="section-2" className="container-fluid">
         <div className="col-10 mx-auto">
@@ -182,15 +182,15 @@ const Home = () => {
         </div>
       </div>
       <div className="container-fluid">
-      <div className="row gx-o bg-light-subtle ">
-        <div className="col mx-md-0 mx-5">
-          <Tech />
+        <div className="row gx-o bg-light-subtle ">
+          <div className="col mx-md-0 mx-5">
+            <Tech />
           </div>
         </div>
       </div>
-      
-     
-     
+
+
+
 
       <div className="container-fluid bg-black mt-md-5 sec-3">
         <div className="col-10 mx-auto pt-md-5">

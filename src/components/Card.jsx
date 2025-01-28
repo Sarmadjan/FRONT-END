@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
-import { NavLink } from "react-router-dom";
 import "./card.css";
+import { Link } from "react-router-dom";
 
 const Card = (props) => {
   return (
@@ -18,7 +18,8 @@ const Card = (props) => {
         <div className="content2 px-2 ">
           <p className="text-light mb-5">{props.data}</p>
           <div className="row">
-            <NavLink
+            <Link
+
               onClick={() => {
                 window.scrollTo(1.1);
               }}
@@ -44,7 +45,8 @@ const Card = (props) => {
                   </svg>
                 </i>
               </div>
-            </NavLink>
+
+            </Link>
           </div>
 
         </div>
