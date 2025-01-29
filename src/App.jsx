@@ -14,8 +14,8 @@ import { useEffect, useState } from "react";
 import Video_editing from "./components/pages/Video_editing";
 import Animation_3D from "./components/pages/3D_animation";
 import Animation_2D from "./components/pages/2D_animation";
-
-
+import Jobs from "./components/pages/Jobs opning";
+import Testing from "./components/pages/testing";
 
 export default function App() {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
@@ -32,7 +32,6 @@ export default function App() {
     };
   }, []);
 
-
   useEffect(() => {
     // Load LinkedIn's profile badge script
     const script = document.createElement("script");
@@ -43,7 +42,6 @@ export default function App() {
   }, []);
   return (
     <Router>
-
 
       {isDesktop && <MouseFollower />}
       <Routes>
@@ -59,10 +57,10 @@ export default function App() {
         <Route path="/video_editing" element={<Video_editing />} />
         <Route path="/3d_animation" element={<Animation_3D />} />
         <Route path="/2d_animation" element={<Animation_2D />} />
-
-
+        <Route path="/jobs" element={<Jobs />} />
         <Route path="*" element={<Home />} />
-      </Routes>
+        <Route path='/testing' element={<Testing />} />
+      </Routes>\
       <Footer />
     </Router>
   );

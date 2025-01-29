@@ -1,5 +1,6 @@
 .navvv {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 28px 28px,
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 28px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 10px;
   margin: 0 auto;
@@ -29,14 +30,16 @@
   color: #333;
   padding: 8px 15px;
   text-decoration: none;
-  transition: color 0.3s ease, background-color 0.3s ease;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .nav-link {
   color: black;
 }
 .nav-link:hover {
-  border-bottom: 1px solid;
+  color: orange;
 }
 
 /* Active Link Styling */
@@ -71,5 +74,15 @@
 @media only screen and (max-width: 340px) {
   .widthh {
     width: 30%;
+  }
+}
+.navd {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 992px) {
+  .getbtn {
+    display: none;
   }
 }

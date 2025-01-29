@@ -3,7 +3,6 @@
 import Button_Rm from "./button/Button-Rm";
 import "./TeamCard.css";
 
-
 const Service_card = (props) => {
   return (
     <div className="servicehover ">
@@ -17,7 +16,6 @@ const Service_card = (props) => {
         <p className="text-black my-3 ">
           {props.detail}
         </p>
-
 
         <div className="row">
 
@@ -40,15 +38,10 @@ const Service_card = (props) => {
             </li>
           </ul>
 
-
         </div>
         <div className="row">
           <Button_Rm text="Read more" fill="black" />
         </div>
-
-
-
-
 
       </div>
 

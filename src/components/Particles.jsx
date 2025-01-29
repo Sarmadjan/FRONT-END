@@ -1,4 +1,4 @@
-import {  useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Particles from "@tsparticles/react";
 import { initParticlesEngine } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
@@ -19,7 +19,7 @@ const ParticleBackground = () => {
       <Particles
         id="tsparticles"
         options={{
-        fullScreen:{enable:false},
+          fullScreen: { enable: false },
           background: {
             color: {
               value: "#0D47A1",

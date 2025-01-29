@@ -1,5 +1,5 @@
 
-import  { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function MouseFollower() {
   const [x, setX] = useState(0);
@@ -8,7 +8,7 @@ function MouseFollower() {
   useEffect(() => {
     const handleMouseMove = (event) => {
       setX(event.clientX);
-      setY(event.clientY -8);
+      setY(event.clientY - 8);
     };
 
     document.addEventListener('mousemove', handleMouseMove);
@@ -31,7 +31,7 @@ function MouseFollower() {
     >
       <div
         style={{
-          transition:'transform 0.5s ease-out',
+          transition: 'transform 0.5s ease-out',
           position: 'absolute',
           left: x,
           top: y,

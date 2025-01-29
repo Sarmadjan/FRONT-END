@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 import Button from "../button/Button";
 import { motion } from 'framer-motion';
 
-
 import ButtonD from "../button/ButtonD";
 import Button_Rm from "../button/Button-Rm";
 import { NavLink } from "react-router-dom";
@@ -37,7 +36,7 @@ const Services = () => {
             <Navbar />
             <ParticleEffect>
               <div
-                className="col-7 pt-5 mt-md-5 mt-0 main-heading text-white"
+                className="col-7 pt-5 mt-md-5 mt-0  text-white"
                 style={{ paddingTop: "80px", paddingBottom: "80px" }}
               >
                 <div className="pt-5 ">
@@ -107,9 +106,6 @@ const Services = () => {
 
                     <div className="d-flex">
 
-
-
-
                     </div>
                     <div className="col-md-6  mt-md-5 pt-md-5">
                       <h4>3D Animations</h4>
@@ -157,8 +153,8 @@ const Services = () => {
           </div>
         </div>
         <div className="row g-0 ">
-        <div className="col mx-md-0 mx-5">
-          <Tech />
+          <div className="col mx-md-0 mx-5">
+            <Tech />
           </div>
         </div>
 
@@ -244,8 +240,6 @@ const Services = () => {
             </div>
           </div>
         </div> */}
-       
-
 
       </motion.div>
     </>

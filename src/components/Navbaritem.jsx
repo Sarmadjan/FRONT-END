@@ -49,24 +49,24 @@ const NavbarItem = () => {
         style={{ borderTopLeftRadius: 0, borderTopRightRadius: 0 }}
       >
 
-        <div className="row ">
-          <div className="col-md-6  mb-3 ">
+        <div className="row px-0 ">
+          <div className="col-md-6   mb-3 ">
             <div className="list-group list-group-flush">
-              <NavLink to="/frontend" className="list-group-item list-group-item-action">Front-End</NavLink>
-              <NavLink to="/backend" className="list-group-item list-group-item-action">Back-End</NavLink>
-              <NavLink to="/wordpress" className="list-group-item list-group-item-action">WordPress and Shopify</NavLink>
+              <NavLink to="/frontend" className="list-group-item list-group-item-action"> <b>&gt;  </b>Front-End</NavLink>
+              <NavLink to="/backend" className="list-group-item list-group-item-action"> <b>&gt;  </b>Back-End</NavLink>
+              <NavLink to="/wordpress" className="list-group-item list-group-item-action"> <b>&gt;  </b>WordPress and Shopify</NavLink>
 
             </div>
           </div>
           <div className="col-md-6  mb-3 ">
             <div className="list-group list-group-flush">
-              <NavLink to="/video_editing" className="list-group-item list-group-item-action">Video Editing</NavLink>
-              <NavLink to="/3d_animation" className="list-group-item list-group-item-action">3D Animation</NavLink>
-              <NavLink to="/2d_animation" className="list-group-item list-group-item-action">2D Animation</NavLink>
+              <NavLink to="/video_editing" className="list-group-item list-group-item-action"> <b>&gt;  </b>Video Editing</NavLink>
+              <NavLink to="/3d_animation" className="list-group-item list-group-item-action"> <b>&gt;  </b>3D Animation</NavLink>
+              <NavLink to="/2d_animation" className="list-group-item list-group-item-action"> <b>&gt;  </b>2D Animation</NavLink>
 
             </div>
-          </div>
 
+          </div>
 
         </div>
       </div>

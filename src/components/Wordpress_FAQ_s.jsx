@@ -18,7 +18,6 @@ function FAQSection() {
       question: "Why Choose Woltrio for WordPress Development?",
       answer: "We offer custom WordPress solutions tailored to your vision, including bespoke themes and plugins, SEO optimization for increased visibility and traffic, scalable solutions for growing businesses, and ongoing maintenance and security updates to ensure your site runs smoothly and securely.",
     },
-   
 
   ];
 

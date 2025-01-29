@@ -3,10 +3,6 @@ import "./navbar.css";
 
 import NavbarItem from "./Navbaritem";
 
-
-
-
-
 function Navbar() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -21,17 +17,18 @@ function Navbar() {
 
   return (
 
-
-    <nav className="navbar mx-auto  px-md-4 px-1 mt-4 z-3 navbar-expand-lg navbar-light bg-transperant   navvv   py-md-3 m-0">
+    <nav className="navbar mx-auto d-flex justify-content-between  px-md-4 px-1 mt-4 z-3 navbar-expand-lg navbar-light bg-transperant   navvv   py-md-3 m-0">
 
       {/* Logo */}
-      <NavLink className="navbar-brand ms-md-3 col-5   m-0 " to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
-        <img className=" img-fluid " src="/images/Logo Dark.svg" alt="Logo" />
-      </NavLink>
+      <div>
+        <NavLink className="navbar-brand ms-md-3 col-3   m-0 " to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
+          <img className=" img-fluid " src="/images/Logo Dark.svg" alt="Logo" />
+        </NavLink>
+      </div>
 
       {/* Toggle Button for Small Screens */}
       <button
-        className="navbar-toggler w-1 "
+        className="navbar-toggler ms-auto me-2 w-1 "
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarResponsive"
@@ -43,9 +40,11 @@ function Navbar() {
       </button>
 
       {/* Navbar Links */}
+
       <div className="collapse navbar-collapse" id="navbarResponsive">
-        <ul className="navbar-nav ms-auto pe-2">
-          <li className="nav-item">
+        <ul className="navbar-nav mx-auto ">
+
+          <li className="nav-item ">
 
             <NavLink
               className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
@@ -56,6 +55,7 @@ function Navbar() {
               Home
             </NavLink>
           </li>
+
           <li className="nav-item">
             <NavLink
               className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
@@ -67,9 +67,8 @@ function Navbar() {
             </NavLink>
           </li>
 
-
-
           <NavbarItem />
+
           <li className="nav-item">
             <NavLink
               className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
@@ -80,9 +79,6 @@ function Navbar() {
               Team
             </NavLink>
           </li>
-
-
-
 
           <li className="nav-item">
             <NavLink
@@ -95,18 +91,15 @@ function Navbar() {
             </NavLink>
           </li>
 
-
-
-
-
         </ul>
 
       </div>
 
-
+      <div className="getbtn">
+        <NavLink to={"/contact"}> <button style={{ height: "40px" }} type="button" className="d-md-block d-none btn fw-semibold btn-sm py-0 btn-outline-dark">GET IN TOUCH </button></NavLink>
+      </div>
 
     </nav>
-
 
   );
 }
