@@ -39,7 +39,7 @@ const NavbarItem = () => {
         onClick={handleMoreClick}
         aria-expanded="false"
       >
-        Services <b className="fw-bold">+</b>
+        Services <b> +</b>
       </a>
 
       <div

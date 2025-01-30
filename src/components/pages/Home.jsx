@@ -170,7 +170,7 @@ const Home = () => {
             </div>
 
             <div className="col-md-5 pt-md-5 pb-5 " data-aos="fade-up">
-              <img className="img-fluid mt-md-5" src={Img1} alt="img1" />
+              <img className="img-fluid mt-md-5" src="/images/main.jpg" alt="img1" />
             </div>
           </div>
         </div>

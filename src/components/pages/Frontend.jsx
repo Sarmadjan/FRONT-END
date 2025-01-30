@@ -238,14 +238,14 @@ const Frontend = () => {
 
           <div className="row my-md-5 my-2 g-3 ">
             <div className="col-md-4  " data-aos="fade-right">
-              <Service_card service="Web Development" detail="Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs." />
+              <Service_card service="Back-end Development" detail="Our backend solutions are designed to be robust, scalable, and secure. We build powerful infrastructures that ensure smooth data flow, high performance, and future scalability empowering your business with the reliable systems needed to thrive in today’s fast-paced world. " />
 
             </div>
             <div className="col-md-4" data-aos="fade-up">
-              <Service_card service="Digital Marketing" detail="Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively." />
+              <Service_card service="WordPress & Shopify " detail="From custom WordPress websites to high-performance Shopify stores, we build flexible, easy-to-manage platforms that scale with your business. Our solutions combine style with functionality to deliver a seamless user experience and maximize your online presence." one="Custom & Scalable Solutions " two="Performance & SEO Optimization " three="Secure & Seamless Integrations " four=" Ongoing Support & Maintenance" />
             </div>
             <div className="col-md-4" data-aos="fade-left">
-              <Service_card service="3D Animations" detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases." />
+              <Service_card service="Mobile App Development" detail="We build innovative mobile apps that engage users and deliver seamless performance across platforms. Whether for iOS or Android, our custom solutions are designed to meet your business goals and provide an intuitive experience that keeps users coming back." one="Native & Cross-Platform Development " two="User-Centric UI/UX Design " three="Optimized Performance & Security " four="Scalable & Cloud-Integrated Solutions " />
             </div>
           </div>
         </div>

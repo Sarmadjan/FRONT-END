@@ -21,19 +21,19 @@ const Service_card = (props) => {
 
           <ul className="lihover">
             <li className="py-3 px-0 mx-0 w-100 border border-start-0 border-end-0 text-uppercase">
-              <b>Ux Audits </b>
+              <b>{props.one}</b>
 
             </li>
             <li className="py-3 px-0 mx-0 w-100 border border-start-0 border-end-0 text-uppercase">
-              <b> Design Thinking</b>
+              <b> {props.two}</b>
 
             </li>
             <li className="py-3 px-0 mx-0 w-100 border border-start-0 border-end-0 text-uppercase">
-              <b> Methodologies</b>
+              <b> {props.three}</b>
 
             </li>
             <li className="py-3 px-0 mx-0 w-100 border border-start-0 border-end-0 text-uppercase">
-              <b> Wireframing</b>
+              <b> {props.four}</b>
 
             </li>
           </ul>

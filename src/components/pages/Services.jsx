@@ -66,13 +66,12 @@ const Services = () => {
                     <div className="col-md-6 mt-md-5 pt-md-5">
                       <h4>Website Development</h4>
                       <p className="mt-4">
-                        Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs.
-                      </p>
+                        We craft visually stunning, user-friendly interfaces that provide seamless experiences on all devices. With the latest tech stack and responsive design, we ensure your website not only looks great but performs flawlessly, helping you stand out in a crowded digital landscape.  </p>
                       <ul>
-                        <li>UX Audits</li>
-                        <li>Design thinking</li>
-                        <li>Methodologies</li>
-                        <li>Wireframing</li>
+                        <li>Modern Tech Stack & Frameworks</li>
+                        <li>User-Centric & Responsive Design</li>
+                        <li>Optimized Performance & SEO</li>
+                        <li>Scalability & Maintainability</li>
                       </ul>
                       <div>
                         <NavLink onClick={(() => { window.scrollTo(0.0) })} to="/frontend">
