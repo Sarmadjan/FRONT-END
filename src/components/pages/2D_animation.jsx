@@ -7,9 +7,7 @@ import "aos/dist/aos.css";
 import "../Charges.css";
 import "./Editing.css";
 
-
 import ButtonD from "../button/ButtonD";
-
 
 import "./home.css";
 import { motion } from 'framer-motion';
@@ -32,7 +30,6 @@ const Animation_2D = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: .1 }}
       style={{ overflow: "hidden" }} className="row  g-0">
-
 
       <div className="row g-0 edit bg-white text-dark first-sec m-0 ">
 
@@ -65,8 +62,6 @@ const Animation_2D = () => {
             </div>
           </div>
 
-
-
           <div className="row justify-content-center align-items-center" >
             <div className="col-md-6" data-aos="fade-right">
               <h5>
@@ -84,13 +79,11 @@ const Animation_2D = () => {
             </div>
             <div className="col-md-6" data-aos="fade-left">
 
-
               <Video src="https://youtu.be/NKi9uYIxJhM" />
 
             </div>
           </div>
           <hr />
-
 
           <div className="row my-5 justify-content-center align-items-center" >
             <div className="col-md-6 order-md-1 order-2" data-aos="fade-right" >
@@ -146,7 +139,6 @@ const Animation_2D = () => {
           <div className="row my-5 justify-content-center align-items-center">
             <div className="col-md-6 order-md-1 order-2" data-aos="fade-right">
 
-
               <Video src="https://youtu.be/rpU_oU7SKHM" />
 
             </div>
@@ -163,15 +155,6 @@ const Animation_2D = () => {
 
           </div>
 
-
-
-
-
-
-
-
-
-
         </div>
         <div className="row bg-body-secondary m-0 " >
           <div className="col-md-10 mx-auto  ">
@@ -187,7 +170,7 @@ const Animation_2D = () => {
             </div>
 
             <div
-              className="row  text-center px-5 "
+              className="row main-heading text-center px-5 "
               data-aos="fade-up"
             >
               <h1>
@@ -210,9 +193,6 @@ const Animation_2D = () => {
           </div>
         </div>
       </div>
-
-
-
 
     </motion.div>
   );

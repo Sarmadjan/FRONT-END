@@ -53,24 +53,16 @@ const Team = () => {
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="yasir-khan-a58677137" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/yasir-khan-a58677137?trk=profile-badge"></a></div>
 
-
                         </div>
-
-
-
-
 
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
-
 
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
 
-
                         </div>
-
 
                         <hr />
                         <h2 className="text-center text-secondary"> HR</h2>
@@ -78,22 +70,13 @@ const Team = () => {
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="atia-mujeeb-3a46bb245" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/atia-mujeeb-3a46bb245?trk=profile-badge"></a></div>
 
-
                         </div>
                         <hr />
                         <h2 className="text-center text-secondary">WEB DEVELOPERS</h2>
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="awon-ali-294877122" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/awon-ali-294877122?trk=profile-badge"></a></div>
 
-
                         </div>
-
-
-
-
-
-
-
 
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="zain-ul-emaan-a03365319" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/zain-ul-emaan-a03365319?trk=profile-badge"></a></div>
@@ -103,7 +86,6 @@ const Team = () => {
                         <div className="col-md-3  " data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="muhammad-talha-7480492b0" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/muhammad-talha-7480492b0?trk=profile-badge"></a></div>
 
-
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="usman-ahmed-1ba80431b" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/usman-ahmed-1ba80431b?trk=profile-badge"></a></div>
@@ -112,20 +94,16 @@ const Team = () => {
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="adil-rajpoot-88002b2b5" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/adil-rajpoot-88002b2b5?trk=profile-badge"></a></div>
 
-
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sarmad06" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sarmad06?trk=profile-badge"></a></div>
 
-
                         </div>
-
 
                         <hr />
                         <h2 className="text-center text-secondary"> MOBILE APP DEVELOPERS</h2>
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="waqas-hussain-a2637b15b" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/waqas-hussain-a2637b15b?trk=profile-badge"></a></div>
-
 
                         </div>
                         <hr />
@@ -134,41 +112,29 @@ const Team = () => {
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="asjal-faisal-37431a2a4" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/asjal-faisal-37431a2a4?trk=profile-badge"></a></div>
 
-
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="itx-muhammad-ali" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/itx-muhammad-ali?trk=profile-badge"></a></div>
-
 
                         </div>
 
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="muhammad-awais-147431336" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/muhammad-awais-147431336?trk=profile-badge"></a></div>
 
-
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="muhammad-adeel-b2819a250" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/muhammad-adeel-b2819a250?trk=profile-badge"></a></div>
-
 
                         </div>
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="raja-arwan-6b7b52290" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/raja-arwan-6b7b52290?trk=profile-badge"></a></div>
 
-
                         </div>
-
 
                         <div className="col-md-3" data-aos="zoom-in">
                             <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="raja-haris-a53100334" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/raja-haris-a53100334?trk=profile-badge"></a></div>
 
-
                         </div>
-
-
-
-
-
 
                     </div>
                     <div id="section2" className="row d-md-none d-sm-block my-5 g-5 mx-0 px-0 py-5">
@@ -231,9 +197,6 @@ const Team = () => {
                             />
                         </div>
 
-
-
-
                         <div className="col-md-3" data-aos="zoom-in">
                             <TeamCard
                                 name="ZAIN UL EMAAN"
@@ -282,8 +245,6 @@ const Team = () => {
                             />
                         </div>
 
-
-
                         <hr />
                         <h2 className="text-center text-secondary">MOBILE APP DEVELOPERS </h2>
 
@@ -331,8 +292,6 @@ const Team = () => {
                                 linkedin="https://www.linkedin.com/in/raja-arwan-6b7b52290/?trk=public-profile-badge-profile-badge-view-profile-cta&originalSubdomain=pk" />
                         </div>
 
-
-
                         <div className="col-md-3  " data-aos="zoom-in">
                             <TeamCard
                                 name="raja haris"
@@ -341,56 +300,47 @@ const Team = () => {
                                 linkedin="https://www.linkedin.com/in/raja-haris-a53100334/?trk=public-profile-badge-profile-badge-view-profile-cta&originalSubdomain=pk" />
                         </div>
 
-
-
-
-
-
-
-
-
-
-
                     </div>
                     <div>
                     </div>
-                    <div className="row bg-body-secondary m-0 ">
-                        <div className="col-md-10 mx-auto  " data-aos="fade-up">
-                            <div
-                                className="col-md-5 ms-auto text-end text-dark py-5"
-                                data-aos="fade-up"
-                            >
-                                <span className="text-light-emphasis">
-                                    {" "}
-                                    Looking to make your mark? We will help you turn <br />
-                                    your project into a success story.{" "}
-                                </span>
-                            </div>
+                </div>
+                <div className="row bg-body-secondary g-0 ">
+                    <div className="col-md-10 mx-auto  " data-aos="fade-up">
+                        <div
+                            className="col-md-5 ms-auto text-end text-dark py-5"
+                            data-aos="fade-up"
+                        >
+                            <span className="text-light-emphasis">
+                                {" "}
+                                Looking to make your mark? We will help you turn <br />
+                                your project into a success story.{" "}
+                            </span>
+                        </div>
 
-                            <div
-                                className="row  text-center px-5 "
-                                data-aos="fade-up"
-                            >
-                                <h1>
-                                    {" "}
-                                    Ready to bring your <span> ideas to</span> Life? <br />
-                                    We are <span> Here to help</span>{" "}
-                                </h1>
-                            </div>
+                        <div
+                            className="row main-heading text-center px-5 "
+                            data-aos="fade-up"
+                        >
+                            <h1>
+                                {" "}
+                                Ready to bring your <span> ideas to</span> Life? <br />
+                                We are <span> Here to help</span>{" "}
+                            </h1>
+                        </div>
 
-                            <div className="row pb-5 " data-aos="fade-up">
-                                <div className=" ">
-                                    {" "}
-                                    <NavLink to="/contact">
-                                        <Button text="Contact Us" />
+                        <div className="row pb-5 " data-aos="fade-up">
+                            <div className=" ">
+                                {" "}
+                                <NavLink to="/contact">
+                                    <Button text="Contact Us" />
 
-                                    </NavLink>
+                                </NavLink>
 
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </motion.div>
 
         </div>
@@ -398,8 +348,4 @@ const Team = () => {
 }
 
 export default Team
-
-
-
-
 

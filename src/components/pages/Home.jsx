@@ -1,5 +1,5 @@
 import Button from "../button/Button";
-import img2 from "../images/p2.jpg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import img3 from "../images/p3.jpg";
@@ -33,7 +33,6 @@ const Home = () => {
     document.body.appendChild(script);
   }, []);
 
-
   return (
 
     <motion.div
@@ -42,10 +41,7 @@ const Home = () => {
       transition={{ delay: .1 }}
     >
 
-
       <div className="row g-0 bg-black text-light first-sec ">
-
-
 
         <ParticleEffect>
           <div className="col-md-10 pb-5  mx-auto main-heading mb-md-5 ">
@@ -68,11 +64,11 @@ const Home = () => {
             </div>
 
             <div className=" row d-flex align-items-center">
-              <div className="col-md-3 mb-5 mb-md-0 m-0">
+              <motion.div className="col-md-3 mb-5 mb-md-0 m-0">
                 <NavLink to="/services">
                   <Button text="WHAT WE DO" />
                 </NavLink>
-              </div>
+              </motion.div>
 
               <div className=" d-none d-md-block ms-md-4  col-md-2  ">
                 <NavLink to="/portfolio">
@@ -94,7 +90,6 @@ const Home = () => {
                 <div
                   className="inner-cir text-center "
                   style={{
-
 
                     right: "10px",
                     top: "25%",
@@ -123,12 +118,8 @@ const Home = () => {
         </ParticleEffect>
       </div>
 
-
-
-
       <div id="section-2" className="container-fluid">
         <div className="col-10 mx-auto">
-
 
           <div className="row  d-flex justify-content-between">
 
@@ -156,11 +147,14 @@ const Home = () => {
                 <div className="col-12 mt-md-5 my-5 d-flex align-items-center ">
                   <div className="" data-aos="fade-right">
                     <img
-                      className="rounded-circle"
-                      src={img2}
+                      style={{
+                        objectFit: "cover"
+                      }}
+                      className=""
+                      src="/images/LOGO.png"
                       alt=""
-                      width={"90px"}
-                      height={"90px"}
+                      width={"50em"}
+
                     />
                   </div>
 
@@ -189,9 +183,6 @@ const Home = () => {
         </div>
       </div>
 
-
-
-
       <div className="container-fluid bg-black mt-md-5 sec-3">
         <div className="col-10 mx-auto pt-md-5">
           <div className="col-md-4 ms-auto pt-5 ">
@@ -200,7 +191,6 @@ const Home = () => {
               grow and move forward.
             </p>
           </div>
-
 
           <div className="row d-flex justify-content-center py-5 text-light main-heading line-center  ">
             <div
@@ -228,7 +218,6 @@ const Home = () => {
               className=" col-md-3 border-effect border-effect2  border border-success border-opacity-25  border-md-bottom-0"
               data-aos="fade-up"
             >
-
 
               <Card heading="Website  " heading2=" Development" path="/frontend" data="Our expert team crafts innovative digital solutions through web development, blending sleek design with robust technology to deliver tailored, engaging, and responsive online experiences that amplify your brand."
               />
@@ -270,9 +259,6 @@ const Home = () => {
         </div>
       </div>
 
-
-
-
       <div className="col-10 mx-auto my-5 ">
         <div className="row d-flex justify-content-between">
           <div
@@ -306,9 +292,7 @@ const Home = () => {
               <p className="text-end">The Founders of our agency</p>
             </span>
 
-
             {/* BADGES FROM LINKEDIN */}
-
 
             <div className="row d-md-none justify-content-around d-sm-block gx-5 gy-5" data-aos="fade-up">
 
@@ -320,7 +304,6 @@ const Home = () => {
                   linkedin="https://www.linkedin.com/in/ehtisham-ilyas/" />
 
               </div>
-
 
               <div className="col-md-6 pt-md-5 pt-2 col-12  ">
                 <TeamCard
@@ -349,25 +332,12 @@ const Home = () => {
                 />
               </div>
 
-
             </div>
-
-
-
-
-
-
-
-
-
 
             <div className="row d-none d-md-flex justify-content-around  gy-5" data-aos="fade-up">
 
-
-
               <div className="col-md-5 rounded-lg pt-2   ">
                 <div className="  badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="VERTICAL" data-vanity="ehtisham-ilyas" data-version="v1"><a className=" badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/ehtisham-ilyas?trk=profile-badge"></a></div> </div>
-
 
               <div className="col-md-5  pt-md-5  ">
                 <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="VERTICAL" data-vanity="yasir-khan-a58677137" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/yasir-khan-a58677137?trk=profile-badge"></a></div>
@@ -376,9 +346,6 @@ const Home = () => {
               <div className="col-md-5   pt-2 ">
                 <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="shahidnaseemofficial" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/shahidnaseemofficial?trk=profile-badge"></a></div>
               </div>
-
-
-
 
               <div className="col-md-5   pt-md-5 ">
                 <div className=" col-md-3 badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="VERTICAL" data-vanity="sharewithsher" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/sharewithsher?trk=profile-badge"></a></div>
@@ -428,7 +395,6 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-
 
       {/* <div className="container">
         <div className="row">
@@ -502,6 +468,42 @@ const Home = () => {
           </div>
         </div>
       </div> */}
+      <div className="row bg-body-secondary g-0 ">
+        <div className="col-md-10 mx-auto  " data-aos="fade-up">
+          <div
+            className="col-md-5 ms-auto text-end text-dark py-5"
+            data-aos="fade-up"
+          >
+            <span className="text-light-emphasis">
+              {" "}
+              Looking to make your mark? We will help you turn <br />
+              your project into a success story.{" "}
+            </span>
+          </div>
+
+          <div
+            className="row main-heading text-center px-5 "
+            data-aos="fade-up"
+          >
+            <h1>
+              {" "}
+              Ready to bring your <span> ideas to</span> Life? <br />
+              We are <span> Here to help</span>{" "}
+            </h1>
+          </div>
+
+          <div className="row pb-5 " data-aos="fade-up">
+            <div className=" ">
+              {" "}
+              <NavLink to="/contact">
+                <Button text="Contact Us" />
+
+              </NavLink>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </motion.div>
 
   );

@@ -1,5 +1,4 @@
 
-
 import "./home.css";
 import "../Charges.css";
 
@@ -32,7 +31,7 @@ const Contact = () => {
         publicKey: "K74BWp8TF2bWZLOvB"
       })
       if (res.status == 200) {
-        setMsg('RESPONCE SENT')
+        setMsg('RESPONSE SENT')
         setFormData(initialState)
       } else {
         setMsg('falied to send mail')
@@ -73,7 +72,6 @@ const Contact = () => {
                   </svg>
                 </div>
 
-
               </a>
             </div>
           </div>
@@ -96,7 +94,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-100 p-3"
-                    placeholder="Name"
+                    placeholder="Name *"
                     aria-label=""
                     required
                     onChange={(e) => {
@@ -110,7 +108,7 @@ const Contact = () => {
                   <input
                     type="tel"
                     className="w-100 p-3"
-                    placeholder="Phone Number"
+                    placeholder="Phone Number *"
                     aria-label=""
                     required
                     onChange={(e) => {
@@ -124,7 +122,7 @@ const Contact = () => {
                   <input
                     type="email"
                     className="w-100 p-3"
-                    placeholder="Enter Your Email"
+                    placeholder="Enter Your Email *"
                     aria-label=""
                     required
                     onChange={(e) => {
@@ -134,10 +132,9 @@ const Contact = () => {
                   />
                 </div>
 
-
                 <div className="col-md-6">
                   <select className="w-100 " required onChange={(e) => { setFormData({ ...formData, type: e.target.value }) }}>
-                    <option value=""> <span>Select service type </span></option>
+                    <option value=""> <span>Select service type * </span></option>
                     <option value="Web Development">Web Development</option>
                     <option value="Mobile App Development">Mobile App Development</option>
                     <option value="Digital Marketing">Digital Marketing</option>
@@ -155,7 +152,7 @@ const Contact = () => {
                     onChange={(e) => {
                       setFormData({ ...formData, message: e.target.value })
                     }}
-                    placeholder="Message "
+                    placeholder="Message * "
                   ></textarea>
                 </div>
 

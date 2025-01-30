@@ -66,13 +66,14 @@ const Footer = () => {
             <Footer_li name="Services" path="/services" />
             <Footer_li name="Our Team" path="/team" />
             <Footer_li name="Contact" path="/contact" />
-            <Footer_li name="See All Opening" path="/jobs" />
+
           </div>
           <div className="col-md-3 " >
             <Li2 name="Privacy Policy" path="" />
             <Li2 name=" Terms and Conditions" path="" />
             <Li2 name="Cookie Policy" path="" />
             <Li2 name="Careers" path="" />
+            <Li2 name="See All Opening" path="/jobs" />
           </div>
         </div>
         <div className="row pt-md-5 my-5 mx-2 mx-md-0  " data-aos="fade-up"  >

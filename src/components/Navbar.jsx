@@ -96,7 +96,7 @@ function Navbar() {
       </div>
 
       <div className="getbtn">
-        <NavLink to={"/contact"}> <button style={{ height: "40px" }} type="button" className="d-md-block d-none btn fw-semibold btn-sm py-0 btn-outline-dark">GET IN TOUCH </button></NavLink>
+        <NavLink to={"/contact"}> <button style={{ height: "40px", fontWeight: "200" }} type="button" className="d-md-block d-none btn  btn-sm py-0 btn-outline-dark">GET IN TOUCH </button></NavLink>
       </div>
 
     </nav>

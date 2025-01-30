@@ -51,7 +51,6 @@ const Back_end = () => {
             </div>
           </div>
 
-
           <div className=" row d-flex align-items-center">
             <div className="col-my-5 my-3 mb-md-5">
               <NavLink href="#sec-down">
@@ -119,10 +118,6 @@ const Back_end = () => {
             </div>
           </div>
 
-
-
-
-
           <div className="row  d-flex align-items-center" >
             <div className="col-md-6 my-md-5 ">
               <div className="col  my-md-5" data-aos="fade-up">
@@ -151,10 +146,6 @@ const Back_end = () => {
               <PHP_FAQ_s />
             </div>
           </div>
-
-
-
-
 
           <div className="row  d-flex align-items-center" >
             <div className="col-md-6 my-md-5 ">
@@ -256,10 +247,7 @@ const Back_end = () => {
               <Service_card service="3D Animations" detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases." />
             </div>
 
-
           </div>
-
-
 
         </div>
       </div>
@@ -276,9 +264,6 @@ const Back_end = () => {
           </div>
         </div>
 
-
-
-
       </div>
       <div className="row bg-body-secondary m-0 ">
         <div className="col-md-10 mx-auto  " data-aos="fade-up">
@@ -294,7 +279,7 @@ const Back_end = () => {
           </div>
 
           <div
-            className="row  text-center px-5 "
+            className="row main-heading text-center px-5 "
             data-aos="fade-up"
           >
             <h1>

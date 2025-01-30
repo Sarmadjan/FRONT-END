@@ -36,7 +36,7 @@ const Jobs = () => {
                     <JobListings />
                     <hr />
 
-                    <div className="row d-flex align-items-center justify-content-center text-white g-0 bg-primary rounded">
+                    <div className="row d-flex align-items-center justify-content-center text-black g-0 bg-dark-subtle rounded">
                         <div className="col-md-9 px-md-5 px-3 my-5">
                             <div className="col"><h2>Create Your Own Job Profile</h2>
                                 <span >
@@ -46,14 +46,14 @@ const Jobs = () => {
                         </div>
                         <div className="col-md-3 d-flex justify-content-center pb-md-0 pb-5 ">
 
-                            <NavLink to={"/contact"}> <button style={{ height: "40px" }} type="button" className="  btn btn-light">GET STARTED </button></NavLink>
+                            <NavLink onClick={() => { window.scrollTo(0.0) }} to={"/contact"}> <button style={{ height: "40px" }} type="button" className="  btn btn-outline-dark  ">GET STARTED </button></NavLink>
 
                         </div>
 
                     </div>
                     <div className="row d-flex align-items-center justify-content-center bg-white">
 
-                        <div className="row d-flex align-items-center">
+                        <div className="row my-lg-5  py-xl-2 my-4  d-flex align-items-center">
                             <div className="col-md-6 px-md-0 px-3 my-5">
                                 <div className="col">
                                     <h2>Why You Should Join Our Awesome Team</h2>
@@ -61,7 +61,7 @@ const Jobs = () => {
                                 </div>
                             </div>
                             <div className="col-md-6   d-flex justify-content-center my-5">
-                                <div className="row  justify-content-center  ">
+                                <div className="row justify-content-end  ">
                                     {[
                                         { image: '/images/Jobs/1.png', title: 'Friendly Environment' },
                                         { image: '/images/Jobs/2.png', title: 'Open Communication' },
@@ -71,7 +71,7 @@ const Jobs = () => {
                                         { image: '/images/Jobs/3.png', title: 'Upgrade Your Skills' },
                                     ].map((item, index) => (
 
-                                        <div key={index} className="col-md-3 col-4 m-2  border p-2   d-flex  flex-column align-items-center">
+                                        <div key={index} className="col-md-3  m-1 mx-2  border p-2 rounded-3   d-flex  flex-column align-items-center">
 
                                             <img style={{ width: '60px' }} src={item.image} alt="" />
                                             <strong className='text-center mt-2'>{item.title}</strong>
@@ -83,7 +83,7 @@ const Jobs = () => {
 
                     </div>
 
-                    <div className="row my-4">
+                    <div className="row my-lg-5  py-xl-2 my-4">
                         <div className="col-md-7">
                             <div className="col">
                                 <h2>Amazing People Striving to Build Delightful Products Together.</h2>
@@ -97,9 +97,8 @@ const Jobs = () => {
 
                             </i>
 
-                            <div className='border rounded p-5 text-center'>
-                                <p className='text-black'>“TheDotnetworks is now over 5 years old, and our mission is simple “to help businesses grow online” — every day, my colleagues inspire me with their passion and dedication to this mission. I couldn’t wish for better colleagues.”</p>
-
+                            <div className=' rounded-5 border border-5  border-warning p-5 text-center bg-dark-subtle  '>
+                                <p className='text-black'>“At Woltrio, our mission is simple: “to help businesses grow online”. Every day, my colleagues inspire me with their passion and dedication to this mission. I couldn’t wish for better colleagues.”</p>
                             </div>
                         </div>
                     </div>

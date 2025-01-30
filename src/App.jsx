@@ -16,6 +16,7 @@ import Animation_3D from "./components/pages/3D_animation";
 import Animation_2D from "./components/pages/2D_animation";
 import Jobs from "./components/pages/Jobs opning";
 import Testing from "./components/pages/testing";
+import JobApplicationForm from "./components/Job Form";
 
 export default function App() {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
@@ -60,7 +61,9 @@ export default function App() {
         <Route path="/jobs" element={<Jobs />} />
         <Route path="*" element={<Home />} />
         <Route path='/testing' element={<Testing />} />
-      </Routes>\
+        <Route path='/form' element={<JobApplicationForm />} />
+
+      </Routes>
       <Footer />
     </Router>
   );

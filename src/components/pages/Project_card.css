@@ -24,7 +24,7 @@
   top: 0;
   left: 0;
 
-  transition: transform 15s linear;
+  transition: transform 7s linear;
 }
 
 .card:hover img {

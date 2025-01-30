@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./JobListings.css";
+import { NavLink } from "react-router-dom";
 
 const jobs = [
     {
@@ -51,7 +52,7 @@ function JobListings() {
     return (
         <div className="container my-5">
             {/* Categories Navigation */}
-            <nav className="nav nav-pills flex-column flex-sm-row mb-4">
+            <nav className="nav nav-pills flex-column flex-sm-row   mb-4">
                 {categories.map((category) => (
                     <button
                         key={category}
@@ -64,9 +65,9 @@ function JobListings() {
             </nav>
 
             {/* Job Cards Grid */}
-            <div className="d-flex flex-wrap justify-content-center  ">
+            <div className="d-flex flex-wrap  justify-content-center  ">
                 {filteredJobs.map((job) => (
-                    <div key={job.id} className="col-md-4 my-2 d-flex">
+                    <div key={job.id} className="col-md-3 m-4  d-flex">
                         <div className="card h-100 flex-grow-1">
                             <div className="card-body">
                                 {/* Company Logo */}
@@ -102,7 +103,7 @@ function JobListings() {
                                 <p className="card-text text-dark">{job.description}</p>
                             </div>
                             <div className="card-footer bg-transparent border-top-0">
-                                <button className="btn btn-outline-primary">Job Details</button>
+                                <NavLink onClick={() => { window.scrollTo(0.0) }} to={"/form"}><button className="btn btn-outline-warning">Job Details</button></NavLink>
                             </div>
                         </div>
                     </div>

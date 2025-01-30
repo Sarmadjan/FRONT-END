@@ -16,7 +16,6 @@ import Tailwind_FAQ_s from "../Tailwind_FAQ_s ";
 import Navbar from "../Navbar";
 import Button from "../button/Button";
 
-
 const Frontend = () => {
 
   useEffect(() => {
@@ -116,10 +115,6 @@ const Frontend = () => {
               </div>
             </div>
 
-
-
-
-
             <div className="row  d-flex align-items-center" >
               <div className="col-md-6 my-md-5 ">
                 <div className="col  my-5" data-aos="fade-up">
@@ -148,10 +143,6 @@ const Frontend = () => {
                 <Angular_FAQ_s />
               </div>
             </div>
-
-
-
-
 
             <div className="row  d-flex align-items-center" >
               <div className="col-md-6 my-md-5 ">
@@ -182,7 +173,6 @@ const Frontend = () => {
               </div>
             </div>
           </div>
-
 
         </div>
       </div>
@@ -246,7 +236,6 @@ const Frontend = () => {
 
           </div>
 
-
           <div className="row my-md-5 my-2 g-3 ">
             <div className="col-md-4  " data-aos="fade-right">
               <Service_card service="Web Development" detail="Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs." />
@@ -288,7 +277,7 @@ const Frontend = () => {
           </div>
 
           <div
-            className="row  text-center px-5 "
+            className="row main-heading text-center px-5 "
             data-aos="fade-up"
           >
             <h1>
@@ -308,8 +297,6 @@ const Frontend = () => {
           </div>
         </div>
       </div>
-
-
 
     </motion.div>
   );

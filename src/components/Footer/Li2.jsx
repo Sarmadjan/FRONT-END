@@ -3,7 +3,9 @@ import { NavLink } from "react-router-dom";
 const Li2 = (props) => {
   return (
     <li className="my-md-1 " >
-      <NavLink className=" li2" to={props.path}>
+      <NavLink onClick={() => {
+        window.scrollTo(0.0)
+      }} className=" li2" to={props.path}>
         <span >{props.name}</span>
       </NavLink>
     </li>

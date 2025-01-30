@@ -1,0 +1,20 @@
+.form-label {
+  font-weight: 500;
+}
+
+.form-check {
+  margin-bottom: 0.5rem;
+}
+
+.form-check-label {
+  color: #4b5563;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.btn-primary {
+  padding: 0.625rem 1.25rem;
+}

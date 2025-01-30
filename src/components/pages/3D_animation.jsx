@@ -6,9 +6,7 @@ import "aos/dist/aos.css";
 import "../Charges.css";
 import "./Editing.css";
 
-
 import ButtonD from "../button/ButtonD";
-
 
 import "./home.css";
 import { motion } from 'framer-motion';
@@ -32,7 +30,6 @@ const Animation_3D = () => {
       transition={{ delay: .1 }}
       style={{ overflow: "hidden" }} className="row  g-0">
 
-
       <div className="row g-0 edit bg-white text-dark first-sec m-0 ">
 
         <div className="col-md-10     mx-auto main-heading  ">
@@ -45,7 +42,6 @@ const Animation_3D = () => {
                 3D <span>Animation </span> Explainer
               </h1>
               <h4  >In partnership with <a href="https://thedotnetworks.com/" target="blank">Dot Networks </a></h4>
-
 
               <div className="row ">
                 <p className="text-black">
@@ -61,13 +57,10 @@ const Animation_3D = () => {
                 </div>
               </div>
 
-
             </div>
             <div className="col-md-4 col-2 d-flex justify-content-center mb-auto mt-md-5  mt-5 ">
               <a href="https://thedotnetworks.com/" target="_blank" > <img className="img-fluid rounded-circle mt-md-0 mt-5" src="/images/Dot Network.png " alt="" /></a>
             </div>
-
-
 
             <div className="row justify-content-center align-items-center" >
               <div className="col-md-6" data-aos="fade-right">
@@ -86,13 +79,11 @@ const Animation_3D = () => {
               </div>
               <div className="col-md-6" data-aos="fade-left">
 
-
                 <Video src="https://youtu.be/8x0NwXR9Jvo" />
 
               </div>
             </div>
             <hr />
-
 
             <div className="row my-5 justify-content-center align-items-center" >
               <div className="col-md-6 order-md-1 order-2" data-aos="fade-right" >
@@ -103,18 +94,14 @@ const Animation_3D = () => {
               <div className="col-md-6 order-md-2 order-1 " data-aos="fade-left">
                 <h4>Our 3D Explainer Animation Services</h4>
 
-
                 <h6> <b>Visual Storytelling That Sticks</b></h6>
                 <p>Every brand has a story, and we help you tell it with animations that move, inspire, and engage. Our 3D explainer animations bring your ideas to life, creating emotional connections that leave a lasting impression.</p>
 
                 <h6> <b>Corporate and Promotional Videos:</b></h6>
                 <p>Communicate your brand’s message with professional edits that elevate your corporate identity and leave a lasting impression.</p>
 
-
                 <h6> <b>Simplify Complex Concepts:</b></h6>
                 <p>Whether it’s a product demonstration or a detailed process, our 3D explainer animations transform intricate ideas into accessible, visually stunning narratives. Let us make your message clear, concise, and captivating.</p>
-
-
 
               </div>
 
@@ -124,8 +111,6 @@ const Animation_3D = () => {
 
               <div className="col-md-6" data-aos="fade-right">
                 <h4>What Are 3D Explainer Animations?</h4>
-
-
 
                 <p>3D explainer animations combine the realism of three-dimensional visuals with the art of storytelling. They are designed to make your message more engaging, accessible, and unforgettable. Using advanced animation techniques, we create lifelike objects and characters that move and interact in a virtual 3D space, turning static ideas into dynamic visuals.</p>
                 <p><b>This approach is perfect for:</b></p>
@@ -141,8 +126,6 @@ const Animation_3D = () => {
                 <p>
                   3D explainer animations are widely used across industries, from healthcare and technology to retail and education, helping brands communicate more effectively.
                 </p>
-
-
 
               </div>
               <div className="col-md-6" data-aos="fade-left">
@@ -162,7 +145,6 @@ const Animation_3D = () => {
               <div className="col-md-6 order-md-2 order-1 " data-aos="fade-left">
                 <h4>Why Are Companies Using 3D Explainer Animations?</h4>
 
-
                 <p>In today’s competitive market, 3D animations have become a game-changer for businesses looking to connect with their audience. They offer unparalleled versatility, allowing companies to:</p>
 
                 <ul className="ulul" >
@@ -178,57 +160,46 @@ const Animation_3D = () => {
 
             </div>
 
-
-
-
-
-
-
-
-
-
           </div>
-          <div className="row bg-body-secondary m-0 " >
-            <div className="col-md-10 mx-auto  ">
-              <div
-                className="col-md-5 ms-auto text-end text-dark py-5"
-                data-aos="fade-left"
-              >
-                <span className="text-light-emphasis">
-                  {" "}
-                  Looking to make your mark? We will help you turn <br />
-                  your project into a success story.{" "}
-                </span>
-              </div>
+        </div>
+        <div className="row g-0 bg-body-secondary m-0 " >
+          <div className="col-md-10 mx-auto  ">
+            <div
+              className="col-md-5 ms-auto text-end text-dark py-5"
+              data-aos="fade-left"
+            >
+              <span className="text-light-emphasis">
+                {" "}
+                Looking to make your mark? We will help you turn <br />
+                your project into a success story.{" "}
+              </span>
+            </div>
 
-              <div
-                className="row  text-center px-5 "
-                data-aos="fade-up"
-              >
-                <h1>
-                  {" "}
-                  Ready to bring your <span> ideas to</span> Life? <br />
-                  We are <span> Here to help</span>{" "}
-                </h1>
-              </div>
+            <div
+              className="row main-heading  text-center px-5 "
+              data-aos="fade-up"
+            >
+              <h1>
+                {" "}
+                Ready to bring your <span> ideas to</span> Life? <br />
+                We are <span> Here to help</span>{" "}
+              </h1>
+            </div>
 
-              <div className="row pb-5 " data-aos="fade-up">
-                <div className=" ">
-                  {" "}
-                  <NavLink to="/contact">
-                    <Button text="Contact Us" />
+            <div className="row pb-5 " data-aos="fade-up">
+              <div className=" ">
+                {" "}
+                <NavLink to="/contact">
+                  <Button text="Contact Us" />
 
-                  </NavLink>
+                </NavLink>
 
-                </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
-
-
-
 
     </motion.div>
   );
