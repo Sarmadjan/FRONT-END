@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Navbar from '../Navbar';
 import "./home.css";
 import { NavLink } from 'react-router-dom';
+import JobListings from '../Job Listing';
 
 const Jobs = () => {
     return (
@@ -32,9 +33,9 @@ const Jobs = () => {
                         <h3>Join Our Remarkable Team of Innovators Who Believe In Making a Difference.</h3>
                     </div>
                     <hr />
-                    cards
+                    <JobListings />
                     <hr />
-                    <hr />
+
                     <div className="row d-flex align-items-center justify-content-center text-white g-0 bg-primary rounded">
                         <div className="col-md-9 px-md-5 px-3 my-5">
                             <div className="col"><h2>Create Your Own Job Profile</h2>
