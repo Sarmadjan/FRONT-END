@@ -67,7 +67,7 @@ function JobListings() {
             <div className="d-flex flex-wrap justify-content-center  ">
                 {filteredJobs.map((job) => (
                     <div key={job.id} className="col-md-4 my-2 d-flex">
-                        <div className="card flex-grow-1">
+                        <div className="card h-100 flex-grow-1">
                             <div className="card-body">
                                 {/* Company Logo */}
                                 <div className="company-logo mb-3">
