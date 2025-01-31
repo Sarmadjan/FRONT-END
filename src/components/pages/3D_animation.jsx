@@ -14,6 +14,7 @@ import Navbar from "../Navbar";
 import Button from "../button/Button";
 
 import Video from "../Embed_video";
+import Service_card from "../Service_card";
 const Animation_3D = () => {
   useEffect(() => {
     AOS.init({
@@ -198,6 +199,19 @@ const Animation_3D = () => {
             </div>
           </div>
 
+        </div>
+        <div className="row my-md-5 my-2 g-3 ">
+          <div className="col-md-4  " data-aos="fade-right">
+            <Service_card service="2D Animation " path="2d_animation" detail="Our 2D animation services deliver creative, eye-catching visuals that communicate your message with style. Whether for explainer videos, advertisements, or storytelling, we bring characters and concepts to life with smooth animation and vibrant artwork that resonate with viewers. " one="Custom Character Design & Storyboard " two="Fluid Motion & Engaging Visuals" three="3.	Vibrant Illustrations & Artwork" four="Sound Design & Synchronization" />
+
+          </div>
+          <div className="col-md-4" data-aos="fade-up">
+            <Service_card service="Video Editing" path="/video_editing" detail="Transform raw footage into a captivating story with our expert video editing services. We combine cinematic techniques, motion graphics, and sound design to create high-quality videos that engage, inform, and leave a lasting impression on your audience. " one="Creative Storytelling & Concept Development" two="High-Quality Editing & Visual Effects" three="Color Grading & Sound Design" four="4.	Optimized Formats for Multi-Platform Distribution" />
+          </div>
+          <div className="col-md-4" data-aos="fade-left">
+            <Service_card service="Cinematic videos" path="#" detail="
+Elevate your brand with cinematic promo videos that captivate audiences from the first frame. Our expert filmmakers combine storytelling, stunning visuals, and high-quality production to create promotional content that drives engagement and leaves a long lasting impact." one="Story-Driven Cinematic Concepts" two="High-Quality Filming & Cinematography " three="Dynamic Editing & Motion Graphics " four="Sound Design & Music Composition" />
+          </div>
         </div>
       </div>
 

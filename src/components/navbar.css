@@ -90,3 +90,11 @@
     display: none;
   }
 }
+
+.getbtn {
+  border-bottom: 3px solid black;
+}
+
+.getbtn button {
+  border: none;
+}

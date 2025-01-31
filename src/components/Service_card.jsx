@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 
+import { NavLink } from "react-router-dom";
 import Button_Rm from "./button/Button-Rm";
 import "./TeamCard.css";
 
@@ -40,7 +41,7 @@ const Service_card = (props) => {
 
         </div>
         <div className="row">
-          <Button_Rm text="Read more" fill="black" />
+          <NavLink onClick={() => { window.scrollTo(0.0) }} to={props.path}> <Button_Rm text="Read more" fill="black" /></NavLink>
         </div>
 
       </div>

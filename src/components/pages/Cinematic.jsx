@@ -14,7 +14,7 @@ import Navbar from "../Navbar";
 import Button from "../button/Button";
 import Video from "../Embed_video";
 import Service_card from "../Service_card";
-const Video_editing = () => {
+const Cinematic = () => {
     useEffect(() => {
         AOS.init({
             duration: 500,
@@ -39,14 +39,14 @@ const Video_editing = () => {
                             {" "}
                             <h1 className="pt-md-0 pt-5  mt-5">
                                 {" "}
-                                Video Editing
+                                Cinematic Promos
                             </h1>
                             <h4  >In partnership with <a href="https://thedotnetworks.com/" target="blank">Dot Networks </a></h4>
 
                             <div className="row ">
                                 <p className="text-black">
                                     {" "}
-                                    At Woltrio, we specialize in delivering high-quality, professional video editing services in partnership with <b> Dot Networks.</b> Leveraging the latest technologies and expert techniques, we craft compelling visual stories that captivate audiences. Whether you need to refine a corporate video, enhance a social media clip, or produce a cinematic masterpiece, our team delivers tailored video editing solutions to match your unique vision and requirements.
+                                    At Woltrio, we specialize in delivering high-quality, professional Cinematic Promos services in partnership with <b> Dot Networks.</b> Leveraging the latest technologies and expert techniques, we craft compelling visual stories that captivate audiences. Whether you need to refine a corporate promos enhance a social media clip, or produce a cinematic masterpiece, our team delivers tailored video cinematic promos to match your unique vision and requirements.
                                 </p>
 
                                 <div className=" row d-flex align-items-center">
@@ -65,10 +65,13 @@ const Video_editing = () => {
 
                         <div id="sec-2" className="row justify-content-center align-items-center">
                             <div className="col-md-6">
-                                <h6> <b>Transform Your Vision into Engaging Visual Masterpieces with Dot Networks.</b></h6>
+                                <h6> <b>
+                                    Crafting Cinematic Excellence with Dot Networks​</b></h6>
                                 <p className=" my-4">
                                     {" "}
-                                    Need high-quality, fast, and professional video editing? Look no further! At Dot Networks, we specialize in taking raw footage and turning it into stunning videos that captivate, inspire, and deliver results. Whether it’s a short social media clip, a promotional video, or a full-scale production, we’ve got you covered.           </p>
+                                    At Dot Networks, we take pride in transforming your vision into breathtaking cinematic promos that captivate, inspire, and engage. With our seamless fusion of animations, videos, VFX, GFX, and SFX, we create promotional content that goes beyond the ordinary, delivering an immersive experience that truly stands out.
+
+                                    From high-impact visuals to compelling narratives, our cinematic promos are designed to leave your audience in awe. Whether you’re showcasing a product, promoting a service, or sharing your brand story, we combine creativity, precision, and cutting-edge technology to bring your ideas to life. </p>
                             </div>
                             <div className="col-md-6">
 
@@ -258,9 +261,8 @@ const Video_editing = () => {
                     <div className="col-md-4" data-aos="fade-up">
                         <Service_card service="3D Animation " path="/3d_animation" detail="Bring your ideas to life with our immersive 3D animation services. We create visually captivating animations that engage audiences, tell compelling stories, and elevate your brand with high-quality models, textures, and dynamic motion—all designed to make a lasting impact. " one="Creative Storytelling & Concept Design" two="High-Quality Modeling & Texturing" three="Smooth Motion & Realistic Animations" four="Rendering & Post-Production Excellence" />
                     </div>
-                    <div className="col-md-4" data-aos="fade-left">
-                        <Service_card service="Cinematic videos" path="#" detail="
-Elevate your brand with cinematic promo videos that captivate audiences from the first frame. Our expert filmmakers combine storytelling, stunning visuals, and high-quality production to create promotional content that drives engagement and leaves a lasting impact." one="Story-Driven Cinematic Concepts" two="High-Quality Filming & Cinematography " three="Dynamic Editing & Motion Graphics " four="Sound Design & Music Composition" />
+                    <div className="col-md-4" data-aos="fade-up">
+                        <Service_card service="Video Editing" path="/video_editing" detail="Transform raw footage into a captivating story with our expert video editing services. We combine cinematic techniques, motion graphics, and sound design to create high-quality videos that engage, inform, and leave a lasting impression on your audience. " one="Creative Storytelling & Concept Development" two="High-Quality Editing & Visual Effects" three="Color Grading & Sound Design" four="4.	Optimized Formats for Multi-Platform Distribution" />
                     </div>
                 </div>
 
@@ -270,4 +272,4 @@ Elevate your brand with cinematic promo videos that captivate audiences from the
     );
 };
 
-export default Video_editing;
+export default Cinematic;

@@ -295,24 +295,18 @@ const Wordpress = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="row my-5 gx-4 g-0" >
-                        <div className="col-md-4 " data-aos="fade-right">
-                            <Service_card
-                                service="Web Development"
-                                detail="Our website development service combines cutting-edge technology with creative design to build responsive, user-friendly sites that drive engagement and enhance your online presence, tailored to meet your unique business needs."
-                            />
+                    <div className="row my-md-5 my-2 g-3 ">
+
+                        <div className="col-md-4  " data-aos="fade-right">
+                            <Service_card service="Front-end Development" path="/frontend" detail="We craft visually stunning, user-friendly interfaces that provide seamless experiences on all devices. With the latest tech stack and responsive design, we ensure your website not only looks great but performs flawlessly, helping you stand out in a crowded digital landscape. " one="Modern Tech Stack & Frameworks " two="User-Centric & Responsive Design " three="Optimized Performance & SEO " four="Scalability & Maintainability" />
+
                         </div>
-                        <div className="col-md-4" data-aos="fade-up">
-                            <Service_card
-                                service="Digital Marketing"
-                                detail="Accelerate your growth with our digital marketing expertise. We create tailored strategies that include SEO, social media, and content marketing to boost visibility, attract customers, and convert leads into sales effectively."
-                            />
+                        <div className="col-md-4  " data-aos="fade-right">
+                            <Service_card service="Back-end Development" path="/backend" detail="Our backend solutions are designed to be robust, scalable, and secure. We build powerful infrastructures that ensure smooth data flow, high performance, and future scalability empowering your business with the reliable systems needed to thrive in today’s fast-paced world. " one="1.	Robust & Scalable Architecture" two="Secure & Efficient Data Management" three="High-Performance APIs & Integrations" four="Cloud & DevOps-Ready Solutions" />
+
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
-                            <Service_card
-                                service="3D Animations"
-                                detail="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
-                            />
+                            <Service_card service="Mobile App Development" path="" detail="We build innovative mobile apps that engage users and deliver seamless performance across platforms. Whether for iOS or Android, our custom solutions are designed to meet your business goals and provide an intuitive experience that keeps users coming back." one="Native & Cross-Platform Development " two="User-Centric UI/UX Design " three="Optimized Performance & Security " four="Scalable & Cloud-Integrated Solutions " />
                         </div>
                     </div>
                 </div>
@@ -330,20 +324,7 @@ const Wordpress = () => {
                     </div>
 
                 </div>
-                <div className="row my-md-5 my-2 g-3 ">
 
-                    <div className="col-md-4  " data-aos="fade-right">
-                        <Service_card service="Front-end Development" detail="We craft visually stunning, user-friendly interfaces that provide seamless experiences on all devices. With the latest tech stack and responsive design, we ensure your website not only looks great but performs flawlessly, helping you stand out in a crowded digital landscape. " one="Modern Tech Stack & Frameworks " two="User-Centric & Responsive Design " three="Optimized Performance & SEO " four="Scalability & Maintainability" />
-
-                    </div>
-                    <div className="col-md-4  " data-aos="fade-right">
-                        <Service_card service="Back-end Development" detail="Our backend solutions are designed to be robust, scalable, and secure. We build powerful infrastructures that ensure smooth data flow, high performance, and future scalability empowering your business with the reliable systems needed to thrive in today’s fast-paced world. " one="1.	Robust & Scalable Architecture" two="" three="" four="" />
-
-                    </div>
-                    <div className="col-md-4" data-aos="fade-left">
-                        <Service_card service="Mobile App Development" detail="We build innovative mobile apps that engage users and deliver seamless performance across platforms. Whether for iOS or Android, our custom solutions are designed to meet your business goals and provide an intuitive experience that keeps users coming back." one="Native & Cross-Platform Development " two="User-Centric UI/UX Design " three="Optimized Performance & Security " four="Scalable & Cloud-Integrated Solutions " />
-                    </div>
-                </div>
             </div>
         </motion.div>
     );

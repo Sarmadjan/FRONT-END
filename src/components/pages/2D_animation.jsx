@@ -15,6 +15,7 @@ import Navbar from "../Navbar";
 import Button from "../button/Button";
 
 import Video from "../Embed_video";
+import Service_card from "../Service_card";
 const Animation_2D = () => {
   useEffect(() => {
     AOS.init({
@@ -190,6 +191,17 @@ const Animation_2D = () => {
 
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row my-md-5 my-2 g-3 ">
+          <div className="col-md-4  " data-aos="fade-right">
+            <Service_card service="Video Editing" path="/video_editing" detail="Transform raw footage into a captivating story with our expert video editing services. We combine cinematic techniques, motion graphics, and sound design to create high-quality videos that engage, inform, and leave a lasting impression on your audience. " one="Creative Storytelling & Concept Development" two="High-Quality Editing & Visual Effects" three="Color Grading & Sound Design" four="4.	Optimized Formats for Multi-Platform Distribution" />
+          </div>
+          <div className="col-md-4" data-aos="fade-up">
+            <Service_card service="3D Animation " path="/3d_animation" detail="Bring your ideas to life with our immersive 3D animation services. We create visually captivating animations that engage audiences, tell compelling stories, and elevate your brand with high-quality models, textures, and dynamic motion—all designed to make a lasting impact. " one="Creative Storytelling & Concept Design" two="High-Quality Modeling & Texturing" three="Smooth Motion & Realistic Animations" four="Rendering & Post-Production Excellence" />
+          </div>
+          <div className="col-md-4" data-aos="fade-left">
+            <Service_card service="Cinematic videos" path="#" detail="Elevate your brand with cinematic promo videos that captivate audiences from the first frame. Our expert filmmakers combine storytelling, stunning visuals, and high-quality production to create promotional content that drives engagement and leaves a long lasting impact." one="Story-Driven Cinematic Concepts" two="High-Quality Filming & Cinematography " three="Dynamic Editing & Motion Graphics " four="Sound Design & Music Composition" />
           </div>
         </div>
       </div>

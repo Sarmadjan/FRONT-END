@@ -7,12 +7,11 @@ import { NavLink } from "react-router-dom";
 import { motion } from 'framer-motion';
 import TeamCard from "../TeamCard";
 import "./home.css";
-import Img1 from "../images/p1.jpg";
+
 import Card from "../Card";
 import { useEffect } from "react";
 import { ParticleEffect } from "../../assets/particles";
-// import m1 from "../images/m1.jpg";
-// import m2 from "../images/m2.jpg";
+
 import Button_Rm from "../button/Button-Rm";
 import Navbar from "../Navbar";
 import Tech from "../Tech";
@@ -219,7 +218,7 @@ const Home = () => {
               data-aos="fade-up"
             >
 
-              <Card heading="Website  " heading2=" Development" path="/frontend" data="Our expert team crafts innovative digital solutions through web development, blending sleek design with robust technology to deliver tailored, engaging, and responsive online experiences that amplify your brand."
+              <Card heading="Website  " heading2=" Development" path="/frontend" data="Our expert team crafts innovative digital solutions through web development, and they develop blending sleek design with robust technology to deliver tailored, engaging, and responsive online experiences that amplify your brand."
               />
 
             </div>
@@ -228,8 +227,8 @@ const Home = () => {
               className=" col-md-3 border-effect border border-effect2  border-opacity-25 border-success  border-md-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="2D " heading2="Animations" path="/services"
-                data="At Woltrio, we believe that every brand deserves a voice, and our handcrafted 2D explainers are the perfect way to amplify yours. Whether you’re launching a product, sharing a vision, or promoting a service, our animations are designed to leave a lasting impression."
+              <Card heading="2D " heading2="Animations" path="/2d_animation"
+                data="Our 2D animation services deliver creative, eye-catching visuals that communicate your message with style. Whether for explainer videos, ads, or storytelling, we bring characters and concepts to life with smooth animation and vibrant artwork that resonate with viewers. "
 
               />
 
@@ -241,8 +240,8 @@ const Home = () => {
               <Card
                 heading="3D "
                 heading2="Animations"
-                path="/services"
-                data="Bring your ideas to life with our stunning 3D animations. We specialize in creating captivating visuals that communicate your message effectively, whether for advertisements, presentations, or product showcases."
+                path="/3d_animation"
+                data="Bring your ideas to life with our immersive 3D animation services. We create visually captivating animations that engage audiences, tell compelling stories, and elevate your brand with high quality models, textures, and dynamic motion  to make a lasting impact. "
 
               />
 
@@ -251,7 +250,7 @@ const Home = () => {
               className=" col-md-3 border border-effect border-effect2 border-opacity-25 border-success   border-md-bottom-0"
               data-aos="fade-up"
             >
-              <Card heading="Video  " heading2="Editing" path="/services" data="Our professional video editing services enhance your footage with creativity and precision. We transform raw clips into polished masterpieces that convey your story and engage your audience, perfect for marketing or personal projects."
+              <Card heading="Video" heading2="Editing" path="/video_editing" data="Transform raw footage into a captivating story with our expert video editing services. We combine cinematic techniques, motion graphics, and sound design to create high quality videos that engage, inform, and leave a lasting impression on your audience."
               />
 
             </div>

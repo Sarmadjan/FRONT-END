@@ -61,8 +61,9 @@ const NavbarItem = () => {
           <div className="col-md-6  mb-3 ">
             <div className="list-group list-group-flush">
               <NavLink to="/video_editing" className="list-group-item list-group-item-action"> <b>&gt;  </b>Video Editing</NavLink>
-              <NavLink to="/3d_animation" className="list-group-item list-group-item-action"> <b>&gt;  </b>3D Animation</NavLink>
               <NavLink to="/2d_animation" className="list-group-item list-group-item-action"> <b>&gt;  </b>2D Animation</NavLink>
+              <NavLink to="/3d_animation" className="list-group-item list-group-item-action"> <b>&gt;  </b>3D Animation</NavLink>
+              <NavLink to="/cinematic" className="list-group-item list-group-item-action"> <b>&gt;  </b>Cinematic Videos Ads</NavLink>
 
             </div>
 

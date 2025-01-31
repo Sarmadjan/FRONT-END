@@ -237,14 +237,14 @@ const Back_end = () => {
           </div>
           <div className="row my-md-5 my-2 g-3" >
             <div className="col-md-4  " data-aos="fade-right">
-              <Service_card service="Front-end Development" detail="We craft visually stunning, user-friendly interfaces that provide seamless experiences on all devices. With the latest tech stack and responsive design, we ensure your website not only looks great but performs flawlessly, helping you stand out in a crowded digital landscape." one="Modern Tech Stack & Frameworks " two="User-Centric & Responsive Design " three="Optimized Performance & SEO " four="Scalability & Maintainability" />
+              <Service_card service="Front-end Development" path="/frontend" detail="We craft visually stunning, user-friendly interfaces that provide seamless experiences on all devices. With the latest tech stack and responsive design, we ensure your website not only looks great but performs flawlessly, helping you stand out in a crowded digital landscape." one="Modern Tech Stack & Frameworks " two="User-Centric & Responsive Design " three="Optimized Performance & SEO " four="Scalability & Maintainability" />
 
             </div>
             <div className="col-md-4" data-aos="fade-up">
-              <Service_card service="WordPress & Shopify " detail="From custom WordPress websites to high-performance Shopify stores, we build flexible, easy-to-manage platforms that scale with your business. Our solutions combine style with functionality to deliver a seamless user experience and maximize your online presence." one="Custom & Scalable Solutions " two="Performance & SEO Optimization " three="Secure & Seamless Integrations " four=" Ongoing Support & Maintenance" />
+              <Service_card service="WordPress & Shopify " path="/wordpress" detail="From custom WordPress websites to high-performance Shopify stores, we build flexible, easy-to-manage platforms that scale with your business. Our solutions combine style with functionality to deliver a seamless user experience and maximize your online presence." one="Custom & Scalable Solutions " two="Performance & SEO Optimization " three="Secure & Seamless Integrations " four=" Ongoing Support & Maintenance" />
             </div>
             <div className="col-md-4" data-aos="fade-left">
-              <Service_card service="Mobile App Development" detail="We build innovative mobile apps that engage users and deliver seamless performance across platforms. Whether for iOS or Android, our custom solutions are designed to meet your business goals and provide an intuitive experience that keeps users coming back." one="Native & Cross-Platform Development " two="User-Centric UI/UX Design " three="Optimized Performance & Security " four="Scalable & Cloud-Integrated Solutions " />
+              <Service_card service="Mobile App Development" path="/#" detail="We build innovative mobile apps that engage users and deliver seamless performance across platforms. Whether for iOS or Android, our custom solutions are designed to meet your business goals and provide an intuitive experience that keeps users coming back." one="Native & Cross-Platform Development " two="User-Centric UI/UX Design " three="Optimized Performance & Security " four="Scalable & Cloud-Integrated Solutions " />
             </div>
 
           </div>
