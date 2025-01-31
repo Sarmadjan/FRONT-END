@@ -201,7 +201,7 @@ const Animation_2D = () => {
             <Service_card service="3D Animation " path="/3d_animation" detail="Bring your ideas to life with our immersive 3D animation services. We create visually captivating animations that engage audiences, tell compelling stories, and elevate your brand with high-quality models, textures, and dynamic motion—all designed to make a lasting impact. " one="Creative Storytelling & Concept Design" two="High-Quality Modeling & Texturing" three="Smooth Motion & Realistic Animations" four="Rendering & Post-Production Excellence" />
           </div>
           <div className="col-md-4" data-aos="fade-left">
-            <Service_card service="Cinematic videos" path="#" detail="Elevate your brand with cinematic promo videos that captivate audiences from the first frame. Our expert filmmakers combine storytelling, stunning visuals, and high-quality production to create promotional content that drives engagement and leaves a long lasting impact." one="Story-Driven Cinematic Concepts" two="High-Quality Filming & Cinematography " three="Dynamic Editing & Motion Graphics " four="Sound Design & Music Composition" />
+            <Service_card service="Cinematic videos" path="/cinematic" detail="Elevate your brand with cinematic promo videos that captivate audiences from the first frame. Our expert filmmakers combine storytelling, stunning visuals, and high-quality production to create promotional content that drives engagement and leaves a long lasting impact." one="Story-Driven Cinematic Concepts" two="High-Quality Filming & Cinematography " three="Dynamic Editing & Motion Graphics " four="Sound Design & Music Composition" />
           </div>
         </div>
       </div>

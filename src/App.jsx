@@ -18,6 +18,7 @@ import Jobs from "./components/pages/Jobs opning";
 import Testing from "./components/pages/testing";
 import JobApplicationForm from "./components/Job Form";
 import Cinematic from "./components/pages/Cinematic";
+import MobileApp from "./components/pages/Mobile App";
 
 export default function App() {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
@@ -60,6 +61,7 @@ export default function App() {
         <Route path="/3d_animation" element={<Animation_3D />} />
         <Route path="/2d_animation" element={<Animation_2D />} />
         <Route path="/cinematic" element={<Cinematic />} />
+        <Route path="/mobile" element={<MobileApp />} />
         <Route path="/jobs" element={<Jobs />} />
         <Route path="*" element={<Home />} />
         <Route path='/testing' element={<Testing />} />

@@ -52,9 +52,10 @@ const NavbarItem = () => {
         <div className="row px-0 ">
           <div className="col-md-6   mb-3 ">
             <div className="list-group list-group-flush">
-              <NavLink to="/frontend" className="list-group-item list-group-item-action"> <b>&gt;  </b>Front-End</NavLink>
-              <NavLink to="/backend" className="list-group-item list-group-item-action"> <b>&gt;  </b>Back-End</NavLink>
+              <NavLink to="/frontend" className="list-group-item list-group-item-action"> <b>&gt;  </b>Front-End Development</NavLink>
+              <NavLink to="/backend" className="list-group-item list-group-item-action"> <b>&gt;  </b>Back-End Development</NavLink>
               <NavLink to="/wordpress" className="list-group-item list-group-item-action"> <b>&gt;  </b>WordPress and Shopify</NavLink>
+              <NavLink to="/mobile" className="list-group-item list-group-item-action"> <b>&gt;  </b>Mobile App Development</NavLink>
 
             </div>
           </div>

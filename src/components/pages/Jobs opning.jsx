@@ -63,17 +63,17 @@ const Jobs = () => {
                             <div className="col-md-6   d-flex justify-content-center my-5">
                                 <div className="row justify-content-end  ">
                                     {[
-                                        { image: '/images/Jobs/1.png', title: 'Friendly Environment' },
-                                        { image: '/images/Jobs/2.png', title: 'Open Communication' },
-                                        { image: '/images/Jobs/3.png', title: 'Onsite Working Environment' },
+                                        { image: '/images/Jobs/4.png', title: 'Friendly Environment' },
+                                        { image: '/images/Jobs/5.png', title: 'Open Communication' },
+                                        { image: '/images/Jobs/6.png', title: 'Onsite Working Environment' },
                                         { image: '/images/Jobs/1.png', title: 'Learning Opportunity' },
                                         { image: '/images/Jobs/2.png', title: 'Competitive Base Salary' },
                                         { image: '/images/Jobs/3.png', title: 'Upgrade Your Skills' },
                                     ].map((item, index) => (
 
-                                        <div key={index} className="col-md-3  m-1 mx-2  border p-2 rounded-3   d-flex  flex-column align-items-center">
+                                        <div key={index} className="col-md-3  m-1 mx-2  border p-3 rounded-3   d-flex  flex-column align-items-center">
 
-                                            <img style={{ width: '60px' }} src={item.image} alt="" />
+                                            <img style={{ width: '60px', marginBottom: "10px" }} src={item.image} alt="" />
                                             <strong className='text-center mt-2'>{item.title}</strong>
                                         </div>
                                     ))}

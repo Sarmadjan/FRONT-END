@@ -209,7 +209,7 @@ const Animation_3D = () => {
             <Service_card service="Video Editing" path="/video_editing" detail="Transform raw footage into a captivating story with our expert video editing services. We combine cinematic techniques, motion graphics, and sound design to create high-quality videos that engage, inform, and leave a lasting impression on your audience. " one="Creative Storytelling & Concept Development" two="High-Quality Editing & Visual Effects" three="Color Grading & Sound Design" four="4.	Optimized Formats for Multi-Platform Distribution" />
           </div>
           <div className="col-md-4" data-aos="fade-left">
-            <Service_card service="Cinematic videos" path="#" detail="
+            <Service_card service="Cinematic videos" path="/cinematic" detail="
 Elevate your brand with cinematic promo videos that captivate audiences from the first frame. Our expert filmmakers combine storytelling, stunning visuals, and high-quality production to create promotional content that drives engagement and leaves a long lasting impact." one="Story-Driven Cinematic Concepts" two="High-Quality Filming & Cinematography " three="Dynamic Editing & Motion Graphics " four="Sound Design & Music Composition" />
           </div>
         </div>

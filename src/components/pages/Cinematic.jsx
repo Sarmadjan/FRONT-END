@@ -65,11 +65,10 @@ const Cinematic = () => {
 
                         <div id="sec-2" className="row justify-content-center align-items-center">
                             <div className="col-md-6">
-                                <h6> <b>
-                                    Crafting Cinematic Excellence with Dot Networks​</b></h6>
+                                <h6> <b>Crafting Cinematic Excellence with Dot Networks ​</b></h6>
                                 <p className=" my-4">
                                     {" "}
-                                    At Dot Networks, we take pride in transforming your vision into breathtaking cinematic promos that captivate, inspire, and engage. With our seamless fusion of animations, videos, VFX, GFX, and SFX, we create promotional content that goes beyond the ordinary, delivering an immersive experience that truly stands out.
+                                    At Dot Networks, we take pride in transforming your vision into breathtaking cinematic promos that captivate, inspire, and engage. With our seamless fusion of animations, videos, VFX, GFX, and SFX, we create promotional content that goes beyond the ordinary, delivering an immersive experience that truly stands out. <br />
 
                                     From high-impact visuals to compelling narratives, our cinematic promos are designed to leave your audience in awe. Whether you’re showcasing a product, promoting a service, or sharing your brand story, we combine creativity, precision, and cutting-edge technology to bring your ideas to life. </p>
                             </div>
@@ -88,22 +87,16 @@ const Cinematic = () => {
 
                             </div>
                             <div className="col-md-6 order-md-2 order-1 ">
-                                <h4>Our Video Editing Services Include:</h4>
+                                <h4>Why Choose Woltrio for Cinematic Promos?</h4>
 
-                                <h6> <b>Social Media Video Editing:</b></h6>
-                                <p>Stand out on platforms like Instagram, TikTok, and YouTube with short, engaging, and optimized videos designed to grab attention and drive engagement.</p>
+                                <h6> <b>Unparalleled Creativity:</b></h6>
+                                <p>Our team of experts doesn’t just create videos—we craft experiences. With innovative storytelling and visually stunning effects, we ensure every promo is a masterpiece tailored to your goals.</p>
 
-                                <h6> <b>Corporate and Promotional Videos:</b></h6>
-                                <p>Communicate your brand’s message with professional edits that elevate your corporate identity and leave a lasting impression.</p>
+                                <h6> <b>Attention to Detail:</b></h6>
+                                <p>At Dot Networks, perfection is in the details. From the first frame to the last, every element is meticulously designed to align with your brand’s message and captivate your audience.</p>
 
-                                <h6> <b>Event Highlights:</b></h6>
-                                <p>Relive and share the best moments from your events with dynamic highlight reels and recap videos that keep the excitement alive.</p>
-
-                                <h6> <b>Creative Storytelling:</b></h6>
-                                <p>Transform your raw footage into a compelling narrative that connects with your audience and tells your story with impact.</p>
-
-                                <h6> <b>Advanced Post-Production:</b></h6>
-                                <p>Enhance your videos with professional-grade color correction, audio syncing, motion graphics, and more to achieve a cinematic look and feel.</p>
+                                <h6> <b>End-to-End Solutions</b></h6>
+                                <p>We handle everything from concept development to post-production. With a comprehensive suite of services, including animation, visual effects, sound design, and more, we ensure your cinematic promo is flawless and ready to impress.</p>
 
                             </div>
 
@@ -112,19 +105,19 @@ const Cinematic = () => {
                         <div className="row my-5 justify-content-center align-items-center">
 
                             <div className="col-md-6">
-                                <h4>Why Professional Video Editing Matters?</h4>
+                                <h4>Our Cinematic Promo Video Production Services:</h4>
 
-                                <h6> <>In today’s visual-first world, high-quality videos are essential to capturing attention and conveying your message effectively. Professional video editing ensures your footage is:</></h6>
-                                <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
+                                <h6> <b>Stunning Visual Effects (VFX):</b></h6>
+                                <p>Take your promo to the next level with jaw-dropping visual effects that leave a lasting impression.</p>
 
-                                <h6> <b>Engaging:</b></h6>
-                                <p>Grab attention with dynamic visuals and seamless storytelling.</p>
+                                <h6> <b>Engaging Motion Graphics (GFX):</b></h6>
+                                <p>Bring your ideas to life with dynamic motion graphics that enhance your storytelling.</p>
 
-                                <h6> <b>Polished:</b></h6>
-                                <p>Create a professional impression with flawless editing.</p>
+                                <h5> <b>Immersive Sound Design (SFX)</b></h5>
+                                <p>Elevate your promo with professionally designed sound effects and audio that resonate with your audience.</p>
 
-                                <h5> <b>Optimized:</b></h5>
-                                <p>Tailor your video for specific platforms and audiences to maximize reach and engagement.</p>
+                                <h5> <b>Customized Animations</b></h5>
+                                <p>From 2D to 3D animations, we create visuals that are not only stunning but also strategically aligned with your brand’s goals.</p>
 
                             </div>
                             <div className="col-md-6">
@@ -141,21 +134,15 @@ const Cinematic = () => {
                                 <Video src="https://youtu.be/F4psQbZoWyo" />
 
                             </div>
-                            <div className="col-md-6 order-md-2 order-1 ">
-                                <h4>Why Choose Dot Networks for Video Editing?</h4>
-
-                                <h6> <b>Speed and Precision:</b></h6>
-                                <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
-
-                                <h6> <b>Customized Solutions:</b></h6>
-                                <p>Every video has a purpose, and we tailor our editing to suit your goals. From visual storytelling to brand-focused edits, we ensure your video aligns perfectly with your message.</p>
-
-                                <h6> <b>Creativity and Expertise:</b></h6>
-                                <p>Our team of skilled editors combines technical expertise with artistic flair. Using the latest software and techniques, we create videos that are not just visually appealing but also emotionally impactful.</p>
-
-                                <h6> <b>Full-Service Editing:</b></h6>
-                                <p>From trimming and sequencing to color grading, sound design, and special effects, we handle every aspect of the editing process, ensuring your footage transforms into a polished masterpiece.</p>
-
+                            <div className="col-md-6 order-md-2 order-1 " data-aos="fade-left">
+                                <h4>What Makes Cinematic Promos Essential for Your Brand?</h4>
+                                <p>Cinematic promos are more than just videos—they’re a powerful tool to elevate your brand. Here’s why they’re essential::</p>
+                                <ul className="ulul" >
+                                    <li><b>Capture Attention: </b> In a fast-paced digital world, stunning visuals and captivating stories help you stand out.</li>
+                                    <li><b> Build Emotional Connections:</b> Engaging content resonates with viewers, fostering trust and loyalty.</li>
+                                    <li><b>Increase Conversions: </b> A well-crafted promo inspires action, driving sales and brand growth.</li>
+                                </ul>
+                                <p>From product launches and event promotions to brand storytelling, cinematic promos offer unmatched versatility and effectiveness.</p>
                             </div>
 
                         </div>
@@ -163,53 +150,22 @@ const Cinematic = () => {
                         <div className="row my-5 justify-content-center align-items-center">
 
                             <div className="col-md-6">
-                                <h4>Why Choose Dot Networks for Video Editing?</h4>
+                                <h4>The Dot Networks Cinematic Production Process</h4>
 
-                                <h6> <b>Speed and Precision:</b></h6>
-                                <p>Deadlines matter, and we ensure your project is delivered on time without compromising quality. With fast turnarounds and meticulous attention to detail, we bring your vision to life in record time.</p>
+                                <ul className="ulul" >
+                                    <li><b>Creative Consultation:  </b>Understanding your goals and vision.</li>
+                                    <li><b>Concept Development::</b> Crafting a unique storyline tailored to your needs.</li>
+                                    <li><b>Scriptwriting:  </b>  Creating a compelling narrative that captivates your audience.</li>
+                                    <li><b>Production  </b> Shooting, animating, and designing every element with precision.</li>
+                                    <li><b>Post-Production:  </b>Adding the magic—VFX, GFX, SFX, and professional editing.</li>
 
-                                <h6> <b>Customized Solutions:</b></h6>
-                                <p>Every video has a purpose, and we tailor our editing to suit your goals. From visual storytelling to brand-focused edits, we ensure your video aligns perfectly with your message.</p>
-
-                                <h6> <b>Creativity and Expertise:</b></h6>
-                                <p>Our team of skilled editors combines technical expertise with artistic flair. Using the latest software and techniques, we create videos that are not just visually appealing but also emotionally impactful.</p>
-
-                                <h6> <b>Full-Service Editing:</b></h6>
-                                <p>From trimming and sequencing to color grading, sound design, and special effects, we handle every aspect of the editing process, ensuring your footage transforms into a polished masterpiece.</p>
+                                </ul>
+                                <p><b>Final Delivery: </b> A polished, ready-to-wow cinematic promo that exceeds expectations.</p>
 
                             </div>
                             <div className="col-md-6">
 
                                 <Video src="https://youtu.be/gKcVglqjyds" />
-
-                            </div>
-
-                        </div>
-
-                        <hr />
-                        <div className="row my-5 justify-content-center align-items-center">
-                            <div className="col-md-6 order-md-1 order-2">
-
-                                <Video src="https://www.youtube.com/watch?v=cE_14sgqPHE" />
-
-                            </div>
-                            <div className="col-md-6 order-md-2 order-1 ">
-                                <h4>The Dot Networks Video Editing Process</h4>
-
-                                <h6> <b>Concept Development:</b></h6>
-                                <p>We begin by understanding your goals, audience, and vision to create a clear roadmap for the editing process.</p>
-
-                                <h6> <b>Footage Review:</b></h6>
-                                <p> We meticulously review and organize your raw footage to ensure the best shots are selected.</p>
-
-                                <h6> <b>Editing and Refinement:</b></h6>
-                                <p>From cutting and sequencing to adding transitions, effects, and music, we craft a seamless video experience.</p>
-
-                                <h6> <b>Feedback and Revisions:</b></h6>
-                                <p>Your input matters. We provide drafts for review and refine the edit until it meets your exact specifications.</p>
-
-                                <h6> <b>Final Delivery:</b></h6>
-                                <p>Your polished, professional video is delivered in your preferred format, ready to impress your audience.</p>
 
                             </div>
 
