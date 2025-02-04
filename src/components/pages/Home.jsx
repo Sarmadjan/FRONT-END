@@ -46,7 +46,7 @@ const Home = () => {
           <div className="col-md-10 pb-5  mx-auto main-heading mb-md-5 ">
             <Navbar />
 
-            <div className="col-md-7 pt-3 mt-5">
+            <div className="col-md-7 px-md-0  px-3 pt-3 mt-5">
               <div className="">
                 {" "}
                 <h1>
@@ -56,7 +56,7 @@ const Home = () => {
                 </h1>
               </div>
             </div>
-            <div className=" col-md-6 my-3 my-md-5 ">
+            <div className=" px-md-0  px-3 col-md-6 my-3 my-md-5 ">
               <p>
                 Woltrio is a dynamic agency that specializes in website development, digital marketing, 3D animations, and video editing, committed to helping brands thrive in the digital world.
               </p>
@@ -470,7 +470,7 @@ const Home = () => {
       <div className="row bg-body-secondary g-0 ">
         <div className="col-md-10 mx-auto  " data-aos="fade-up">
           <div
-            className="col-md-5 ms-auto text-end text-dark py-5"
+            className="col-md-5 ms-auto text-md-end text-center text-dark py-5"
             data-aos="fade-up"
           >
             <span className="text-light-emphasis">
@@ -481,7 +481,7 @@ const Home = () => {
           </div>
 
           <div
-            className="row main-heading text-center px-5 "
+            className="row g-0 main-heading text-center px-5 "
             data-aos="fade-up"
           >
             <h1>
@@ -491,7 +491,7 @@ const Home = () => {
             </h1>
           </div>
 
-          <div className="row pb-5 " data-aos="fade-up">
+          <div className="row g-0 pb-5 " data-aos="fade-up">
             <div className=" ">
               {" "}
               <NavLink to="/contact">

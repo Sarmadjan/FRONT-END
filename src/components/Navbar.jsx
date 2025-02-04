@@ -22,7 +22,7 @@ function Navbar() {
       {/* Logo */}
       <div>
         <NavLink className="navbar-brand ms-md-3 col-3   m-0 " to="/" onClick={() => { scrollToTop(); closeNavbar(); }}>
-          <img className=" img-fluid " src="/images/Logo Dark.svg" alt="Logo" />
+          <img className="  logoo " src="/images/Logo Dark.svg" alt="Logo" />
         </NavLink>
       </div>
 
@@ -96,7 +96,7 @@ function Navbar() {
       </div>
 
       <div className="getbtn">
-        <NavLink to={"/contact"}> <button style={{ height: "40px", fontWeight: "200" }} type="button" className="d-md-block d-none btn fw-semibold  btn-sm py-0 ">GET IN TOUCH </button></NavLink>
+        <NavLink to={"/contact"}> <button style={{ height: "40px", fontWeight: "200" }} type="button" className="d-md-block  d-none btn fw-semibold  btn-sm py-0 "> <span>GET IN TOUCH</span></button></NavLink>
       </div>
 
     </nav>

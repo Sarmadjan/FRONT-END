@@ -60,7 +60,7 @@ const Footer = () => {
               <div> </div>
             </div>
           </div>
-          <div className="col-md-3  "  >
+          <div className="col-md-3 mt-3  "  >
             <Footer_li name="Home" path="/" />
             <Footer_li name="Portfolio" path="/portfolio" />
             <Footer_li name="Services" path="/services" />
@@ -68,7 +68,7 @@ const Footer = () => {
             <Footer_li name="Contact" path="/contact" />
 
           </div>
-          <div className="col-md-3 " >
+          <div className="col-md-3 mt-3 " >
             <Li2 name="Privacy Policy" path="" />
             <Li2 name=" Terms and Conditions" path="" />
             <Li2 name="Cookie Policy" path="" />
@@ -76,8 +76,8 @@ const Footer = () => {
             <Li2 name="See All Opening" path="/jobs" />
           </div>
         </div>
-        <div className="row pt-md-5 my-5 mx-2 mx-md-0  " data-aos="fade-up"  >
-          <div className="col-md-6 mb-md-4   ">
+        <div className="row pt-md-5 my-4 mx-2 mx-md-0  " data-aos="fade-up"  >
+          <div className="col-md-6 mb-md-4 mb-0   ">
             <div className="col svg-width fw-bolder">
 
               <a href="https://www.linkedin.com/company/woltrio/" target="_blank">
@@ -108,7 +108,7 @@ const Footer = () => {
             </div>
             <p >© {new Date().getFullYear()} Woltrio. All Rights Reserved. </p>
           </div>
-          <div className="col-md-3 mb-md-4 ">
+          <div className="col-md-3 mb-md-4  ">
             <h5 className="text-white fw-bolder"> <span style={{ color: 'rgba(255, 255, 255, 0.4)', fontWeight: "500" }}>Islamic Republic of</span> Pakistan</h5>
             <p>1st Floor, Gondal Arcade, Satelite Town, Rawalpindi </p>
           </div>

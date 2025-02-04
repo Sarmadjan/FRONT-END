@@ -65,7 +65,7 @@ const Cinematic = () => {
 
                         <div id="sec-2" className="row justify-content-center align-items-center">
                             <div className="col-md-6">
-                                <h6> <b>Crafting Cinematic Excellence with Dot Networks ​</b></h6>
+                                <h6> <b>Crafting Cinematic Excellence with Dot Networks</b></h6>
                                 <p className=" my-4">
                                     {" "}
                                     At Dot Networks, we take pride in transforming your vision into breathtaking cinematic promos that captivate, inspire, and engage. With our seamless fusion of animations, videos, VFX, GFX, and SFX, we create promotional content that goes beyond the ordinary, delivering an immersive experience that truly stands out. <br />
@@ -187,7 +187,7 @@ const Cinematic = () => {
                         </div>
 
                         <div
-                            className="row main-heading text-center px-5 "
+                            className="row g-0 main-heading text-center px-5 "
                             data-aos="fade-up"
                         >
                             <h1>
@@ -197,7 +197,7 @@ const Cinematic = () => {
                             </h1>
                         </div>
 
-                        <div className="row pb-5 " data-aos="fade-up">
+                        <div className="row g-0 pb-5 " data-aos="fade-up">
                             <div className=" ">
                                 {" "}
                                 <NavLink to="/contact">

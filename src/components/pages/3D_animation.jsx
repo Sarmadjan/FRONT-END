@@ -177,7 +177,7 @@ const Animation_3D = () => {
             </div>
 
             <div
-              className="row main-heading  text-center px-5 "
+              className="row g-0 main-heading  text-center px-5 "
               data-aos="fade-up"
             >
               <h1>
@@ -187,7 +187,7 @@ const Animation_3D = () => {
               </h1>
             </div>
 
-            <div className="row pb-5 " data-aos="fade-up">
+            <div className="row g-0 pb-5 " data-aos="fade-up">
               <div className=" ">
                 {" "}
                 <NavLink to="/contact">

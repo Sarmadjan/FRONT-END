@@ -222,7 +222,7 @@ const MobileApp = () => {
           </div>
 
           <div
-            className="row main-heading text-center px-5 "
+            className="row g-o main-heading text-center px-5 "
             data-aos="fade-up"
           >
             <h1>
@@ -232,7 +232,7 @@ const MobileApp = () => {
             </h1>
           </div>
 
-          <div className="row pb-5 " data-aos="fade-up">
+          <div className="row g-o pb-5 " data-aos="fade-up">
             <div className=" ">
               {" "}
               <NavLink to="/contact">

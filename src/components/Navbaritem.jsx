@@ -52,19 +52,19 @@ const NavbarItem = () => {
         <div className="row px-0 ">
           <div className="col-md-6   mb-3 ">
             <div className="list-group list-group-flush">
-              <NavLink to="/frontend" className="list-group-item list-group-item-action"> <b>&gt;  </b>Front-End Development</NavLink>
-              <NavLink to="/backend" className="list-group-item list-group-item-action"> <b>&gt;  </b>Back-End Development</NavLink>
-              <NavLink to="/wordpress" className="list-group-item list-group-item-action"> <b>&gt;  </b>WordPress and Shopify</NavLink>
-              <NavLink to="/mobile" className="list-group-item list-group-item-action"> <b>&gt;  </b>Mobile App Development</NavLink>
+              <NavLink to="/frontend" className="list-group-item list-group-item-action"> <b>&#x2022;  </b>Front-End Development</NavLink>
+              <NavLink to="/backend" className="list-group-item list-group-item-action"> <b>&#x2022;  </b>Back-End Development</NavLink>
+              <NavLink to="/wordpress" className="list-group-item list-group-item-action"> <b>&#x2022;  </b>WordPress and Shopify</NavLink>
+              <NavLink to="/mobile" className="list-group-item list-group-item-action"> <b>&#x2022;  </b>Mobile App Development</NavLink>
 
             </div>
           </div>
           <div className="col-md-6  mb-3 ">
             <div className="list-group list-group-flush">
-              <NavLink to="/video_editing" className="list-group-item list-group-item-action"> <b>&gt;  </b>Video Editing</NavLink>
-              <NavLink to="/2d_animation" className="list-group-item list-group-item-action"> <b>&gt;  </b>2D Animation</NavLink>
-              <NavLink to="/3d_animation" className="list-group-item list-group-item-action"> <b>&gt;  </b>3D Animation</NavLink>
-              <NavLink to="/cinematic" className="list-group-item list-group-item-action"> <b>&gt;  </b>Cinematic Videos Ads</NavLink>
+              <NavLink to="/video_editing" className="list-group-item list-group-item-action"> <b>&#x2022;  </b>Video Editing</NavLink>
+              <NavLink to="/2d_animation" className="list-group-item list-group-item-action"> <b>&#x2022;  </b>2D Animation</NavLink>
+              <NavLink to="/3d_animation" className="list-group-item list-group-item-action"> <b>&#x2022;  </b>3D Animation</NavLink>
+              <NavLink to="/cinematic" className="list-group-item list-group-item-action"> <b>&#x2022;  </b>Cinematic Videos Ads</NavLink>
 
             </div>
 

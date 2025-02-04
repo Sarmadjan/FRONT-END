@@ -32,7 +32,7 @@ const Wordpress = () => {
             <div className="row g-0  bg-white text-dark first-sec m-0 ">
                 <div className="col-md-10   mx-auto main-heading  ">
                     <Navbar />
-                    <div className="row g-0 align-items-center pt-md-5 pt-2 mt-md-5 mt-2">
+                    <div className="row g-0 px-md-0  px-3 align-items-center pt-md-5 pt-2 mt-md-5 mt-2">
                         <div className="col-md-7 pt-md-5 pt-2 ">
                             {" "}
                             <h1 className="pt-md-0 pt-5  mt-5">

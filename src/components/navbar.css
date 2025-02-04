@@ -98,3 +98,27 @@
 .getbtn button {
   border: none;
 }
+.getbtn button:hover {
+  color: orange;
+  transform: translateY(-5px);
+  padding-bottom: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logoo {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  /* medium screen size */
+  .logoo {
+    margin-left: 15px;
+    width: 75%;
+  }
+}
+@media (max-width: 480px) {
+  /* medium screen size */
+  .logoo {
+    margin-left: 15px;
+    width: 50%;
+  }
+}

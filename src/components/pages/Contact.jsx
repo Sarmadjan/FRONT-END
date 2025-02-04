@@ -13,6 +13,7 @@ import { motion } from 'framer-motion';
 import ButtonSubmit from "../button/ButtonSubmit";
 
 const Contact = () => {
+
   const [loading, setIsLoading] = useState(false)
   const [msg, setMsg] = useState("")
   const initialState = {
@@ -105,10 +106,11 @@ const Contact = () => {
                     aria-describedby=""
                   />
                 </div>
+
                 <div className="col-md-6">
                   <input
                     type="tel"
-                    className="w-100 p-3"
+                    className="w-100 p-3 "
                     placeholder="Phone Number *"
                     aria-label=""
                     required
@@ -136,12 +138,15 @@ const Contact = () => {
                 <div className="col-md-6">
                   <select className="w-100 " required onChange={(e) => { setFormData({ ...formData, type: e.target.value }) }}>
                     <option value=""> <span>Select service type * </span></option>
-                    <option value="Web Development">Web Development</option>
-                    <option value="Mobile App Development">Mobile App Development</option>
-                    <option value="Digital Marketing">Digital Marketing</option>
-                    <option value="SEO Services">SEO Services</option>
+                    <option value="Web Development">Front-end Development</option>
+                    <option value="Mobile App Development">Back-end Development</option>
+                    <option value="Digital Marketing">Mobile App Development</option>
+                    <option value="SEO Services">Wordpress</option>
+                    <option value="SEO Services">Shopify</option>
                     <option value="Video Editing">Video Editing</option>
                     <option value="3D Animations">3D Animations</option>
+                    <option value="3D Animations">2D Animations</option>
+                    <option value="3D Animations">Cinematic Promos</option>
                   </select>
                 </div>
                 <div className="col mt-md-3 ">
@@ -179,21 +184,21 @@ const Contact = () => {
 
               <div className="col-md-8 ">
                 <div className="container p-5 bdbd bg-light-subtle border border-3 rounded py-5">
-                  <h2>Secure Payment Options</h2>
+                  <h1>Secure Payment Options</h1>
                   <p>We ensure safe and hassle-free transactions for all our clients.</p>
                   <div className="row">
-                    <div className="col-10"><h2 className="fs-2">Bank Wire Transfer (SWIFT)</h2>
+                    <div className="col-10"><h3 >Bank Wire Transfer (SWIFT)</h3>
                       <p className="text-black">Ideal for secure, large transactions.</p></div>
                     <div className="col-2"><i className="ww" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 156.1c0-4.5-.1-9-.2-13.5a196.3 196.3 0 0 0 -2.6-29.4 99.6 99.6 0 0 0 -9.2-28A94.1 94.1 0 0 0 394.8 44a99.2 99.2 0 0 0 -28-9.2 195 195 0 0 0 -29.4-2.6c-4.5-.1-9-.2-13.5-.2H124.1c-4.5 0-9 .1-13.5 .2-2.5 .1-4.9 .2-7.4 .3a171.7 171.7 0 0 0 -22.1 2.3 103.1 103.1 0 0 0 -21.2 6.1q-3.5 1.5-6.8 3.1a94.7 94.7 0 0 0 -18.4 12.3c-1.9 1.6-3.7 3.3-5.4 5A93.9 93.9 0 0 0 12 85.2a99.5 99.5 0 0 0 -9.2 28 196.3 196.3 0 0 0 -2.5 29.4c-.1 4.5-.2 9-.2 13.5v199.8c0 4.5 .1 9 .2 13.5a196.1 196.1 0 0 0 2.6 29.4 99.3 99.3 0 0 0 9.2 28A94.3 94.3 0 0 0 53.2 468a99.5 99.5 0 0 0 28 9.2 195 195 0 0 0 29.4 2.6c4.5 .1 9 .2 13.5 .2H323.9c4.5 0 9-.1 13.5-.2a196.6 196.6 0 0 0 29.4-2.6 99.6 99.6 0 0 0 28-9.2A94.2 94.2 0 0 0 436 426.8a99.3 99.3 0 0 0 9.2-28 194.8 194.8 0 0 0 2.6-29.4c.1-4.5 .2-9 .2-13.5V172.1c0-5.4 0-10.7 0-16.1zm-69.9 241c-20-38.9-57.2-29.3-76.3-19.5-1.7 1-3.5 2-5.3 3l-.4 .3c-39.5 21-92.5 22.5-145.9-.4A234.6 234.6 0 0 1 45 290.1a230.6 230.6 0 0 0 39.2 23.4c56.4 26.4 113 24.5 153 0-57-43.9-104.6-101-141.1-147.2a197.1 197.1 0 0 1 -18.8-25.9c43.7 40 112.7 90.2 137.5 104.1-52.6-55.5-98.9-123.9-96.7-121.7 82.8 83.4 159.2 130.6 159.2 130.6 2.9 1.6 5 2.9 6.7 4a127.4 127.4 0 0 0 4.2-12.5c13.2-48.3-1.7-103.6-35.3-149.2C329.6 141.8 375 229.3 356.4 303.4c-.4 1.7-1 3.4-1.4 5.1 38.5 47.4 28 98.2 23.1 88.6z" /></svg></i>
                     </div>
-                    <div className="col-10"> <h2>Payoneer</h2>
+                    <div className="col-10"> <h3>Payoneer</h3>
                       <p className="text-black">A reliable and cost-effective international payment solution.</p>
                     </div>
                     <div className="col-2">
                       <i className="ww"><svg fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>payoneer</title> <path d="M30.132 3.312c0.387 0.28 1.732 1.693 0 1.907-2.479 0.292-7.198 0.466-15.023 7.011-5.491 4.759-9.928 10.574-13.021 17.147l-0.134 0.316c-0.035 0.083-0.115 0.141-0.209 0.141-0.022 0-0.042-0.003-0.062-0.009l0.002 0c-0.319-0.092-0.892-0.44-0.6-1.772 2.806-7.801 7.459-14.36 13.448-19.378l0.070-0.057c3.105-2.693 10.517-9.037 15.528-5.305zM2.846 5.141c0.292 2.252 1.293 7.050 1.747 9.076 0.077 0.475 0.207 0.9 0.386 1.299l-0.013-0.033c0.626 1.081 1.133-0.359 1.133-0.359 0.421-1.076 0.665-2.323 0.665-3.626 0-2.717-1.061-5.186-2.79-7.016l0.005 0.005c-0.205-0.219-0.46-0.389-0.747-0.491l-0.013-0.004c-0.4-0.119-0.467 0.107-0.467 0.295 0.013 0.185 0.081 0.706 0.094 0.852z"></path> </g></svg></i>
 
                     </div>
-                    <div className="col-10"> <h2>PayPal</h2>
+                    <div className="col-10"> <h3>PayPal</h3>
                       <p className="text-black">Fast and convenient for global transactions.</p>
                     </div>
                     <div className="col-2">
@@ -202,7 +207,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="alert alert-warning">
-                    <h4 className="alert-heading">Security Notice</h4>
+                    <h4 className="alert-heading">Security Notice <span><i ><svg width={14} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" /></svg></i></span></h4>
                     <p className="text-black">We never ask for your credit card details or request payments through any other platform. If you receive such a request claiming to be from us, please report it immediately.</p>
                   </div>
                 </div>
